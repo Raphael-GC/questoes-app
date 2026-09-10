@@ -1,0 +1,894 @@
+[
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q001",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A Resolução CNE/CEB nº 1, de 17 de outubro de 2024, que institui as Diretrizes Operacionais Nacionais de Qualidade e Equidade para a Educação Infantil, define em seu art. 2º, inciso II, o conceito de Qualidade da Educação Infantil. De acordo com esse dispositivo, essa qualidade é a condição na qual os sistemas de ensino e as instituições são capazes de garantir, entre outros elementos:\n\n(A) Exclusivamente a ampliação do número de vagas ofertadas na rede pública, independentemente das condições de infraestrutura.\n(B) Condições de infraestrutura física e pedagógica adequadas ao público atendido, ambientes e interações educativas planejadas para promover o desenvolvimento integral de bebês e crianças, e gestão democrática e participativa.\n(C) A adoção obrigatória de um único método pedagógico padronizado em todas as instituições de Educação Infantil do país.\n(D) A avaliação individual de bebês e crianças por meio de provas escritas padronizadas, aplicadas semestralmente.",
+    "alternativas": {
+      "A": "Exclusivamente a ampliação do número de vagas ofertadas na rede pública, independentemente das condições de infraestrutura.",
+      "B": "Condições de infraestrutura física e pedagógica adequadas ao público atendido, ambientes e interações educativas planejadas para promover o desenvolvimento integral de bebês e crianças, e gestão democrática e participativa.",
+      "C": "A adoção obrigatória de um único método pedagógico padronizado em todas as instituições de Educação Infantil do país.",
+      "D": "A avaliação individual de bebês e crianças por meio de provas escritas padronizadas, aplicadas semestralmente."
+    },
+    "resposta_correta": "B",
+    "explicacao": "A alternativa reúne, de forma resumida, as alíneas \"b\", \"c\" e \"e\" do art. 2º, II, da Resolução CNE/CEB nº 1/2024. As demais alternativas contradizem o texto: a Resolução não trata de expansão de vagas isolada da infraestrutura, não impõe método pedagógico único, e a avaliação prevista (alínea \"f\") é do desenvolvimento e das aprendizagens, orientada pela BNCC — nunca por provas escritas padronizadas.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "qualidade da educação infantil",
+      "parâmetros nacionais de qualidade"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 2º, II"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q002",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Conforme o art. 3º da Resolução CNE/CEB nº 1/2024, a implementação das Diretrizes Operacionais Nacionais de Qualidade e Equidade para a Educação Infantil deve observar a articulação entre as dimensões da qualidade definidas nos Parâmetros Nacionais de Qualidade para a Educação Infantil. Assinale a alternativa que apresenta corretamente essas cinco dimensões.\n\n(A) Gestão democrática; identidade e formação profissional; proposta pedagógica; avaliação da Educação Infantil; e infraestrutura, edificações e materiais.\n(B) Gestão financeira; formação continuada; currículo nacional único; avaliação externa; e transporte escolar.\n(C) Participação familiar; alimentação escolar; segurança patrimonial; tecnologia educacional; e transporte escolar.\n(D) Gestão democrática; formação inicial docente; livro didático; merenda escolar; e avaliação institucional externa.",
+    "alternativas": {
+      "A": "Gestão democrática; identidade e formação profissional; proposta pedagógica; avaliação da Educação Infantil; e infraestrutura, edificações e materiais.",
+      "B": "Gestão financeira; formação continuada; currículo nacional único; avaliação externa; e transporte escolar.",
+      "C": "Participação familiar; alimentação escolar; segurança patrimonial; tecnologia educacional; e transporte escolar.",
+      "D": "Gestão democrática; formação inicial docente; livro didático; merenda escolar; e avaliação institucional externa."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a lista literal dos cinco incisos do art. 3º da Resolução CNE/CEB nº 1/2024. As demais alternativas misturam termos plausíveis (formação continuada, avaliação externa) com itens que não compõem as dimensões oficiais da qualidade (merenda, transporte, segurança patrimonial, currículo nacional único).",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "dimensões da qualidade",
+      "parâmetros nacionais de qualidade"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 3º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q003",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O art. 6º da Resolução CNE/CEB nº 1/2024 estabelece proporções máximas de bebês e crianças por professor regente na Educação Infantil, a serem alcançadas progressivamente pelos entes federados. Segundo esse dispositivo, a proporção máxima para bebês de 0 (zero) a 12 (doze) meses de idade é de:\n\n(A) 5 (cinco) bebês por educador(a).\n(B) 8 (oito) bebês por educador(a).\n(C) 12 (doze) bebês por educador(a).\n(D) 20 (vinte) bebês por educador(a).",
+    "alternativas": {
+      "A": "5 (cinco) bebês por educador(a).",
+      "B": "8 (oito) bebês por educador(a).",
+      "C": "12 (doze) bebês por educador(a).",
+      "D": "20 (vinte) bebês por educador(a)."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 6º, I, da Resolução CNE/CEB nº 1/2024 fixa em 5 (cinco) bebês por educador(a) a proporção máxima para a faixa de 0 a 12 meses. As demais proporções previstas no mesmo artigo são: 8 bebês por educador(a) para 12 a 24 meses (inciso II); 12 bebês por educador(a) para 25 a 36 meses (inciso III); 18 crianças por educador(a) para 37 a 48 meses (inciso IV); e 20 crianças por educador(a) para crianças de 4 e 5 anos (inciso V).",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "proporção criança/educador",
+      "berçário"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 6º, I"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q004",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Ainda de acordo com o art. 6º da Resolução CNE/CEB nº 1/2024, a proporção máxima de crianças por educador(a) prevista para a faixa etária de 4 (quatro) e 5 (cinco) anos é de:\n\n(A) 12 (doze) crianças por educador(a).\n(B) 15 (quinze) crianças por educador(a).\n(C) 18 (dezoito) crianças por educador(a).\n(D) 20 (vinte) crianças por educador(a).",
+    "alternativas": {
+      "A": "12 (doze) crianças por educador(a).",
+      "B": "15 (quinze) crianças por educador(a).",
+      "C": "18 (dezoito) crianças por educador(a).",
+      "D": "20 (vinte) crianças por educador(a)."
+    },
+    "resposta_correta": "D",
+    "explicacao": "O art. 6º, V, da Resolução CNE/CEB nº 1/2024 fixa em 20 (vinte) crianças por educador(a) a proporção máxima para a faixa de 4 e 5 anos. A proporção de 18 crianças por educador(a) (alternativa C) corresponde, na verdade, à faixa de 37 a 48 meses (inciso IV).",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "proporção criança/educador",
+      "pré-escola"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 6º, V"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q005",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A Resolução CNE/CEB nº 5, de 17 de dezembro de 2009, fixa as Diretrizes Curriculares Nacionais para a Educação Infantil (DCNEI). Segundo o art. 9º dessa Resolução, as práticas pedagógicas que compõem a proposta curricular da Educação Infantil devem ter como eixos norteadores:\n\n(A) A alfabetização precoce e a sistematização de conteúdos disciplinares antecipados do Ensino Fundamental.\n(B) As interações e a brincadeira.\n(C) A avaliação classificatória do desempenho individual das crianças.\n(D) O cumprimento de um calendário fixo de datas comemorativas ao longo do ano letivo.",
+    "alternativas": {
+      "A": "A alfabetização precoce e a sistematização de conteúdos disciplinares antecipados do Ensino Fundamental.",
+      "B": "As interações e a brincadeira.",
+      "C": "A avaliação classificatória do desempenho individual das crianças.",
+      "D": "O cumprimento de um calendário fixo de datas comemorativas ao longo do ano letivo."
+    },
+    "resposta_correta": "B",
+    "explicacao": "O art. 9º, caput, da Resolução CNE/CEB nº 5/2009 estabelece que as práticas pedagógicas da Educação Infantil \"devem ter como eixos norteadores as interações e a brincadeira\". A própria Resolução veda, no art. 11, a antecipação de conteúdos do Ensino Fundamental e, no art. 10, determina que a avaliação não tenha objetivo de seleção, promoção ou classificação — o oposto das alternativas (A) e (C).",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "dcnei",
+      "interações e brincadeira"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 9º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q006",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 5º, §§ 1º e 2º, da Resolução CNE/CEB nº 5/2009 (Diretrizes Curriculares Nacionais para a Educação Infantil), assinale a alternativa correta sobre a oferta da Educação Infantil.\n\n(A) É dever do Estado garantir a oferta de Educação Infantil pública, gratuita e de qualidade, sem requisito de seleção, sendo obrigatória a matrícula de crianças que completam 4 ou 5 anos até o dia 31 de março do ano em que ocorrer a matrícula.\n(B) A matrícula na Educação Infantil é obrigatória para todas as crianças a partir do nascimento, independentemente da existência de vagas na rede.\n(C) O Estado pode condicionar o acesso à Educação Infantil pública à aprovação em processo seletivo, desde que motivado pela alta demanda.\n(D) A obrigatoriedade de matrícula na Educação Infantil aplica-se somente às crianças que completam 6 anos até 31 de março do ano da matrícula.",
+    "alternativas": {
+      "A": "É dever do Estado garantir a oferta de Educação Infantil pública, gratuita e de qualidade, sem requisito de seleção, sendo obrigatória a matrícula de crianças que completam 4 ou 5 anos até o dia 31 de março do ano em que ocorrer a matrícula.",
+      "B": "A matrícula na Educação Infantil é obrigatória para todas as crianças a partir do nascimento, independentemente da existência de vagas na rede.",
+      "C": "O Estado pode condicionar o acesso à Educação Infantil pública à aprovação em processo seletivo, desde que motivado pela alta demanda.",
+      "D": "A obrigatoriedade de matrícula na Educação Infantil aplica-se somente às crianças que completam 6 anos até 31 de março do ano da matrícula."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a combinação literal dos §§ 1º e 2º do art. 5º da Resolução CNE/CEB nº 5/2009: é dever do Estado garantir a oferta pública, gratuita e de qualidade, sem requisito de seleção (§ 1º), sendo obrigatória a matrícula das crianças que completam 4 ou 5 anos até 31 de março (§ 2º). A obrigatoriedade não se estende a todas as idades desde o nascimento (creche, de 0 a 3 anos, é um direito assegurado, mas a obrigatoriedade legal de matrícula recai sobre a pré-escola), e a seleção para acesso é expressamente vedada.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "dcnei",
+      "obrigatoriedade de matrícula"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 5º, §§ 1º e 2º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q007",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O art. 6º da Resolução CNE/CEB nº 5/2009 (DCNEI) estabelece que as propostas pedagógicas de Educação Infantil devem respeitar princípios éticos, políticos e estéticos. Assinale a alternativa que associa corretamente cada princípio ao seu conteúdo.\n\n(A) Éticos: da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas; Políticos: dos direitos de cidadania, do exercício da criticidade e do respeito à ordem democrática; Estéticos: da sensibilidade, da criatividade, da ludicidade e da liberdade de expressão.\n(B) Éticos: da avaliação classificatória; Políticos: da hierarquia escolar; Estéticos: da padronização dos materiais pedagógicos.\n(C) Éticos: da obediência às normas escolares; Políticos: da neutralidade docente; Estéticos: da uniformidade das atividades artísticas.\n(D) Éticos: do mérito individual; Políticos: da centralização decisória; Estéticos: da repetição de modelos culturais únicos.",
+    "alternativas": {
+      "A": "Éticos: da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas; Políticos: dos direitos de cidadania, do exercício da criticidade e do respeito à ordem democrática; Estéticos: da sensibilidade, da criatividade, da ludicidade e da liberdade de expressão.",
+      "B": "Éticos: da avaliação classificatória; Políticos: da hierarquia escolar; Estéticos: da padronização dos materiais pedagógicos.",
+      "C": "Éticos: da obediência às normas escolares; Políticos: da neutralidade docente; Estéticos: da uniformidade das atividades artísticas.",
+      "D": "Éticos: do mérito individual; Políticos: da centralização decisória; Estéticos: da repetição de modelos culturais únicos."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação literal do art. 6º, incisos I a III, da Resolução CNE/CEB nº 5/2009. As demais alternativas invertem o sentido dos princípios das DCNEI, que valorizam autonomia, criticidade, democracia e liberdade de expressão — e não hierarquia, obediência, neutralidade ou padronização.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "dcnei",
+      "princípios éticos políticos e estéticos"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 6º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q008",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Zilda Ramos de Oliveira (Org.), na obra \"O trabalho do professor na educação infantil\" (2012), discute a organização do trabalho pedagógico do professor na creche e na pré-escola. Segundo essa autora, o professor da Educação Infantil exerce, sobretudo, o papel de:\n\n(A) Transmissor de conteúdos disciplinares padronizados, antecipando habilidades do Ensino Fundamental.\n(B) Mediador para que as crianças se apropriem de conhecimentos mais elaborados, a partir da vivência do meio social, de intervenções didáticas e de situações de aprendizagem por meio do brincar.\n(C) Substituto materno, responsável por reproduzir na instituição o mesmo modelo de organização do ambiente familiar.\n(D) Avaliador, cuja principal função é classificar as crianças conforme seu desempenho em atividades dirigidas.",
+    "alternativas": {
+      "A": "Transmissor de conteúdos disciplinares padronizados, antecipando habilidades do Ensino Fundamental.",
+      "B": "Mediador para que as crianças se apropriem de conhecimentos mais elaborados, a partir da vivência do meio social, de intervenções didáticas e de situações de aprendizagem por meio do brincar.",
+      "C": "Substituto materno, responsável por reproduzir na instituição o mesmo modelo de organização do ambiente familiar.",
+      "D": "Avaliador, cuja principal função é classificar as crianças conforme seu desempenho em atividades dirigidas."
+    },
+    "resposta_correta": "B",
+    "explicacao": "Segundo Oliveira (2012), \"o professor da educação infantil exerce o papel de mediador para que as crianças se apropriem de conhecimentos mais elaborados, a partir da vivência de seu meio social, das intervenções didáticas, de situações de aprendizagem por meio do brincar\". A própria autora adverte que os contextos coletivos de Educação Infantil diferem do ambiente familiar e não devem ser organizados como um modelo de \"substituto materno\" — ideia hoje superada nas concepções sobre creches e pré-escolas.",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "papel do professor",
+      "mediação pedagógica"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q009",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Ainda segundo Oliveira (2012), a organização do conteúdo pelas escolas de Educação Infantil, coerente com uma pedagogia transformadora, tende atualmente a dar ênfase:\n\n(A) Ao trabalho pautado exclusivamente na maturação orgânica espontânea da criança, sem qualquer mediação do adulto.\n(B) Ao cuidado com a higiene das mãos, a escovação dos dentes e o descanso, em detrimento das demais dimensões do desenvolvimento infantil.\n(C) Ao trabalho pedagógico com múltiplas linguagens, ao jogo como recurso privilegiado de desenvolvimento da criança pequena e à pedagogia de projetos didáticos.\n(D) À antecipação de conteúdos de leitura e escrita sistematizados nos moldes do Ensino Fundamental, para reduzir desigualdades entre classes sociais.",
+    "alternativas": {
+      "A": "Ao trabalho pautado exclusivamente na maturação orgânica espontânea da criança, sem qualquer mediação do adulto.",
+      "B": "Ao cuidado com a higiene das mãos, a escovação dos dentes e o descanso, em detrimento das demais dimensões do desenvolvimento infantil.",
+      "C": "Ao trabalho pedagógico com múltiplas linguagens, ao jogo como recurso privilegiado de desenvolvimento da criança pequena e à pedagogia de projetos didáticos.",
+      "D": "À antecipação de conteúdos de leitura e escrita sistematizados nos moldes do Ensino Fundamental, para reduzir desigualdades entre classes sociais."
+    },
+    "resposta_correta": "C",
+    "explicacao": "É a formulação de Oliveira (2002 apud 2012), reproduzida em diversas provas de concurso (ex.: VUNESP – Professor de Educação Básica I, Pref. Garça/2018): a pedagogia transformadora na Educação Infantil enfatiza o trabalho pedagógico com múltiplas linguagens, o jogo como recurso privilegiado de desenvolvimento e a pedagogia de projetos didáticos — e não o cuidado higiênico isolado, a maturação espontânea ou a antecipação de conteúdos do Ensino Fundamental.",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "currículo",
+      "pedagogia de projetos"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q010",
+    "disciplina": "educacao-infantil",
+    "enunciado": "De acordo com Oliveira (2012), qual é o grande risco apontado para uma proposta pedagógica de Educação Infantil que não considere devidamente a gestão democrática e a participação da comunidade em sua elaboração?\n\n(A) O de que a infância seja institucionalizada e regulada de modo excessivo, ou se torne um campo onde reine a espontaneidade, camuflando formas sutis de dominação.\n(B) O de que as crianças aprendam conteúdos de forma antecipada em relação ao Ensino Fundamental.\n(C) O de que os professores percam autonomia para escolher os materiais pedagógicos utilizados em sala.\n(D) O de que as famílias participem excessivamente das decisões pedagógicas da instituição, prejudicando o trabalho técnico do professor.",
+    "alternativas": {
+      "A": "O de que a infância seja institucionalizada e regulada de modo excessivo, ou se torne um campo onde reine a espontaneidade, camuflando formas sutis de dominação.",
+      "B": "O de que as crianças aprendam conteúdos de forma antecipada em relação ao Ensino Fundamental.",
+      "C": "O de que os professores percam autonomia para escolher os materiais pedagógicos utilizados em sala.",
+      "D": "O de que as famílias participem excessivamente das decisões pedagógicas da instituição, prejudicando o trabalho técnico do professor."
+    },
+    "resposta_correta": "A",
+    "explicacao": "Oliveira (2012) alerta que é preciso \"tomar cuidado para que a infância não seja institucionalizada e regulada de modo excessivo ou se torne um campo onde reine a espontaneidade, camuflando formas sutis de dominação\", reforçando, em seguida, a gestão democrática como elemento imprescindível para abrir a instituição à comunidade e às famílias — o oposto do que sugere a alternativa (D).",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "gestão democrática",
+      "projeto pedagógico"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q011",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 29 da Lei nº 9.394/1996 (LDB), com a redação dada pela Lei nº 12.796/2013, a educação infantil, primeira etapa da educação básica, tem como finalidade:\n\n(A) O desenvolvimento integral da criança de até 5 (cinco) anos, em seus aspectos físico, psicológico, intelectual e social, complementando a ação da família e da comunidade.\n(B) A alfabetização precoce da criança, de modo a antecipar os conteúdos do primeiro ano do ensino fundamental.\n(C) A substituição da ação educativa da família por parte da instituição escolar durante a primeira infância.\n(D) A preparação da criança exclusivamente para os processos avaliativos do ensino fundamental.",
+    "alternativas": {
+      "A": "O desenvolvimento integral da criança de até 5 (cinco) anos, em seus aspectos físico, psicológico, intelectual e social, complementando a ação da família e da comunidade.",
+      "B": "A alfabetização precoce da criança, de modo a antecipar os conteúdos do primeiro ano do ensino fundamental.",
+      "C": "A substituição da ação educativa da família por parte da instituição escolar durante a primeira infância.",
+      "D": "A preparação da criança exclusivamente para os processos avaliativos do ensino fundamental."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação literal do art. 29 da LDB, com a redação dada pela Lei nº 12.796/2013: a educação infantil tem como finalidade o desenvolvimento integral da criança de até 5 anos, em seus aspectos físico, psicológico, intelectual e social, complementando — e não substituindo — a ação da família e da comunidade. A antecipação de conteúdos do ensino fundamental (alternativa B) é expressamente contrária às diretrizes curriculares da etapa.",
+    "tags": [
+      "educação infantil",
+      "ldb",
+      "lei 9.394/1996",
+      "finalidade da educação infantil"
+    ],
+    "fonte": "Lei nº 9.394/1996 (LDB), art. 29"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q012",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O art. 31 da LDB, com a redação dada pela Lei nº 12.796/2013, estabelece regras comuns para a organização da educação infantil. Assinale a alternativa correta.\n\n(A) A avaliação na educação infantil será feita mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao ensino fundamental.\n(B) A carga horária mínima anual da educação infantil é de 600 (seiscentas) horas, distribuídas por, no mínimo, 150 dias de trabalho educacional.\n(C) É exigida frequência mínima de 75% do total de horas para que a criança seja considerada apta a avançar de turma.\n(D) A avaliação da educação infantil deve resultar em nota ou conceito, para fins de comparação entre instituições.",
+    "alternativas": {
+      "A": "A avaliação na educação infantil será feita mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao ensino fundamental.",
+      "B": "A carga horária mínima anual da educação infantil é de 600 (seiscentas) horas, distribuídas por, no mínimo, 150 dias de trabalho educacional.",
+      "C": "É exigida frequência mínima de 75% do total de horas para que a criança seja considerada apta a avançar de turma.",
+      "D": "A avaliação da educação infantil deve resultar em nota ou conceito, para fins de comparação entre instituições."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 31, I, da LDB estabelece exatamente essa regra: avaliação mediante acompanhamento e registro do desenvolvimento, sem objetivo de promoção. As demais alternativas contrariam os demais incisos do mesmo artigo: a carga horária mínima anual é de 800 horas distribuídas por, no mínimo, 200 dias (inciso II, não 600 horas/150 dias), a frequência mínima exigida é de 60% do total de horas (inciso IV, não 75%), e a avaliação não se dá por nota ou conceito, mas por documentação que ateste os processos de desenvolvimento e aprendizagem da criança (inciso V).",
+    "tags": [
+      "educação infantil",
+      "ldb",
+      "lei 9.394/1996",
+      "avaliação na educação infantil"
+    ],
+    "fonte": "Lei nº 9.394/1996 (LDB), art. 31"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q013",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Conforme o art. 30 da LDB, a educação infantil será oferecida em:\n\n(A) Creches, ou entidades equivalentes, para crianças de até 3 anos de idade, e pré-escolas, para crianças de 4 a 5 anos de idade.\n(B) Creches para crianças de até 5 anos e pré-escolas para crianças de 6 a 8 anos.\n(C) Uma única modalidade, sem distinção etária, denominada genericamente \"escola infantil\".\n(D) Creches para crianças de até 6 anos, sem previsão de pré-escola como modalidade distinta.",
+    "alternativas": {
+      "A": "Creches, ou entidades equivalentes, para crianças de até 3 anos de idade, e pré-escolas, para crianças de 4 a 5 anos de idade.",
+      "B": "Creches para crianças de até 5 anos e pré-escolas para crianças de 6 a 8 anos.",
+      "C": "Uma única modalidade, sem distinção etária, denominada genericamente \"escola infantil\".",
+      "D": "Creches para crianças de até 6 anos, sem previsão de pré-escola como modalidade distinta."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 30 da LDB, incisos I e II (com a redação dada pela Lei nº 12.796/2013), estabelece que a educação infantil será oferecida em creches, ou entidades equivalentes, para crianças de até 3 anos de idade, e em pré-escolas, para crianças de 4 a 5 anos de idade.",
+    "tags": [
+      "educação infantil",
+      "ldb",
+      "lei 9.394/1996",
+      "creche e pré-escola"
+    ],
+    "fonte": "Lei nº 9.394/1996 (LDB), art. 30"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q014",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A Base Nacional Comum Curricular (BNCC) organiza o currículo da Educação Infantil em cinco campos de experiências, tomando as interações e a brincadeira como eixos estruturantes. Assinale a alternativa que apresenta corretamente os cinco campos de experiências previstos na BNCC.\n\n(A) O eu, o outro e o nós; Corpo, gestos e movimentos; Traços, sons, cores e formas; Escuta, fala, pensamento e imaginação; Espaços, tempos, quantidades, relações e transformações.\n(B) Linguagens; Matemática; Ciências da Natureza; Ciências Humanas; Ensino Religioso.\n(C) Alfabetização; Letramento; Numeramento; Psicomotricidade; Socialização.\n(D) Cuidar; Educar; Brincar; Avaliar; Documentar.",
+    "alternativas": {
+      "A": "O eu, o outro e o nós; Corpo, gestos e movimentos; Traços, sons, cores e formas; Escuta, fala, pensamento e imaginação; Espaços, tempos, quantidades, relações e transformações.",
+      "B": "Linguagens; Matemática; Ciências da Natureza; Ciências Humanas; Ensino Religioso.",
+      "C": "Alfabetização; Letramento; Numeramento; Psicomotricidade; Socialização.",
+      "D": "Cuidar; Educar; Brincar; Avaliar; Documentar."
+    },
+    "resposta_correta": "A",
+    "explicacao": "A BNCC (item 3.1) organiza a Educação Infantil em cinco campos de experiências: \"O eu, o outro e o nós\", \"Corpo, gestos e movimentos\", \"Traços, sons, cores e formas\", \"Escuta, fala, pensamento e imaginação\" e \"Espaços, tempos, quantidades, relações e transformações\". A alternativa (B) corresponde às áreas de conhecimento do Ensino Fundamental, não da Educação Infantil, que não é organizada por disciplinas.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "currículo"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), item 3.1"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q015",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A BNCC organiza os objetivos de aprendizagem e desenvolvimento da Educação Infantil em três grupos por faixa etária. Assinale a alternativa que apresenta corretamente essa organização.\n\n(A) Bebês (zero a 1 ano e 6 meses); Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses); Crianças pequenas (4 anos a 5 anos e 11 meses).\n(B) Bebês (zero a 2 anos); Crianças médias (2 a 4 anos); Crianças grandes (4 a 6 anos).\n(C) Berçário I, Berçário II e Maternal, sem correspondência com faixas etárias específicas.\n(D) Primeira infância (zero a 6 anos), sem subdivisão em grupos etários.",
+    "alternativas": {
+      "A": "Bebês (zero a 1 ano e 6 meses); Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses); Crianças pequenas (4 anos a 5 anos e 11 meses).",
+      "B": "Bebês (zero a 2 anos); Crianças médias (2 a 4 anos); Crianças grandes (4 a 6 anos).",
+      "C": "Berçário I, Berçário II e Maternal, sem correspondência com faixas etárias específicas.",
+      "D": "Primeira infância (zero a 6 anos), sem subdivisão em grupos etários."
+    },
+    "resposta_correta": "A",
+    "explicacao": "A BNCC (item 3.2) organiza os objetivos de aprendizagem e desenvolvimento em três grupos etários: Bebês (zero a 1 ano e 6 meses), Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses) e Crianças pequenas (4 anos a 5 anos e 11 meses) — sequencialmente distribuídos entre creche e pré-escola, ainda que a própria Base ressalve que essa organização não deve ser considerada de forma rígida, dado o ritmo diferenciado de desenvolvimento de cada criança.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "faixas etárias",
+      "objetivos de aprendizagem e desenvolvimento"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), item 3.2"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q016",
+    "disciplina": "educacao-infantil",
+    "enunciado": "No campo de experiências \"O eu, o outro e o nós\", a BNCC estabelece, entre outros, o objetivo de aprendizagem e desenvolvimento (EI03EO07), voltado às crianças pequenas (4 a 5 anos e 11 meses). Assinale a alternativa que descreve corretamente esse objetivo.\n\n(A) Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos.\n(B) Resolver, sozinha e sem qualquer mediação, todos os conflitos que surgirem durante as brincadeiras.\n(C) Evitar qualquer forma de interação com crianças de faixas etárias diferentes.\n(D) Memorizar regras de convivência social por meio de repetição verbal, sem vivência prática.",
+    "alternativas": {
+      "A": "Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos.",
+      "B": "Resolver, sozinha e sem qualquer mediação, todos os conflitos que surgirem durante as brincadeiras.",
+      "C": "Evitar qualquer forma de interação com crianças de faixas etárias diferentes.",
+      "D": "Memorizar regras de convivência social por meio de repetição verbal, sem vivência prática."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O objetivo (EI03EO07) do campo \"O eu, o outro e o nós\" prevê que a criança pequena deve \"usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos\" — habilidade que se constrói progressivamente e não pressupõe ausência de mediação (alternativa B), tampouco evitação de interações (alternativa C) ou memorização sem vivência prática (alternativa D), contrárias à concepção de aprendizagem por interações e brincadeira que fundamenta toda a Educação Infantil na BNCC.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "resolução de conflitos infantis"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), campo \"O eu, o outro e o nós\", EI03EO07"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q017",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O novo Plano Nacional de Educação (Lei nº 15.388/2026) estabelece, na Meta 1, referências para a ampliação da oferta de educação infantil. Segundo a Meta 1.a, o PNE prevê:\n\n(A) Ampliar a oferta de educação infantil para atender 100% da demanda manifesta por creche e, em nível nacional, atingir, no mínimo, 60% das crianças de até 3 anos ao final da vigência do Plano.\n(B) Restringir a oferta de creches às capitais dos Estados, excluindo os municípios do interior.\n(C) Substituir integralmente a oferta pública de creches por parcerias exclusivas com o setor privado.\n(D) Reduzir, ao longo da vigência do Plano, o percentual de crianças de até 3 anos atendidas em creches, priorizando a pré-escola.",
+    "alternativas": {
+      "A": "Ampliar a oferta de educação infantil para atender 100% da demanda manifesta por creche e, em nível nacional, atingir, no mínimo, 60% das crianças de até 3 anos ao final da vigência do Plano.",
+      "B": "Restringir a oferta de creches às capitais dos Estados, excluindo os municípios do interior.",
+      "C": "Substituir integralmente a oferta pública de creches por parcerias exclusivas com o setor privado.",
+      "D": "Reduzir, ao longo da vigência do Plano, o percentual de crianças de até 3 anos atendidas em creches, priorizando a pré-escola."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação literal da Meta 1.a do Anexo I da Lei nº 15.388/2026 (novo PNE): ampliar a oferta de educação infantil para atender 100% da demanda manifesta por creche e atingir, em nível nacional, no mínimo, 60% das crianças de até 3 anos ao final da vigência do Plano. O PNE não prevê restrição geográfica à oferta de creches, tampouco substituição da oferta pública pela privada ou redução do atendimento em creche — pelo contrário, busca sua ampliação.",
+    "tags": [
+      "educação infantil",
+      "pne",
+      "lei 15.388/2026",
+      "meta 1",
+      "creche"
+    ],
+    "fonte": "Lei nº 15.388/2026 (PNE), Anexo I, Meta 1.a"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q018",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Ainda segundo o novo PNE (Lei nº 15.388/2026), a Meta 1.c estabelece o seguinte objetivo para a pré-escola:\n\n(A) Universalizar, até o segundo ano do período de vigência do Plano, o acesso à educação infantil na pré-escola, para atender a todas as crianças de 4 a 5 anos.\n(B) Universalizar o acesso à pré-escola apenas ao final da vigência do Plano, sem prazo intermediário.\n(C) Tornar facultativa a oferta de pré-escola pelo poder público, transferindo essa responsabilidade às famílias.\n(D) Limitar o atendimento em pré-escola a 4 horas diárias, sem possibilidade de jornada integral.",
+    "alternativas": {
+      "A": "Universalizar, até o segundo ano do período de vigência do Plano, o acesso à educação infantil na pré-escola, para atender a todas as crianças de 4 a 5 anos.",
+      "B": "Universalizar o acesso à pré-escola apenas ao final da vigência do Plano, sem prazo intermediário.",
+      "C": "Tornar facultativa a oferta de pré-escola pelo poder público, transferindo essa responsabilidade às famílias.",
+      "D": "Limitar o atendimento em pré-escola a 4 horas diárias, sem possibilidade de jornada integral."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação literal da Meta 1.c do Anexo I da Lei nº 15.388/2026: universalizar, até o segundo ano do período de vigência do PNE — portanto, com prazo bem mais curto do que o final da vigência (alternativa B) —, o acesso à educação infantil na pré-escola, para atender a todas as crianças de 4 a 5 anos. A oferta de pré-escola é obrigatória para o poder público, e não facultativa.",
+    "tags": [
+      "educação infantil",
+      "pne",
+      "lei 15.388/2026",
+      "meta 1",
+      "pré-escola"
+    ],
+    "fonte": "Lei nº 15.388/2026 (PNE), Anexo I, Meta 1.c"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q019",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A Lei Complementar nº 185/2001, do Município de Catanduva, que institui o Plano de Carreira, Vencimentos e Salários dos Profissionais da Educação Básica da Secretaria Municipal de Educação, dispõe, em seu art. 13, sobre o provimento de cargos nas Escolas Municipais de Educação Infantil que atendem crianças em período integral. Segundo esse dispositivo (com a redação dada pela Lei Complementar nº 1023/2021), a proporção prevista para as classes de Berçário I é de:\n\n(A) 7 (sete) crianças de 4 meses a 1 ano e 11 meses por Professor Berçarista.\n(B) 8 (oito) crianças de 0 (zero) a 1 ano e 6 meses por Professor Berçarista.\n(C) 9 (nove) crianças de 1 ano e 7 meses a 2 anos e 11 meses por Professor Berçarista.\n(D) 10 (dez) crianças de 2 anos a 2 anos e 6 meses por Professor Berçarista.",
+    "alternativas": {
+      "A": "7 (sete) crianças de 4 meses a 1 ano e 11 meses por Professor Berçarista.",
+      "B": "8 (oito) crianças de 0 (zero) a 1 ano e 6 meses por Professor Berçarista.",
+      "C": "9 (nove) crianças de 1 ano e 7 meses a 2 anos e 11 meses por Professor Berçarista.",
+      "D": "10 (dez) crianças de 2 anos a 2 anos e 6 meses por Professor Berçarista."
+    },
+    "resposta_correta": "B",
+    "explicacao": "O art. 13, I, \"a\", da LC nº 185/2001 (com a redação dada pela LC nº 1023/2021) prevê 1 (um) Professor Berçarista para cada grupo-classe de 8 (oito) crianças de 0 (zero) a 1 ano e 6 meses, correspondente às classes de Berçário I. As classes de Berçário II, por sua vez, têm proporção de 9 (nove) crianças de 1 ano e 7 meses a 2 anos e 11 meses por Professor Berçarista (alínea \"b\" do mesmo inciso) — o que descarta a alternativa (C), correta para Berçário II mas não para Berçário I. As proporções de 7 e 10 crianças (alternativas A e D) correspondiam à redação anterior à LC nº 1023/2021, já revogada.",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "berçarista",
+      "proporção criança/professor"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 13, I, \"a\" (redação da LC nº 1023/2021)"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q020",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Ainda segundo o art. 13 da Lei Complementar nº 185/2001, de Catanduva (redação da LC nº 1023/2021), o provimento de Professor I nas Escolas Municipais de Educação Infantil em período integral obedece a proporções distintas conforme a faixa etária das turmas. Assinale a alternativa que apresenta corretamente a proporção prevista para as classes de Pré-Escola II (crianças de 5 anos a 5 anos e 11 meses).\n\n(A) 15 (quinze) crianças por Professor I.\n(B) 20 (vinte) crianças por Professor I.\n(C) 22 (vinte e duas) crianças por Professor I.\n(D) 25 (vinte e cinco) crianças por Professor I.",
+    "alternativas": {
+      "A": "15 (quinze) crianças por Professor I.",
+      "B": "20 (vinte) crianças por Professor I.",
+      "C": "22 (vinte e duas) crianças por Professor I.",
+      "D": "25 (vinte e cinco) crianças por Professor I."
+    },
+    "resposta_correta": "C",
+    "explicacao": "O art. 13, II, \"c\", da LC nº 185/2001 prevê 1 (um) Professor I para cada grupo-classe de 22 (vinte e duas) crianças de 5 a 5 anos e 11 meses (Pré-Escola II). As demais proporções previstas no mesmo inciso são: 15 crianças por Professor I para o Jardim (3 a 3 anos e 11 meses, alínea \"a\") e 20 crianças por Professor I para a Pré-Escola I (4 a 4 anos e 11 meses, alínea \"b\").",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "professor i",
+      "pré-escola"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 13, II, \"c\" (redação da LC nº 1023/2021)"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q021",
+    "disciplina": "educacao-infantil",
+    "enunciado": "De acordo com o art. 13, VI, da Lei Complementar nº 185/2001, de Catanduva (redação da LC nº 1023/2021), a data-base para matrícula em todas as etapas da Educação Infantil no município é:\n\n(A) 31 de março, conforme a Resolução CNE/CEB nº 5/2009 ou a data-base fixada na legislação federal que tratar da matéria.\n(B) 31 de janeiro, independentemente do que dispuser a legislação federal.\n(C) 30 de junho, no meio do ano letivo, para facilitar o planejamento das turmas.\n(D) A data-base é definida anualmente pelos pais, sem parâmetro legal fixo.",
+    "alternativas": {
+      "A": "31 de março, conforme a Resolução CNE/CEB nº 5/2009 ou a data-base fixada na legislação federal que tratar da matéria.",
+      "B": "31 de janeiro, independentemente do que dispuser a legislação federal.",
+      "C": "30 de junho, no meio do ano letivo, para facilitar o planejamento das turmas.",
+      "D": "A data-base é definida anualmente pelos pais, sem parâmetro legal fixo."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 13, VI, da LC nº 185/2001 estabelece que, em todas as etapas da Educação Infantil, a data-base para a matrícula será 31 de março, conforme a Resolução CNE/CEB nº 5/2009 vigente ou a data-base fixada na legislação federal que tratar da matéria — alinhando a norma municipal ao § 2º do art. 5º da própria Resolução CNE/CEB nº 5/2009 (DCNEI).",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "matrícula",
+      "data-base"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 13, VI (redação da LC nº 1023/2021)"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q022",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 13, IV, da Lei Complementar nº 185/2001, de Catanduva (redação da LC nº 1023/2021), o provimento de Professor de Educação Especial nas Escolas Municipais de Educação Infantil ocorre:\n\n(A) Para cada grupo de crianças de 0 (zero) a 5 (cinco) anos e 11 (onze) meses que necessitem de Atendimento Educacional Especializado.\n(B) Apenas para turmas de Pré-Escola II, excluindo-se bebês e crianças bem pequenas.\n(C) Somente mediante requerimento judicial da família, e não por previsão legal automática.\n(D) Exclusivamente em caráter emergencial, sem vinculação a grupo-classe específico.",
+    "alternativas": {
+      "A": "Para cada grupo de crianças de 0 (zero) a 5 (cinco) anos e 11 (onze) meses que necessitem de Atendimento Educacional Especializado.",
+      "B": "Apenas para turmas de Pré-Escola II, excluindo-se bebês e crianças bem pequenas.",
+      "C": "Somente mediante requerimento judicial da família, e não por previsão legal automática.",
+      "D": "Exclusivamente em caráter emergencial, sem vinculação a grupo-classe específico."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 13, IV, da LC nº 185/2001 prevê 1 (um) Professor de Educação Especial para cada grupo de crianças de 0 a 5 anos e 11 meses que necessitem de Atendimento Educacional Especializado — portanto, sem restrição a uma única faixa etária dentro da Educação Infantil (o que descarta a alternativa B) e como previsão legal permanente vinculada à norma municipal, não dependente de requerimento judicial (alternativa C) nem de caráter meramente emergencial (alternativa D).",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "atendimento educacional especializado"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 13, IV (redação da LC nº 1023/2021)"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q023",
+    "disciplina": "educacao-infantil",
+    "enunciado": "De acordo com Oliveira (2010, apud OLIVEIRA, Z. R., 2012), sobre a pedagogia de projetos na Educação Infantil, quando se considera o currículo em uma perspectiva de projetos, o principal desafio para o professor consiste em:\n\n(A) Considerar que a realização de um projeto curricular implica, dada a sua flexibilidade, em pura improvisação.\n(B) Garantir que cada professor desenvolva integralmente o conteúdo estabelecido previamente pela coordenação pedagógica, sem qualquer ajuste.\n(C) Levar em consideração que a realidade pode mudar, cabendo ao professor considerar essas mudanças, sabendo fazê-las convergir em favor de um objetivo educacional.\n(D) Sustentar sempre uma única direção para o projeto, definida previamente pela coordenação pedagógica, sem possibilidade de ajustes.",
+    "alternativas": {
+      "A": "Considerar que a realização de um projeto curricular implica, dada a sua flexibilidade, em pura improvisação.",
+      "B": "Garantir que cada professor desenvolva integralmente o conteúdo estabelecido previamente pela coordenação pedagógica, sem qualquer ajuste.",
+      "C": "Levar em consideração que a realidade pode mudar, cabendo ao professor considerar essas mudanças, sabendo fazê-las convergir em favor de um objetivo educacional.",
+      "D": "Sustentar sempre uma única direção para o projeto, definida previamente pela coordenação pedagógica, sem possibilidade de ajustes."
+    },
+    "resposta_correta": "C",
+    "explicacao": "Essa é a formulação clássica cobrada em concursos (ex.: VUNESP – Diretor Escolar, Pref. SBC/2010) a partir de Oliveira: o desafio do trabalho com projetos na Educação Infantil está em reconhecer que a realidade pode mudar durante o processo, cabendo ao professor considerar essas mudanças e conduzi-las a favor do objetivo educacional — o que é incompatível tanto com a pura improvisação (alternativa A) quanto com a execução rígida e predefinida de um roteiro único (alternativas B e D).",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "pedagogia de projetos",
+      "currículo"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q024",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo Andrade (in OLIVEIRA, 2010, apud OLIVEIRA, Z. R., 2012), ao discutir a implantação de uma brinquedoteca em uma escola de Educação Infantil à luz das Diretrizes Curriculares Nacionais para a Educação Infantil, a capacitação dos educadores para esse fim, para ser relevante, deve:\n\n(A) Limitar-se à exibição de vídeos sobre o manuseio dos brinquedos, sem qualquer vivência prática dos professores.\n(B) Ocorrer apenas quando estritamente necessária, já que as crianças já sabem brincar e a intervenção dos adultos nas brincadeiras é dispensável.\n(C) Além de discutir e propor um trabalho junto às crianças, permitir que os professores experimentem a proposta e o material a ser utilizado pelas crianças.\n(D) Restringir-se à retomada de conteúdos da formação inicial, sem qualquer atualização ou vivência prática complementar.",
+    "alternativas": {
+      "A": "Limitar-se à exibição de vídeos sobre o manuseio dos brinquedos, sem qualquer vivência prática dos professores.",
+      "B": "Ocorrer apenas quando estritamente necessária, já que as crianças já sabem brincar e a intervenção dos adultos nas brincadeiras é dispensável.",
+      "C": "Além de discutir e propor um trabalho junto às crianças, permitir que os professores experimentem a proposta e o material a ser utilizado pelas crianças.",
+      "D": "Restringir-se à retomada de conteúdos da formação inicial, sem qualquer atualização ou vivência prática complementar."
+    },
+    "resposta_correta": "C",
+    "explicacao": "Segundo essa formulação (também cobrada pela VUNESP – Professor de Educação Básica I, Pref. SJRP/2014), para ser relevante a capacitação deve, além de discutir e propor um trabalho junto às crianças, permitir que os próprios professores experimentem a proposta e o material que será utilizado pelas crianças — vivência prática que nenhuma das demais alternativas contempla adequadamente.",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "formação continuada",
+      "brinquedoteca"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q025",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo Oliveira (2002, apud OLIVEIRA, Z. R., 2012), ao planejar atividades para crianças de zero a dois anos, a professora de Educação Infantil deve saber que o elemento crucial do processo de aprendizagem nessa faixa etária é:\n\n(A) O espaço destinado ao descanso e o tempo reservado às atividades de higiene.\n(B) A interação entre os adultos e as crianças e entre as próprias crianças.\n(C) O brinquedo disponível para a criança se ocupar durante a permanência na escola.\n(D) A música ambiente utilizada para acalmar as crianças durante as refeições.",
+    "alternativas": {
+      "A": "O espaço destinado ao descanso e o tempo reservado às atividades de higiene.",
+      "B": "A interação entre os adultos e as crianças e entre as próprias crianças.",
+      "C": "O brinquedo disponível para a criança se ocupar durante a permanência na escola.",
+      "D": "A música ambiente utilizada para acalmar as crianças durante as refeições."
+    },
+    "resposta_correta": "B",
+    "explicacao": "É a formulação cobrada pela VUNESP (Professor de Educação Básica I, Pref. Garça/2018) a partir de Oliveira: para bebês e crianças bem pequenas (0 a 2 anos), o elemento crucial da aprendizagem é a interação entre adultos e crianças e entre as próprias crianças — coerente com a ênfase que as DCNEI e a BNCC atribuem às interações como eixo estruturante de toda a Educação Infantil, e não apenas aos cuidados de rotina isolados (alternativas A e D) ou à disponibilização de objetos sem mediação (alternativa C).",
+    "tags": [
+      "educação infantil",
+      "zilda ramos de oliveira",
+      "interação",
+      "bebês"
+    ],
+    "fonte": "OLIVEIRA, Z. R. (Org.). O trabalho do professor na educação infantil. São Paulo: Biruta, 2012"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q026",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A Meta 2 do novo PNE (Lei nº 15.388/2026) trata da qualidade da oferta de educação infantil. Segundo a Meta 2.a, deve-se assegurar que toda a oferta de creche alcance padrões nacionais de qualidade para a educação infantil, considerando, no mínimo:\n\n(A) As dimensões de infraestrutura física, os profissionais da educação, as condições de gestão, os recursos pedagógicos, a acessibilidade e as práticas pedagógicas alinhadas à BNCC, com intencionalidade educativa.\n(B) Exclusivamente o número de vagas ofertadas, independentemente de infraestrutura ou formação dos profissionais.\n(C) Apenas os índices de frequência das crianças matriculadas.\n(D) Somente a existência de convênio com instituições privadas para ampliação da rede.",
+    "alternativas": {
+      "A": "As dimensões de infraestrutura física, os profissionais da educação, as condições de gestão, os recursos pedagógicos, a acessibilidade e as práticas pedagógicas alinhadas à BNCC, com intencionalidade educativa.",
+      "B": "Exclusivamente o número de vagas ofertadas, independentemente de infraestrutura ou formação dos profissionais.",
+      "C": "Apenas os índices de frequência das crianças matriculadas.",
+      "D": "Somente a existência de convênio com instituições privadas para ampliação da rede."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação (resumida) da Meta 2.a do Anexo I da Lei nº 15.388/2026: os padrões nacionais de qualidade para a educação infantil consideram, no mínimo, infraestrutura física, profissionais da educação, condições de gestão, recursos pedagógicos, acessibilidade e práticas pedagógicas alinhadas à BNCC, com intencionalidade educativa — uma concepção multidimensional de qualidade, e não reduzida a vagas, frequência ou convênios isoladamente.",
+    "tags": [
+      "educação infantil",
+      "pne",
+      "lei 15.388/2026",
+      "meta 2",
+      "qualidade da creche"
+    ],
+    "fonte": "Lei nº 15.388/2026 (PNE), Anexo I, Meta 2.a"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q027",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 15, § 2º, da Lei Complementar nº 185/2001, de Catanduva, na etapa do Ensino Fundamental – Anos Iniciais, a data-base para a matrícula segue a mesma regra prevista para a Educação Infantil. Assinale a alternativa correta.\n\n(A) 31 de março, conforme a Resolução CNE/CEB nº 5/2009 vigente ou a data-base fixada na legislação federal que tratar da matéria.\n(B) 31 de dezembro do ano anterior ao início do ano letivo.\n(C) 1º de fevereiro, independentemente da idade da criança.\n(D) A critério exclusivo de cada unidade escolar, sem parâmetro comum na rede municipal.",
+    "alternativas": {
+      "A": "31 de março, conforme a Resolução CNE/CEB nº 5/2009 vigente ou a data-base fixada na legislação federal que tratar da matéria.",
+      "B": "31 de dezembro do ano anterior ao início do ano letivo.",
+      "C": "1º de fevereiro, independentemente da idade da criança.",
+      "D": "A critério exclusivo de cada unidade escolar, sem parâmetro comum na rede municipal."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 15, § 2º, da LC nº 185/2001 replica, para os Anos Iniciais do Ensino Fundamental, a mesma data-base de matrícula prevista para a Educação Infantil no art. 13, VI: 31 de março, conforme a Resolução CNE/CEB nº 5/2009 vigente ou a data-base fixada na legislação federal aplicável — assegurando um parâmetro comum e unificado em toda a rede municipal, e não uma definição isolada por escola.",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "matrícula",
+      "ensino fundamental"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 15, § 2º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q028",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O art. 11 da Resolução CNE/CEB nº 1/2024 estabelece que os bebês e crianças com deficiência, transtornos globais do desenvolvimento e altas habilidades ou superdotação devem receber o atendimento educacional especializado na perspectiva da educação inclusiva, garantido por um conjunto de ações que inclui:\n\n(A) A formação continuada dos profissionais da educação sobre a inclusão de bebês e crianças, e a promoção da acessibilidade, com estratégias, atividades, tempos e materiais diversos e inclusivos.\n(B) A transferência obrigatória dessas crianças para instituições especializadas, fora da rede regular de Educação Infantil.\n(C) A dispensa de formação específica dos profissionais, bastando a boa vontade da equipe pedagógica.\n(D) A padronização de todos os materiais e brinquedos, eliminando qualquer adaptação individualizada.",
+    "alternativas": {
+      "A": "A formação continuada dos profissionais da educação sobre a inclusão de bebês e crianças, e a promoção da acessibilidade, com estratégias, atividades, tempos e materiais diversos e inclusivos.",
+      "B": "A transferência obrigatória dessas crianças para instituições especializadas, fora da rede regular de Educação Infantil.",
+      "C": "A dispensa de formação específica dos profissionais, bastando a boa vontade da equipe pedagógica.",
+      "D": "A padronização de todos os materiais e brinquedos, eliminando qualquer adaptação individualizada."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 11, I e II, da Resolução CNE/CEB nº 1/2024 prevê exatamente essas duas ações, entre outras: formação continuada dos profissionais sobre inclusão de bebês e crianças, e promoção da acessibilidade com estratégias, atividades, tempos e materiais diversos e inclusivos. A Resolução reforça o atendimento na perspectiva da educação inclusiva na própria rede regular de Educação Infantil, e não a transferência para instituições segregadas (alternativa B), e prevê justamente materiais e brincadeiras que respeitem características desenvolvimentais e socioculturais das crianças (inciso IV do mesmo artigo), o oposto da padronização mencionada na alternativa D.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "educação inclusiva",
+      "atendimento educacional especializado"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 11"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q029",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 13 da Resolução CNE/CEB nº 1/2024, no planejamento das ações e programas de transição da Educação Infantil para o Ensino Fundamental, deve-se considerar, entre outros aspectos:\n\n(A) O reconhecimento das interações e da brincadeira como elementos estruturantes do trabalho educativo com as crianças.\n(B) A antecipação sistemática, ainda na Educação Infantil, de todo o conteúdo do primeiro ano do Ensino Fundamental.\n(C) A dispensa de qualquer troca de informações entre os profissionais da Educação Infantil e do Ensino Fundamental.\n(D) A padronização de uma única prova de admissão para o ingresso no Ensino Fundamental.",
+    "alternativas": {
+      "A": "O reconhecimento das interações e da brincadeira como elementos estruturantes do trabalho educativo com as crianças.",
+      "B": "A antecipação sistemática, ainda na Educação Infantil, de todo o conteúdo do primeiro ano do Ensino Fundamental.",
+      "C": "A dispensa de qualquer troca de informações entre os profissionais da Educação Infantil e do Ensino Fundamental.",
+      "D": "A padronização de uma única prova de admissão para o ingresso no Ensino Fundamental."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 13, parágrafo único, IV, da Resolução CNE/CEB nº 1/2024 prevê \"o reconhecimento das interações e da brincadeira como elementos estruturantes do trabalho educativo com as crianças\" como um dos aspectos a considerar na transição. O mesmo artigo prevê, ao contrário das demais alternativas, trocas de informações e saberes pedagógicos entre as duas etapas (caput) e a continuidade dos processos de aprendizagem sem antecipação de conteúdos do Ensino Fundamental (inciso II) — e não avaliação por meio de provas de admissão.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "transição para o ensino fundamental"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 13, parágrafo único, IV"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q030",
+    "disciplina": "educacao-infantil",
+    "enunciado": "No campo de experiências \"Espaços, tempos, quantidades, relações e transformações\" da BNCC, o objetivo de aprendizagem e desenvolvimento (EI03ET08), voltado às crianças pequenas (4 a 5 anos e 11 meses), prevê que a criança deve:\n\n(A) Expressar medidas (peso, altura etc.), construindo gráficos básicos.\n(B) Reconhecer apenas números até 5, sem qualquer noção de quantidade maior.\n(C) Memorizar a sequência numérica de 1 a 100 por meio de repetição oral, sem manipulação de objetos concretos.\n(D) Evitar qualquer forma de registro gráfico de observações e medições.",
+    "alternativas": {
+      "A": "Expressar medidas (peso, altura etc.), construindo gráficos básicos.",
+      "B": "Reconhecer apenas números até 5, sem qualquer noção de quantidade maior.",
+      "C": "Memorizar a sequência numérica de 1 a 100 por meio de repetição oral, sem manipulação de objetos concretos.",
+      "D": "Evitar qualquer forma de registro gráfico de observações e medições."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O objetivo (EI03ET08) do campo \"Espaços, tempos, quantidades, relações e transformações\" prevê que a criança pequena deve \"expressar medidas (peso, altura etc.), construindo gráficos básicos\" — uma aprendizagem construída a partir da manipulação concreta e da vivência, e não da memorização mecânica de sequências numéricas (alternativa C) ou da evitação de registros gráficos (alternativa D).",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "matemática na educação infantil"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), campo \"Espaços, tempos, quantidades, relações e transformações\", EI03ET08"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q031",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O art. 4º da Resolução CNE/CEB nº 5/2009 (DCNEI) estabelece que as propostas pedagógicas de Educação Infantil devem considerar a criança, centro do planejamento curricular, como:\n\n(A) Sujeito histórico e de direitos que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura.\n(B) Um receptor passivo de conteúdos previamente definidos pela instituição, sem qualquer protagonismo no processo educativo.\n(C) Um indivíduo cujo desenvolvimento depende exclusivamente da maturação biológica, independentemente das interações sociais.\n(D) Um sujeito cuja identidade só começa a se constituir a partir do ingresso no Ensino Fundamental.",
+    "alternativas": {
+      "A": "Sujeito histórico e de direitos que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura.",
+      "B": "Um receptor passivo de conteúdos previamente definidos pela instituição, sem qualquer protagonismo no processo educativo.",
+      "C": "Um indivíduo cujo desenvolvimento depende exclusivamente da maturação biológica, independentemente das interações sociais.",
+      "D": "Um sujeito cuja identidade só começa a se constituir a partir do ingresso no Ensino Fundamental."
+    },
+    "resposta_correta": "A",
+    "explicacao": "É a redação literal do art. 4º da Resolução CNE/CEB nº 5/2009. Essa concepção de criança como sujeito histórico e de direitos, ativo na construção de sua identidade e do conhecimento, é incompatível com a ideia de receptora passiva de conteúdos (alternativa B), com um desenvolvimento reduzido à maturação biológica isolada das interações sociais (alternativa C) e com a noção de que a identidade da criança só se constitui a partir do Ensino Fundamental (alternativa D).",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "dcnei",
+      "concepção de criança"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 4º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q032",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 10 da Resolução CNE/CEB nº 1/2024, para atender à diversidade das infâncias e às identidades e singularidades das crianças, a oferta educacional da Educação Infantil deve expressar, em seus documentos institucionais e práticas cotidianas, diretrizes e ações comprometidas com, entre outros aspectos:\n\n(A) A educação antirracista e a prática de seus princípios, e a superação de práticas, atitudes e situações que envolvam quaisquer formas de discriminação e preconceito.\n(B) A padronização de uma única matriz cultural de referência para todas as instituições de Educação Infantil do país, independentemente do território.\n(C) A exclusão de crianças com deficiência das turmas regulares, direcionando-as para instituições especializadas.\n(D) A imposição de uma única confissão religiosa nas instituições públicas de Educação Infantil.",
+    "alternativas": {
+      "A": "A educação antirracista e a prática de seus princípios, e a superação de práticas, atitudes e situações que envolvam quaisquer formas de discriminação e preconceito.",
+      "B": "A padronização de uma única matriz cultural de referência para todas as instituições de Educação Infantil do país, independentemente do território.",
+      "C": "A exclusão de crianças com deficiência das turmas regulares, direcionando-as para instituições especializadas.",
+      "D": "A imposição de uma única confissão religiosa nas instituições públicas de Educação Infantil."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 10, § 1º, I e II, da Resolução CNE/CEB nº 1/2024 prevê exatamente esse compromisso com a educação antirracista e com a superação de discriminações e preconceitos. O mesmo artigo, ao contrário das demais alternativas, valoriza a diversidade territorial e sociocultural (inciso IV) — e não uma matriz cultural única —, defende a superação da intolerância religiosa e o respeito à liberdade de crença das famílias e aos princípios da educação laica (inciso III), e não trata da exclusão de crianças com deficiência, cuja inclusão é tratada de forma expressa no art. 11 da mesma Resolução.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 1/2024",
+      "diversidade",
+      "educação antirracista"
+    ],
+    "fonte": "Resolução CNE/CEB nº 1/2024, art. 10, § 1º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q033",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o art. 23, I, da Lei Complementar nº 185/2001, de Catanduva (redação dada pela LC nº 631/2012, por arrastamento da Lei nº 771/2015), a Jornada Completa de trabalho docente para os profissionais que atuam na Educação Infantil é de:\n\n(A) 38 (trinta e oito) horas-aula semanais.\n(B) 40 (quarenta) horas-aula semanais.\n(C) 45 (quarenta e cinco) horas-aula semanais.\n(D) 30 (trinta) horas-aula semanais.",
+    "alternativas": {
+      "A": "38 (trinta e oito) horas-aula semanais.",
+      "B": "40 (quarenta) horas-aula semanais.",
+      "C": "45 (quarenta e cinco) horas-aula semanais.",
+      "D": "30 (trinta) horas-aula semanais."
+    },
+    "resposta_correta": "C",
+    "explicacao": "O art. 23, I, da LC nº 185/2001, na redação atualmente vigente (dada pela LC nº 631/2012, por arrastamento da Lei nº 771/2015), fixa a Jornada Completa de trabalho docente na Educação Infantil em 45 (quarenta e cinco) horas-aula semanais. A carga de 38 horas-aula (alternativa A) correspondia à redação anterior, já superada.",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "jornada de trabalho docente"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 23, I"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q034",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Ainda segundo o art. 23, I, da Lei Complementar nº 185/2001, de Catanduva, a Jornada Completa de trabalho docente de 45 horas-aula semanais na Educação Infantil é composta, entre outros elementos, por:\n\n(A) 30 (trinta) horas-aula de interação com alunos e 2 (duas) horas-aula de trabalho pedagógico coletivo na escola.\n(B) 45 (quarenta e cinco) horas-aula integralmente dedicadas à interação direta com os alunos, sem qualquer tempo de trabalho pedagógico individual ou coletivo.\n(C) 20 (vinte) horas-aula de interação com alunos e 25 (vinte e cinco) horas-aula de trabalho pedagógico em local de livre escolha.\n(D) 45 (quarenta e cinco) horas-aula de trabalho pedagógico em local de livre escolha, sem qualquer interação direta com alunos.",
+    "alternativas": {
+      "A": "30 (trinta) horas-aula de interação com alunos e 2 (duas) horas-aula de trabalho pedagógico coletivo na escola.",
+      "B": "45 (quarenta e cinco) horas-aula integralmente dedicadas à interação direta com os alunos, sem qualquer tempo de trabalho pedagógico individual ou coletivo.",
+      "C": "20 (vinte) horas-aula de interação com alunos e 25 (vinte e cinco) horas-aula de trabalho pedagógico em local de livre escolha.",
+      "D": "45 (quarenta e cinco) horas-aula de trabalho pedagógico em local de livre escolha, sem qualquer interação direta com alunos."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 23, I, alíneas \"a\" a \"d\", da LC nº 185/2001 detalha a composição da jornada de 45 horas-aula: 30 horas-aula de interação com alunos, 2 horas-aula de trabalho pedagógico coletivo na escola, 2 horas-aula de trabalho pedagógico individual na escola e/ou formação continuada, e 11 horas-aula de trabalho pedagógico em local de livre escolha — e não uma jornada integralmente dedicada apenas à interação direta (alternativa B) ou apenas ao trabalho em local de livre escolha (alternativa D).",
+    "tags": [
+      "educação infantil",
+      "lei complementar 185/2001",
+      "catanduva",
+      "jornada de trabalho docente",
+      "hora-atividade"
+    ],
+    "fonte": "Lei Complementar nº 185/2001 (Catanduva), art. 23, I"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q035",
+    "disciplina": "educacao-infantil",
+    "enunciado": "No campo de experiências \"Corpo, gestos e movimentos\" da BNCC, o objetivo de aprendizagem e desenvolvimento (EI03CG04), voltado às crianças pequenas (4 a 5 anos e 11 meses), estabelece que a criança deve:\n\n(A) Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência.\n(B) Permanecer estática durante todo o período de permanência na instituição, evitando o uso do próprio corpo em brincadeiras.\n(C) Realizar exclusivamente atividades de coordenação motora fina, sem qualquer estímulo à motricidade ampla.\n(D) Repetir mecanicamente movimentos ditados pelo professor, sem qualquer autonomia de criação.",
+    "alternativas": {
+      "A": "Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência.",
+      "B": "Permanecer estática durante todo o período de permanência na instituição, evitando o uso do próprio corpo em brincadeiras.",
+      "C": "Realizar exclusivamente atividades de coordenação motora fina, sem qualquer estímulo à motricidade ampla.",
+      "D": "Repetir mecanicamente movimentos ditados pelo professor, sem qualquer autonomia de criação."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O objetivo (EI03CG04) do campo \"Corpo, gestos e movimentos\" prevê que a criança pequena deve \"adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência\" — parte de uma progressão que se inicia, nos bebês, com a participação no cuidado do próprio corpo (EI01CG04) e passa, nas crianças bem pequenas, pelo desenvolvimento de independência nesse cuidado (EI02CG04). O campo valoriza justamente o movimento amplo do corpo em brincadeiras e a criação, e não a repetição mecânica ou a restrição a atividades de motricidade fina.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "corpo gestos e movimentos",
+      "autocuidado"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), campo \"Corpo, gestos e movimentos\", EI03CG04"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q036",
+    "disciplina": "educacao-infantil",
+    "enunciado": "No campo de experiências \"Traços, sons, cores e formas\" da BNCC, o objetivo de aprendizagem e desenvolvimento (EI03TS02), voltado às crianças pequenas, estabelece que a criança deve:\n\n(A) Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.\n(B) Reproduzir, com exatidão técnica, obras de artistas consagrados, sem qualquer espaço para expressão própria.\n(C) Restringir-se ao uso do lápis grafite, evitando outros materiais e suportes.\n(D) Memorizar os nomes de técnicas artísticas avançadas, sem qualquer prática manual correspondente.",
+    "alternativas": {
+      "A": "Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.",
+      "B": "Reproduzir, com exatidão técnica, obras de artistas consagrados, sem qualquer espaço para expressão própria.",
+      "C": "Restringir-se ao uso do lápis grafite, evitando outros materiais e suportes.",
+      "D": "Memorizar os nomes de técnicas artísticas avançadas, sem qualquer prática manual correspondente."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O objetivo (EI03TS02) do campo \"Traços, sons, cores e formas\" prevê que a criança pequena deve \"expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais\" — uma aprendizagem construída pela exploração ativa de diferentes materiais e linguagens artísticas, e não pela reprodução técnica de obras de terceiros, pela restrição a um único material ou pela memorização teórica sem prática.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "traços sons cores e formas",
+      "expressão artística"
+    ],
+    "fonte": "BNCC (versão aprovada em 15/12/2017), campo \"Traços, sons, cores e formas\", EI03TS02"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q037",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo o § 6º do art. 5º da Resolução CNE/CEB nº 5/2009 (DCNEI), é considerada Educação Infantil em tempo integral a jornada com duração:\n\n(A) Igual ou superior a 7 (sete) horas diárias, compreendendo o tempo total que a criança permanece na instituição.\n(B) Igual ou superior a 4 (quatro) horas diárias, sem limite máximo definido.\n(C) De exatamente 10 (dez) horas diárias, sem exceções.\n(D) De, no mínimo, 5 (cinco) horas diárias, desde que em turno único.",
+    "alternativas": {
+      "A": "Igual ou superior a 7 (sete) horas diárias, compreendendo o tempo total que a criança permanece na instituição.",
+      "B": "Igual ou superior a 4 (quatro) horas diárias, sem limite máximo definido.",
+      "C": "De exatamente 10 (dez) horas diárias, sem exceções.",
+      "D": "De, no mínimo, 5 (cinco) horas diárias, desde que em turno único."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O art. 5º, § 6º, da Resolução CNE/CEB nº 5/2009 estabelece que é considerada Educação Infantil em tempo parcial a jornada de, no mínimo, 4 horas diárias e, em tempo integral, a jornada com duração igual ou superior a 7 horas diárias, compreendendo o tempo total que a criança permanece na instituição — sendo a alternativa (B) a definição de tempo parcial, e não de tempo integral.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "dcnei",
+      "tempo integral"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 5º, § 6º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q038",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Zilda Ramos de Oliveira, ao organizar 'O Trabalho do Professor na Educação Infantil', destaca a importância da observação e do registro da prática docente. Essa observação/registro tem como principal finalidade:",
+    "alternativas": {
+      "A": "Servir exclusivamente como instrumento de controle disciplinar dos comportamentos das crianças",
+      "B": "Subsidiar o planejamento e a avaliação formativa, permitindo ao professor acompanhar o desenvolvimento e replanejar as propostas pedagógicas",
+      "C": "Substituir integralmente a interação direta entre professor e crianças por anotações escritas",
+      "D": "Classificar as crianças em grupos de desempenho, para fins de promoção antecipada"
+    },
+    "resposta_correta": "B",
+    "explicacao": "Observar e registrar a prática cotidiana com as crianças permite ao professor de Educação Infantil acompanhar processos de desenvolvimento e aprendizagem, avaliar de forma formativa e reorientar o planejamento pedagógico a partir do que efetivamente ocorre com o grupo.",
+    "tags": [
+      "educação infantil",
+      "zilda oliveira",
+      "observação e registro",
+      "avaliação formativa"
+    ],
+    "fonte": "OLIVEIRA, Zilda Ramos de (Org.). O Trabalho do Professor na Educação Infantil"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q039",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Segundo a Resolução CNE/CEB nº 5/2009, que institui as Diretrizes Curriculares Nacionais para a Educação Infantil, as propostas pedagógicas dessa etapa devem ter como eixos norteadores das práticas pedagógicas:",
+    "alternativas": {
+      "A": "A memorização de conteúdos e a repetição de exercícios de fixação",
+      "B": "As interações e a brincadeira",
+      "C": "A avaliação classificatória e a promoção por mérito",
+      "D": "A alfabetização precoce e a antecipação de conteúdos do Ensino Fundamental"
+    },
+    "resposta_correta": "B",
+    "explicacao": "A Resolução CNE/CEB nº 5/2009 estabelece que as interações e a brincadeira são eixos norteadores das práticas pedagógicas da Educação Infantil, devendo garantir experiências que promovam conhecimento de si e do mundo por meio da ampliação de vivências sensoriais, expressivas e corporais.",
+    "tags": [
+      "educação infantil",
+      "resolução cne/ceb 5/2009",
+      "interações e brincadeira",
+      "eixos norteadores"
+    ],
+    "fonte": "Resolução CNE/CEB nº 5/2009, art. 9º"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q040",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Na obra organizada por Zilda Ramos de Oliveira, discute-se o planejamento na Educação Infantil como processo que deve considerar as necessidades e possibilidades das crianças pequenas. Isso implica, principalmente, que o planejamento docente:",
+    "alternativas": {
+      "A": "Deve ser fixo e definido no início do ano letivo, sem qualquer revisão posterior",
+      "B": "Deve partir exclusivamente de apostilas e materiais didáticos prontos, sem adaptação ao grupo",
+      "C": "Deve ser flexível, considerando a observação das crianças e permitindo reformulações a partir do que se observa no cotidiano",
+      "D": "Deve ser elaborado exclusivamente pela coordenação pedagógica, sem participação do professor regente"
+    },
+    "resposta_correta": "C",
+    "explicacao": "O planejamento na Educação Infantil, segundo essa perspectiva, é um processo dinâmico: parte da observação do grupo e de cada criança, e é constantemente revisto e ajustado a partir do que se observa nas interações e brincadeiras cotidianas.",
+    "tags": [
+      "educação infantil",
+      "zilda oliveira",
+      "planejamento pedagógico",
+      "observação"
+    ],
+    "fonte": "OLIVEIRA, Zilda Ramos de (Org.). O Trabalho do Professor na Educação Infantil"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q041",
+    "disciplina": "educacao-infantil",
+    "enunciado": "A BNCC estabelece, no campo de experiências 'O eu, o outro e o nós', o objetivo de aprendizagem e desenvolvimento EI03EO07, para crianças bem pequenas/pequenas (4 a 5 anos e 11 meses), que consiste em:",
+    "alternativas": {
+      "A": "Memorizar regras de convivência ditadas pelo professor, sem participação das crianças em sua elaboração",
+      "B": "Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos",
+      "C": "Evitar qualquer interação com crianças de faixas etárias diferentes",
+      "D": "Reproduzir, sem questionamento, os papéis sociais observados na família"
+    },
+    "resposta_correta": "B",
+    "explicacao": "O objetivo EI03EO07 do campo 'O eu, o outro e o nós' prevê que a criança use estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos, articulando-se ao trabalho de mediação de conflitos na primeira infância.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "o eu o outro e o nós",
+      "ei03eo07"
+    ],
+    "fonte": "BNCC, Educação Infantil, campo de experiências 'O eu, o outro e o nós', EI03EO07"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q042",
+    "disciplina": "educacao-infantil",
+    "enunciado": "No campo de experiências 'Escuta, fala, pensamento e imaginação' da BNCC, o objetivo EI03EF09, voltado às crianças de 4 a 5 anos e 11 meses, propõe que a criança:",
+    "alternativas": {
+      "A": "Copie repetidamente letras do alfabeto, sem relação com palavras ou textos reais",
+      "B": "Levante hipóteses em relação à linguagem escrita, realizando registros de palavras e textos por meio de escrita espontânea",
+      "C": "Memorize a ordem alfabética antes de qualquer contato com textos escritos",
+      "D": "Seja avaliada exclusivamente pela caligrafia, e não pelas hipóteses sobre o sistema de escrita"
+    },
+    "resposta_correta": "B",
+    "explicacao": "O objetivo EI03EF09 prevê que a criança levante hipóteses em relação à linguagem escrita, realizando registros de palavras e textos por meio de escrita espontânea — processo coerente com a perspectiva de que a criança elabora hipóteses próprias sobre o sistema de escrita antes da alfabetização formal.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "escuta fala pensamento e imaginação",
+      "ei03ef09"
+    ],
+    "fonte": "BNCC, Educação Infantil, campo de experiências 'Escuta, fala, pensamento e imaginação', EI03EF09"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q043",
+    "disciplina": "educacao-infantil",
+    "enunciado": "O campo de experiências 'Espaços, tempos, quantidades, relações e transformações', da BNCC, parte do princípio de que as crianças, desde muito pequenas, procuram se situar em diversos espaços e tempos e se deparam com conhecimentos matemáticos no cotidiano. Diante disso, a Educação Infantil deve, principalmente:",
+    "alternativas": {
+      "A": "Postergar qualquer experiência com noções matemáticas para o Ensino Fundamental",
+      "B": "Restringir o contato das crianças com noções de tempo e espaço a atividades de memorização de calendários",
+      "C": "Promover experiências nas quais as crianças possam observar, manipular objetos, investigar e explorar seu entorno, construindo noções de tempo, espaço, quantidade e relações",
+      "D": "Ensinar exclusivamente a contagem numérica sequencial, sem qualquer relação com o espaço e o tempo vividos"
+    },
+    "resposta_correta": "C",
+    "explicacao": "A BNCC explicita que, além de se situarem em espaços e tempos e demonstrarem curiosidade sobre o mundo físico e sociocultural, as crianças se deparam com conhecimentos matemáticos no cotidiano, cabendo à Educação Infantil promover experiências de observação, manipulação, investigação e exploração.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "espaços tempos quantidades relações e transformações"
+    ],
+    "fonte": "BNCC, Educação Infantil, campo de experiências 'Espaços, tempos, quantidades, relações e transformações'"
+  },
+  {
+    "id": "catanduva-ps02-2026-educacao-infantil-q044",
+    "disciplina": "educacao-infantil",
+    "enunciado": "Considerando o objetivo EI03ET03 da BNCC, do campo 'Espaços, tempos, quantidades, relações e transformações', espera-se que a criança de 4 a 5 anos e 11 meses seja capaz de:",
+    "alternativas": {
+      "A": "Identificar e selecionar fontes de informações para responder a questões sobre a natureza, seus fenômenos e sua conservação",
+      "B": "Reproduzir de memória fórmulas científicas sobre fenômenos naturais",
+      "C": "Realizar experimentos de laboratório com uso de reagentes químicos",
+      "D": "Elaborar sozinha, sem qualquer mediação do adulto, um projeto de pesquisa científica formal"
+    },
+    "resposta_correta": "A",
+    "explicacao": "O objetivo EI03ET03 prevê que a criança identifique e selecione fontes de informação para responder a questões sobre a natureza, seus fenômenos e sua conservação, em consonância com a proposta de investigação e exploração do entorno própria da Educação Infantil.",
+    "tags": [
+      "educação infantil",
+      "bncc",
+      "campos de experiências",
+      "ei03et03",
+      "investigação"
+    ],
+    "fonte": "BNCC, Educação Infantil, campo de experiências 'Espaços, tempos, quantidades, relações e transformações', EI03ET03"
+  }
+]

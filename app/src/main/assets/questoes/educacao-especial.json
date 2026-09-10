@@ -1,0 +1,156 @@
+[
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q23",
+    "disciplina": "educacao-especial",
+    "enunciado": "Os centros de Atendimento Educacional Especializado (AEE) têm a obrigação de cumprir as exigências legais estabelecidas pelo Conselho de Educação do sistema de ensino ao qual pertencem, o que inclui o credenciamento, a autorização de funcionamento e a organização interna. Esses requisitos garantem que os centros operem de acordo com as normas e diretrizes operacionais estabelecidas, para assegurar a qualidade do atendimento oferecido aos alunos com necessidades educacionais especiais. Dessa forma, especificamente segundo o artigo 12 da RESOLUÇÃO Nº 4, DE 2 DE OUTUBRO DE 2009, sobre a atuação do professor no AEE, assinale a alternativa correta.\n\n(A) Para atuação no AEE, o professor deve ter formação específica para atuação nas diferentes deficiências, transtornos globais do desenvolvimento e altas habilidades/superdotação, bem como metodologias e recursos pedagógicos adaptados a cada condição.\n(B) Para atuação no AEE, o professor deve ter formação inicial que o habilite para o exercício da docência e formação específica para a Educação Especial.\n(C) Para atuar no AEE, além da formação específica em Educação Especial, o professor deve possuir formação específica na utilização de tecnologias assistivas e recursos de acessibilidade, a fim de promover a inclusão efetiva dos alunos em todos os aspectos do ambiente escolar.\n(D) O professor que atua no AEE deve participar de uma única formação em Educação Especial, promovida pelo sistema de ensino, para garantir o aperfeiçoamento de suas práticas pedagógicas e o atendimento eficaz às necessidades educacionais dos alunos.",
+    "alternativas": {
+      "A": "Formação específica para atuação nas diferentes deficiências, transtornos globais do desenvolvimento e altas habilidades/superdotação, com metodologias e recursos adaptados a cada condição.",
+      "B": "Formação inicial que o habilite para o exercício da docência e formação específica para a Educação Especial.",
+      "C": "Além da formação específica em Educação Especial, formação específica em tecnologias assistivas e recursos de acessibilidade.",
+      "D": "Participação em uma única formação em Educação Especial, promovida pelo sistema de ensino."
+    },
+    "resposta_correta": "B",
+    "explicacao": "O artigo 12 da Resolução CNE/CEB nº 4/2009 estabelece literalmente que \"para atuação no AEE, o professor deve ter formação inicial que o habilite para o exercício da docência e formação específica para a Educação Especial\" — é exatamente o texto da alternativa (B). As demais alternativas são paráfrases plausíveis, mas não correspondem à redação legal do artigo 12: (A) e (C) acrescentam exigências mais específicas (formação por tipo de deficiência, ou formação obrigatória em tecnologias assistivas) que não constam desse artigo, e (D) restringe indevidamente a formação a \"uma única\" capacitação promovida pelo sistema de ensino, o que não está previsto na norma.",
+    "tags": [
+      "aee",
+      "resolução cne/ceb 4/2009",
+      "formação do professor",
+      "atendimento educacional especializado"
+    ],
+    "fonte": "RESOLUÇÃO CNE/CEB Nº 4, de 2 de outubro de 2009, art. 12"
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q24",
+    "disciplina": "educacao-especial",
+    "enunciado": "No processo de criação e implementação de um Plano de Ensino Individualizado (PEI) para um aluno com deficiência intelectual, o professor de educação especial deve considerar várias estratégias para maximizar o aprendizado e a participação do aluno. Dadas as seguintes práticas, assinale a correta para que o PEI atenda às necessidades específicas do aluno e promova seu progresso acadêmico.\n\n(A) Implementar o PEI sem considerar as preferências e interesses do aluno, baseando-se apenas nas estratégias e métodos recomendados pelo currículo padrão da escola.\n(B) Utilizar apenas métodos de ensino tradicionais e não adaptados, assumindo que o aluno se ajustará com o tempo às expectativas do currículo regular.\n(C) Focar exclusivamente em atividades recreativas e de lazer, acreditando que isso proporcionará ao aluno uma forma de aprendizado indireto que pode complementar o ensino tradicional.\n(D) Desenvolver um PEI que inclua objetivos claros e mensuráveis, adaptando as atividades e os materiais didáticos de acordo com as habilidades e o nível de desenvolvimento do aluno, e revisando o plano periodicamente com a equipe de apoio e a família.",
+    "alternativas": {
+      "A": "Implementar o PEI sem considerar preferências e interesses do aluno, baseando-se apenas no currículo padrão.",
+      "B": "Utilizar apenas métodos tradicionais e não adaptados, assumindo que o aluno se ajustará com o tempo.",
+      "C": "Focar exclusivamente em atividades recreativas e de lazer como forma de aprendizado indireto.",
+      "D": "Desenvolver um PEI com objetivos claros e mensuráveis, adaptando atividades e materiais ao nível do aluno, e revisando periodicamente com a equipe e a família."
+    },
+    "resposta_correta": "D",
+    "explicacao": "Um Plano de Ensino Individualizado eficaz deve ter objetivos claros e mensuráveis, adaptar materiais e atividades ao nível de desenvolvimento e às habilidades do aluno, e ser revisado periodicamente em conjunto com a equipe de apoio e a família — exatamente o que descreve a alternativa (D), alinhada às boas práticas de planejamento individualizado em Educação Especial. As demais alternativas descrevem práticas inadequadas: ignorar preferências do aluno (A), usar apenas métodos tradicionais não adaptados (B) ou restringir o PEI a atividades recreativas sem intencionalidade pedagógica clara (C).",
+    "tags": [
+      "pei",
+      "plano de ensino individualizado",
+      "deficiência intelectual",
+      "adaptação curricular"
+    ]
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q25",
+    "disciplina": "educacao-especial",
+    "enunciado": "Maria é uma professora que atua em sala de recursos multifuncionais de escola pública, onde desenvolve atividades de Atendimento Educacional Especializado (AEE) para alunos com necessidades educacionais especiais. Ela sabe que, para atender plenamente seus alunos, precisa elaborar e executar um plano de AEE que envolva a articulação com os professores do ensino regular, a participação das famílias e a cooperação com outros serviços, como saúde e assistência social. Assim, de acordo com o Art. 9º, quem é responsável pela elaboração e execução do plano de Atendimento Educacional Especializado (AEE), e como deve ser esse processo?\n\n(A) Os professores que atuam na sala de recursos multifuncionais ou centros de AEE, em articulação com os demais professores do ensino regular, mas sem a necessidade de participação das famílias ou interface com outros serviços setoriais, como saúde e assistência social.\n(B) Os professores que atuam na sala de recursos multifuncionais ou centros de AEE, em articulação com os demais professores do ensino regular, com a participação das famílias e em interface com outros serviços necessários, como saúde e assistência social.\n(C) Os professores que atuam na sala de recursos multifuncionais ou centros de AEE, em articulação com os demais professores do ensino regular, mas sem a necessidade de participação das famílias, apenas com a interface com outros serviços setoriais, como saúde e assistência social.\n(D) Os professores que atuam na sala de recursos multifuncionais ou centros de AEE, em articulação com os demais professores do ensino regular e com a participação das famílias, mas sem a necessidade de interface com outros serviços setoriais, como saúde e assistência social.",
+    "alternativas": {
+      "A": "Professores do AEE, em articulação com o ensino regular, mas sem participação das famílias nem interface com outros serviços setoriais.",
+      "B": "Professores do AEE, em articulação com o ensino regular, com participação das famílias e em interface com outros serviços necessários, como saúde e assistência social.",
+      "C": "Professores do AEE, em articulação com o ensino regular, sem participação das famílias, apenas com interface com outros serviços setoriais.",
+      "D": "Professores do AEE, em articulação com o ensino regular e participação das famílias, mas sem interface com outros serviços setoriais."
+    },
+    "resposta_correta": "B",
+    "explicacao": "O art. 9º da Resolução CNE/CEB nº 4/2009 atribui aos professores que atuam nas salas de recursos multifuncionais ou centros de AEE a responsabilidade de elaborar e executar o plano de AEE, em articulação com os professores do ensino regular, com a participação das famílias e em interface com os demais serviços setoriais (saúde, assistência social, entre outros) necessários ao atendimento do aluno — conforme descreve integralmente a alternativa (B). As demais alternativas excluem indevidamente um dos elementos exigidos pela norma: a participação das famílias (A e C) ou a interface com outros serviços setoriais (D).",
+    "tags": [
+      "aee",
+      "plano de aee",
+      "sala de recursos multifuncionais",
+      "articulação intersetorial"
+    ],
+    "fonte": "RESOLUÇÃO CNE/CEB Nº 4, de 2 de outubro de 2009, art. 9º"
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q26",
+    "disciplina": "educacao-especial",
+    "enunciado": "Ao elaborar estratégias de avaliação para alunos com deficiência auditiva em uma sala de aula inclusiva, de que maneira é possível garantir uma avaliação justa e precisa do progresso acadêmico desses alunos?\n\n(A) Fornecer avaliações escritas e visuais adaptadas, como questionários com respostas alternativas e a possibilidade de uso de linguagem de sinais ou recursos de leitura labial, contribuindo para que os alunos possam demonstrar seu conhecimento de forma acessível.\n(B) Aplicar avaliações em grupo onde os alunos discutem os tópicos e a participação é avaliada com base na contribuição verbal, sem considerar adaptações para a deficiência auditiva dos alunos.\n(C) Realizar avaliações de desempenho apenas durante atividades práticas e experimentais, sem incluir componentes teóricos que poderiam exigir adaptações para os alunos com deficiência auditiva.\n(D) Utilizar apenas avaliações orais tradicionais, assumindo que os alunos com deficiência auditiva podem se adaptar ao formato da avaliação sem a necessidade de ajustes adicionais.",
+    "alternativas": {
+      "A": "Fornecer avaliações escritas e visuais adaptadas, com opção de linguagem de sinais ou leitura labial.",
+      "B": "Avaliar em grupo com base apenas na contribuição verbal, sem adaptações para a deficiência auditiva.",
+      "C": "Avaliar apenas em atividades práticas e experimentais, sem componentes teóricos adaptados.",
+      "D": "Utilizar apenas avaliações orais tradicionais, sem ajustes adicionais."
+    },
+    "resposta_correta": "A",
+    "explicacao": "Para alunos com deficiência auditiva, uma avaliação justa exige adaptar os instrumentos avaliativos aos canais de comunicação acessíveis a esses alunos: materiais escritos e visuais, recursos de Libras e leitura labial, questionários com respostas alternativas — exatamente o que propõe a alternativa (A). As demais alternativas mantêm formatos que dependem fortemente da comunicação oral/auditiva (avaliação por contribuição verbal em grupo, avaliação apenas oral) ou eliminam componentes teóricos sem justificativa pedagógica, prejudicando a mensuração real do conhecimento do aluno com deficiência auditiva.",
+    "tags": [
+      "deficiência auditiva",
+      "avaliação inclusiva",
+      "adaptação de avaliação",
+      "libras"
+    ]
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q27",
+    "disciplina": "educacao-especial",
+    "enunciado": "Em um ambiente educacional inclusivo, é essencial que os professores estejam preparados para adaptar suas estratégias de ensino para atender às necessidades diversas de todos os alunos. Considere o seguinte cenário: um professor está desenvolvendo um plano de aula para uma turma que inclui alunos com deficiências visuais e dificuldades de aprendizagem. Para garantir que todos os alunos possam acessar e se beneficiar do conteúdo, assinale a alternativa correta.\n\n(A) Incorporar uma variedade de formatos de materiais, como textos em braille, recursos audiovisuais e softwares de leitura, além de criar atividades que permitam a todos os alunos participar de forma ativa e equitativa.\n(B) Concentrar-se exclusivamente em atividades práticas e experimentais, eliminando a necessidade de materiais escritos, já que estes podem não ser acessíveis para todos os alunos.\n(C) Fornecer apenas suporte individualizado durante as atividades, sem alterar o formato dos materiais didáticos, assumindo que os alunos poderão se adaptar sozinhos.\n(D) Usar apenas materiais didáticos impressos e textos em livros didáticos tradicionais, fornecendo auxílios de leitura apenas a pedido dos alunos.",
+    "alternativas": {
+      "A": "Incorporar variedade de formatos (braille, audiovisuais, softwares de leitura) e atividades que permitam participação ativa e equitativa de todos.",
+      "B": "Concentrar-se exclusivamente em atividades práticas, eliminando materiais escritos.",
+      "C": "Fornecer apenas suporte individualizado, sem alterar o formato dos materiais, assumindo adaptação espontânea dos alunos.",
+      "D": "Usar apenas materiais impressos tradicionais, com auxílios de leitura apenas mediante solicitação."
+    },
+    "resposta_correta": "A",
+    "explicacao": "O princípio do Desenho Universal para a Aprendizagem recomenda diversificar os formatos de apresentação do conteúdo (braille, áudio, softwares de leitura de tela, recursos audiovisuais) para garantir acesso equitativo a alunos com deficiência visual, combinando isso com atividades que permitam participação ativa de todos — exatamente o que descreve a alternativa (A). As demais alternativas eliminam ou restringem formatos de materiais (B e D) ou deixam de fazer qualquer adaptação real dos materiais, esperando que o aluno se adapte sozinho (C), o que não garante acessibilidade.",
+    "tags": [
+      "deficiência visual",
+      "acessibilidade",
+      "desenho universal",
+      "materiais adaptados"
+    ]
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q28",
+    "disciplina": "educacao-especial",
+    "enunciado": "Durante uma aula em uma escola regular, a professora Maria percebe que um de seus alunos, João, que tem dificuldades de locomoção e utiliza uma cadeira de rodas, está tendo dificuldades em participar das atividades físicas propostas. Além disso, outro aluno, Pedro, que possui deficiência auditiva, enfrenta desafios para acompanhar as explicações orais, principalmente quando a professora está de costas para a turma. A professora deseja implementar estratégias que garantam a plena inclusão de João, Pedro e todos os outros alunos com necessidades especiais na sala de aula. Qual das seguintes estratégias é eficaz para promover o objetivo almejado?\n\n(A) Adaptar o material didático para atender aos diferentes estilos de aprendizagem dos alunos.\n(B) Focar exclusivamente em atividades que são adequadas para alunos com necessidades especiais, sem considerar as necessidades dos outros alunos.\n(C) Aplicar um currículo uniforme para todos os alunos, sem ajustes para necessidades individuais.\n(D) Separar os alunos com necessidades especiais em uma sala de aula distinta para melhor atender suas necessidades.",
+    "alternativas": {
+      "A": "Adaptar o material didático para atender aos diferentes estilos de aprendizagem dos alunos.",
+      "B": "Focar exclusivamente em atividades adequadas para alunos com necessidades especiais, ignorando os demais alunos.",
+      "C": "Aplicar um currículo uniforme para todos, sem ajustes individuais.",
+      "D": "Separar os alunos com necessidades especiais em uma sala de aula distinta."
+    },
+    "resposta_correta": "A",
+    "explicacao": "A inclusão plena de João (dificuldade de locomoção) e Pedro (deficiência auditiva) na mesma turma regular, junto aos demais colegas, depende de adaptar materiais e estratégias didáticas aos diferentes estilos e necessidades de aprendizagem, mantendo todos no mesmo ambiente — o que corresponde à alternativa (A). As demais alternativas contrariam princípios básicos da educação inclusiva: atender apenas alunos com necessidades especiais ignorando os demais (B), manter um currículo rígido sem qualquer ajuste (C), ou segregar os alunos em turma à parte (D), o que fere o próprio conceito de inclusão.",
+    "tags": [
+      "inclusão escolar",
+      "deficiência física",
+      "deficiência auditiva",
+      "adaptação de material didático"
+    ]
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q29",
+    "disciplina": "educacao-especial",
+    "enunciado": "Um aluno com deficiência intelectual leve apresenta dificuldades na compreensão e execução de instruções multissensoriais complexas em sala de aula. Para apoiar esse aluno de forma eficaz, qual das seguintes abordagens é indicada, especificamente, para melhorar sua capacidade de seguir instruções e realizar tarefas de forma independente?\n\n(A) Desenvolver e implementar um sistema de suporte visual, incluindo pictogramas e gráficos, combinados com instruções orais simplificadas, de forma que o aluno possa usar esses recursos de forma independente.\n(B) Aplicar um modelo de ensino baseado em consequências negativas para reforçar a importância de seguir as instruções corretamente, para motivar o aluno a prestar mais atenção.\n(C) Utilizar instruções orais detalhadas e complexas, assumindo que a exposição repetida ajudará o aluno a internalizar e seguir as diretrizes.\n(D) Reduzir a complexidade das tarefas a um nível muito básico e fornecer uma única instrução de cada vez, sem considerar a possibilidade de introduzir gradualmente a complexidade das instruções.",
+    "alternativas": {
+      "A": "Sistema de suporte visual (pictogramas e gráficos) combinado com instruções orais simplificadas, de uso independente pelo aluno.",
+      "B": "Modelo de ensino baseado em consequências negativas para reforçar o seguimento de instruções.",
+      "C": "Instruções orais detalhadas e complexas, repetidas até serem internalizadas.",
+      "D": "Reduzir tarefas ao nível mais básico, com instrução única, sem progressão gradual de complexidade."
+    },
+    "resposta_correta": "A",
+    "explicacao": "Para alunos com deficiência intelectual leve, recursos de apoio visual (pictogramas, gráficos) combinados a instruções orais simplificadas favorecem a compreensão e a autonomia na execução de tarefas, permitindo o uso independente desses recursos — o que descreve a alternativa (A). A alternativa (B) é pedagogicamente inadequada e contraindicada (reforço negativo/punitivo); (C) mantém o mesmo obstáculo original (instruções orais complexas), sem adaptação real; e (D), embora reduza a complexidade, não propõe progressão gradual nem recursos visuais de apoio, limitando o desenvolvimento da autonomia do aluno a longo prazo.",
+    "tags": [
+      "deficiência intelectual",
+      "suporte visual",
+      "instruções adaptadas",
+      "autonomia"
+    ]
+  },
+  {
+    "id": "seletivo-municipal-catanduva-edesp-educacao-especial-2024-q30",
+    "disciplina": "educacao-especial",
+    "enunciado": "Durante suas aulas, a professora Ana percebe que um de seus alunos, Lucas, diagnosticado com Transtorno do Déficit de Atenção e Hiperatividade (TDAH), tem dificuldade em manter a atenção, e frequentemente se distrai com facilidade. Buscando melhorar o desempenho de Lucas e garantir sua participação ativa na sala de aula, a professora Ana decide adaptar suas estratégias de ensino. Qual das seguintes estratégias é mais adequada para apoiar o aprendizado de Lucas?\n\n(A) Oferecer apenas materiais de leitura, evitando atividades práticas e interativas.\n(B) Utilizar técnicas de ensino que envolvam múltiplos sentidos e períodos de atenção curtos.\n(C) Ignorar os comportamentos impulsivos e desafiadores para não incentivar a atenção negativa.\n(D) Permitir que o aluno fique fora da sala durante as aulas para reduzir a distração.",
+    "alternativas": {
+      "A": "Oferecer apenas materiais de leitura, evitando atividades práticas e interativas.",
+      "B": "Utilizar técnicas de ensino que envolvam múltiplos sentidos e períodos de atenção curtos.",
+      "C": "Ignorar os comportamentos impulsivos e desafiadores para não incentivar a atenção negativa.",
+      "D": "Permitir que o aluno fique fora da sala durante as aulas para reduzir a distração."
+    },
+    "resposta_correta": "B",
+    "explicacao": "Para alunos com TDAH, estratégias multissensoriais associadas a períodos curtos de atenção (atividades fragmentadas, dinâmicas, com pausas) são reconhecidamente eficazes para sustentar o engajamento e o desempenho — exatamente o que propõe a alternativa (B). As demais alternativas são inadequadas: restringir-se à leitura elimina o suporte multissensorial necessário (A); ignorar comportamentos desafiadores sem intervenção pedagógica não trata a causa da dificuldade de atenção (C); e excluir o aluno da sala de aula fere o princípio da inclusão e não constitui estratégia pedagógica de apoio (D).",
+    "tags": [
+      "tdah",
+      "estratégias multissensoriais",
+      "atenção",
+      "inclusão escolar"
+    ]
+  }
+]
