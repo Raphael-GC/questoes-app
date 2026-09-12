@@ -1,6 +1,8 @@
 package net.oraphael.questoes.data.db
 
 import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "questao")
@@ -32,4 +34,44 @@ data class TagEntity(
 data class QuestaoTagCrossRef(
     val questaoId: String,
     val tagId: Long,
+)
+
+/**
+ * Uma sessão de estudo: um "Livre" (1+ disciplinas com filtro próprio) ou um "Simulado"
+ * (um cargo). [filtrosJson] guarda um retrato dos filtros usados (disciplinas/tags/quantidade,
+ * ou o cargo/blocos), só pra exibição no Histórico — nunca é reconsultado estruturalmente.
+ */
+@Entity(tableName = "sessao")
+data class SessaoEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val modo: String, // "livre" | "simulado"
+    val ordem: String?, // "aleatorio" | "sequencial" — só quando modo = "livre"
+    val cargoSimulado: String?, // só quando modo = "simulado"
+    val dataHoraInicio: Long,
+    val tempoTotalSessaoMs: Long?, // preenchido ao concluir a sessão
+    val filtrosJson: String,
+)
+
+@Entity(
+    tableName = "tentativa",
+    foreignKeys = [
+        ForeignKey(
+            entity = SessaoEntity::class,
+            parentColumns = ["id"],
+            childColumns = ["sessaoId"],
+            onDelete = ForeignKey.CASCADE,
+        ),
+    ],
+    indices = [Index("sessaoId"), Index("questaoId")],
+)
+data class TentativaEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val sessaoId: Long,
+    val questaoId: String,
+    val disciplinaId: String,
+    val blocoSimulado: String?, // só quando a sessão é de um simulado
+    val respostaSelecionada: String,
+    val acerto: Boolean,
+    val tempoQuestaoMs: Long,
+    val dataHora: Long,
 )

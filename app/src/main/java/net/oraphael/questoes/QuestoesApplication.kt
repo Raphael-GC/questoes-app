@@ -14,7 +14,12 @@ class QuestoesApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        db = Room.databaseBuilder(this, AppDatabase::class.java, "questoes.db").build()
+        db = Room.databaseBuilder(this, AppDatabase::class.java, "questoes.db")
+            // App ainda não lançado: sem migração real pra manter. Se o schema mudar sem
+            // subir a versão (ou sem Migration definida), recria o banco do zero em vez de
+            // crashar — as questões voltam pelo importador automático no próximo boot.
+            .fallbackToDestructiveMigration()
+            .build()
 
         // Roda só uma vez: se o banco já tem questões, não reimporta a cada abertura do app.
         CoroutineScope(Dispatchers.IO).launch {
