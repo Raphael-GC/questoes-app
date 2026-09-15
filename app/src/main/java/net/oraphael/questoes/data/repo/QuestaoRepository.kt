@@ -3,6 +3,7 @@ package net.oraphael.questoes.data.repo
 import net.oraphael.questoes.data.db.AppDatabase
 import net.oraphael.questoes.data.db.DisciplinaContagem
 import net.oraphael.questoes.data.db.QuestaoCompleta
+import net.oraphael.questoes.data.db.TagContagem
 import net.oraphael.questoes.data.db.TagEntity
 
 /**
@@ -16,12 +17,24 @@ class QuestaoRepository(private val db: AppDatabase) {
     suspend fun listarTags(disciplinaId: String): List<TagEntity> =
         db.tagDao().listarPorDisciplina(disciplinaId)
 
+    /** Tags por frequência, pro pop-up da Tela 2 (a mais frequente primeiro). */
+    suspend fun listarTagsComContagem(disciplinaId: String): List<TagContagem> =
+        db.tagDao().listarComContagemPorDisciplina(disciplinaId)
+
     /** Ids de questão da disciplina; se [tagIds] vier vazio, ignora o filtro de tags. */
     suspend fun buscarIdsQuestoes(disciplinaId: String, tagIds: Set<Long>): List<String> =
         if (tagIds.isEmpty()) {
             db.questaoDao().idsPorDisciplina(disciplinaId)
         } else {
             db.questaoDao().idsPorDisciplinaETags(disciplinaId, tagIds)
+        }
+
+    /** Tamanho do pool elegível — mesma regra de OR entre tags do MotorSessao, sem trazer os ids. */
+    suspend fun contarPool(disciplinaId: String, tagIds: Set<Long>): Int =
+        if (tagIds.isEmpty()) {
+            db.questaoDao().contarPorDisciplinaId(disciplinaId)
+        } else {
+            db.questaoDao().contarPorDisciplinaETags(disciplinaId, tagIds)
         }
 
     suspend fun buscarQuestaoCompleta(id: String): QuestaoCompleta? =

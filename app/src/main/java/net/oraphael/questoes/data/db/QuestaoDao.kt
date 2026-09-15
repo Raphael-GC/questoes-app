@@ -37,6 +37,18 @@ interface QuestaoDao {
     )
     suspend fun idsPorDisciplinaETags(disciplinaId: String, tagIds: Set<Long>): List<String>
 
+    @Query("SELECT COUNT(*) FROM questao WHERE disciplinaId = :disciplinaId")
+    suspend fun contarPorDisciplinaId(disciplinaId: String): Int
+
+    @Query(
+        """
+        SELECT COUNT(DISTINCT q.id) FROM questao q
+        INNER JOIN questao_tag_cross_ref x ON x.questaoId = q.id
+        WHERE q.disciplinaId = :disciplinaId AND x.tagId IN (:tagIds)
+        """
+    )
+    suspend fun contarPorDisciplinaETags(disciplinaId: String, tagIds: Set<Long>): Int
+
     @Transaction
     @Query("SELECT * FROM questao WHERE id = :id")
     suspend fun buscarCompleta(id: String): QuestaoCompleta?
@@ -77,4 +89,23 @@ interface TagDao {
         """
     )
     suspend fun listarPorDisciplina(disciplinaId: String): List<TagEntity>
+
+    /** Tags da disciplina por frequência (Tela 2 · Pop-up, §3 do Mapa de Navegação). */
+    @Query(
+        """
+        SELECT t.id as id, t.nome as nome, COUNT(*) as total FROM tag t
+        INNER JOIN questao_tag_cross_ref x ON x.tagId = t.id
+        INNER JOIN questao q ON q.id = x.questaoId
+        WHERE q.disciplinaId = :disciplinaId
+        GROUP BY t.id
+        ORDER BY total DESC, t.nome ASC
+        """
+    )
+    suspend fun listarComContagemPorDisciplina(disciplinaId: String): List<TagContagem>
 }
+
+data class TagContagem(
+    val id: Long,
+    val nome: String,
+    val total: Int,
+)

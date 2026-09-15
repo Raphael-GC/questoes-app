@@ -50,6 +50,10 @@ data class SessaoEntity(
     val dataHoraInicio: Long,
     val tempoTotalSessaoMs: Long?, // preenchido ao concluir a sessão
     val filtrosJson: String,
+    // Ids das questões sorteadas por MotorSessao, na ordem exata em que o Quiz (Tela 3)
+    // deve exibi-las — sorteado uma única vez, ao confirmar a Tela 2/Tela 6, e nunca
+    // recalculado depois (senão cada reabertura da sessão trocaria a ordem/questões).
+    val questaoIdsJson: String,
 )
 
 @Entity(

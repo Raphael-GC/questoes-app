@@ -13,7 +13,13 @@ import kotlinx.serialization.Serializable
 sealed interface Destino
 
 @Serializable data object Home : Destino
-@Serializable data object SelecaoLivre : Destino
+
+/**
+ * [disciplinaInicial] pré-marca uma disciplina e já abre o pop-up de tags dela — o
+ * atalho da Home (Tela 1) confirmado no Mapa de Navegação. Nulo quando se entra pelo
+ * cartão "Livre", que abre a tela vazia.
+ */
+@Serializable data class SelecaoLivre(val disciplinaInicial: String? = null) : Destino
 @Serializable data class Quiz(val sessaoId: Long) : Destino
 @Serializable data class Resultado(val sessaoId: Long) : Destino
 @Serializable data object Historico : Destino
