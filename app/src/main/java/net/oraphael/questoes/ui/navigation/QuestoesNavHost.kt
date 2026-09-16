@@ -21,6 +21,7 @@ import net.oraphael.questoes.data.repo.QuestaoRepository
 import net.oraphael.questoes.data.repo.SessaoRepository
 import net.oraphael.questoes.domain.MotorSessao
 import net.oraphael.questoes.ui.screens.home.HomeScreen
+import net.oraphael.questoes.ui.screens.quiz.QuizScreen
 import net.oraphael.questoes.ui.screens.selecaolivre.SelecaoLivreScreen
 
 /**
@@ -37,8 +38,8 @@ import net.oraphael.questoes.ui.screens.selecaolivre.SelecaoLivreScreen
  * class de [Destino], marcado com `@Serializable` — sem strings de rota "na mão".
  *
  * Etapa 4 (Fase 5) começou a trocar os placeholders pelas telas de verdade, uma de cada
- * vez: Home ([HomeScreen]) e Seleção · Livre ([SelecaoLivreScreen]) já são reais. As
- * demais rotas abaixo seguem placeholder até a etapa de cada uma.
+ * vez: Home ([HomeScreen]), Seleção · Livre ([SelecaoLivreScreen]) e Quiz ([QuizScreen])
+ * já são reais. As demais rotas abaixo seguem placeholder até a etapa de cada uma.
  */
 @Composable
 fun QuestoesApp() {
@@ -80,11 +81,16 @@ fun QuestoesApp() {
         }
         composable<Quiz> { backStackEntry ->
             val destino: Quiz = backStackEntry.toRoute()
-            TelaPlaceholder("Quiz — sessão ${destino.sessaoId}") {
-                Button(onClick = { navController.navigate(Resultado(sessaoId = destino.sessaoId)) }) {
-                    Text("Concluir sessão")
-                }
-            }
+            QuizScreen(
+                sessaoId = destino.sessaoId,
+                questaoRepository = questaoRepository,
+                sessaoRepository = sessaoRepository,
+                onSessaoConcluida = { sessaoId ->
+                    navController.navigate(Resultado(sessaoId = sessaoId)) {
+                        popUpTo<Quiz> { inclusive = true }
+                    }
+                },
+            )
         }
         composable<Resultado> { backStackEntry ->
             val destino: Resultado = backStackEntry.toRoute()
