@@ -41,6 +41,16 @@ ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
 }
 
+configurations.all {
+    resolutionStrategy {
+        // coil-compose (multiplatform) puxa peças do org.jetbrains.compose que alinham
+        // o kotlin-stdlib do grafo pra uma versão mais nova que o Kotlin embutido do AGP
+        // 9 (ver comentário em QuestoesNavHost.kt/build antigo) consegue ler — trava aqui
+        // na versão do catálogo, que é 100% compatível (stdlib só adiciona API).
+        force(libs.kotlin.stdlib)
+    }
+}
+
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
@@ -54,6 +64,8 @@ dependencies {
     ksp(libs.androidx.room.compiler)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

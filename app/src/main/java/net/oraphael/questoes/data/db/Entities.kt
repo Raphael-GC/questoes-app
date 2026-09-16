@@ -13,8 +13,11 @@ data class QuestaoEntity(
     val respostaCorreta: String,
     val explicacao: String,
     val fonte: String?,
-    val possuiImagem: Boolean,
-    val imagemDesc: String?,
+    // Lista de descrições (uma por imagem, na ordem de exibição) serializada como JSON,
+    // mesmo padrão de SessaoEntity.filtrosJson/questaoIdsJson — "[]" = sem imagem. A URL
+    // de cada imagem é montada em QuizScreen a partir do id da questão + índice (1-based),
+    // nunca guardada aqui (ver README de questoes-banco, "Imagens").
+    val imagensDescJson: String,
 )
 
 @Entity(tableName = "alternativa", primaryKeys = ["questaoId", "letra"])

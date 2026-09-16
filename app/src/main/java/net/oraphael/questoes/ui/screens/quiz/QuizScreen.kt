@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -29,8 +30,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
@@ -51,9 +54,12 @@ import net.oraphael.questoes.ui.theme.QuestoesTokens
  * antes de liberar a próxima. Só a última questão troca "Próxima questão" por "Ver
  * resultado", que fecha [SessaoEntity.tempoTotalSessaoMs] e navega pro Resumo.
  *
- * Sem imagem ainda: [net.oraphael.questoes.data.db.QuestaoEntity.possuiImagem] mostra só
- * a descrição textual por enquanto — o carregamento via Coil/GitHub (README, "Imagens")
- * é etapa própria, ainda não cabeada em nenhuma tela.
+ * Imagens da questão (0+, [QuestaoEntity.imagensDescJson][net.oraphael.questoes.data.db.QuestaoEntity])
+ * são carregadas via Coil ([ImagemQuestao]) a partir do repositório `questoes-banco`
+ * (README, "Imagens") — a URL de cada uma é montada só com o id da questão e o índice
+ * (1-based) dela na lista, nunca listada em manifesto nenhum. Enquanto uma imagem
+ * específica não existir lá (banco de 68 pendentes), o erro de carregamento cai de volta
+ * pra descrição textual daquela imagem.
  *
  * Mesma decisão de HomeScreen/SelecaoLivreScreen: sem ViewModel, estado vive na
  * composição — o projeto ainda não tem DI.
@@ -126,17 +132,13 @@ fun QuizScreen(
 
         Text(text = questao.questao.enunciado, style = MaterialTheme.typography.bodyLarge)
 
-        if (questao.questao.possuiImagem) {
-            Text(
-                text = "🖼 ${questao.questao.imagemDesc ?: "imagem da questão"}",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(QuestoesRadii.controle))
-                    .background(MaterialTheme.colorScheme.surfaceVariant)
-                    .padding(12.dp),
-            )
+        val imagensDesc = remember(questao) { Json.decodeFromString<List<String>>(questao.questao.imagensDescJson) }
+        if (imagensDesc.isNotEmpty()) {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                imagensDesc.forEachIndexed { i, descricao ->
+                    ImagemQuestao(questaoId = questao.questao.id, indice = i + 1, descricao = descricao)
+                }
+            }
         }
 
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -210,6 +212,52 @@ fun QuizScreen(
         ) {
             Text(if (ultimaQuestao) "Ver resultado" else "Próxima questão")
         }
+    }
+}
+
+/**
+ * URL montada só com o id da questão e o índice (1-based) da imagem — mesma convenção do
+ * README de `questoes-banco`: arquivos `<id-da-questao>-<n>.png` dentro de
+ * `files/images/`, sem manifesto nenhum listando o que existe. Sempre numerado, mesmo
+ * quando a questão só tem uma imagem (`-1.png`) — sem caso especial pra "a primeira".
+ * Só entra na branch `main` daquele repositório.
+ */
+private const val URL_BASE_IMAGENS = "https://raw.githubusercontent.com/Raphael-GC/questoes-banco/main/files/images/"
+
+/**
+ * Sem tamanho fixo: [AsyncImage] com só a largura restrita preenche a linha e cresce na
+ * altura conforme a proporção real da imagem — qualquer dimensão de imagem cabe sem
+ * distorcer. [defaultMinSize] só evita o card colapsar pra altura zero enquanto carrega.
+ * Se a imagem daquela questão ainda não existir no repositório (banco de 68 pendentes),
+ * o erro do Coil cai de volta pra descrição textual, igual ao que já existia antes.
+ */
+@Composable
+private fun ImagemQuestao(questaoId: String, indice: Int, descricao: String) {
+    var falhouCarregar by remember(questaoId, indice) { mutableStateOf(false) }
+
+    if (falhouCarregar) {
+        Text(
+            text = "🖼 $descricao",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(QuestoesRadii.controle))
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .padding(12.dp),
+        )
+    } else {
+        AsyncImage(
+            model = "$URL_BASE_IMAGENS$questaoId-$indice.png",
+            contentDescription = descricao,
+            contentScale = ContentScale.FillWidth,
+            onError = { falhouCarregar = true },
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 140.dp)
+                .clip(RoundedCornerShape(QuestoesRadii.controle))
+                .background(MaterialTheme.colorScheme.surfaceVariant),
+        )
     }
 }
 

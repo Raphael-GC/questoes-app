@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Imagens das questões e atualização remota do banco (README, "Imagens" e "Atualização
+         remota do banco") vêm de raw.githubusercontent.com sob demanda. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".QuestoesApplication"
         android:allowBackup="true"

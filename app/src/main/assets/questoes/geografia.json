@@ -33,8 +33,7 @@
       "SBCR",
       "classificação do relevo"
     ],
-    "fonte": "Revista Pesquisa FAPESP, https://revistapesquisa.fapesp.br",
-    "possui_imagem": false
+    "fonte": "Revista Pesquisa FAPESP, https://revistapesquisa.fapesp.br"
   },
   {
     "id": "pss-geografia-2026-q12",
@@ -70,8 +69,7 @@
       "cadeias globais de valor",
       "data centers"
     ],
-    "fonte": "FRASKE, Tim. Industry 4.0 and its geographies. Digital Geography and Society, v.3, 2022.",
-    "possui_imagem": false
+    "fonte": "FRASKE, Tim. Industry 4.0 and its geographies. Digital Geography and Society, v.3, 2022."
   },
   {
     "id": "pss-geografia-2026-q13",
@@ -107,7 +105,6 @@
       "desigualdade agrária"
     ],
     "fonte": "IBGE, Censo Agropecuário 2017",
-    "possui_imagem": false,
     "tabela": {
       "colunas": [
         "Grupos de Área (ha)",
@@ -177,8 +174,7 @@
       "RMSP",
       "comitês de bacia"
     ],
-    "fonte": "https://oglobo.globo.com/brasil/noticia/2025/08/26",
-    "possui_imagem": false
+    "fonte": "https://oglobo.globo.com/brasil/noticia/2025/08/26"
   },
   {
     "id": "pss-geografia-2026-q15",
@@ -214,8 +210,7 @@
       "infraestrutura de comunicação"
     ],
     "fonte": "TeleGeography, https://resources.telegeography.com/2026-submarine-cable-map",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa-múndi mostrando a rede global de cabos submarinos de fibra óptica ativos em 2026 (Submarine Cable Map)."
+    "imagens_desc": ["Mapa-múndi mostrando a rede global de cabos submarinos de fibra óptica ativos em 2026 (Submarine Cable Map)."]
   },
   {
     "id": "pss-geografia-2026-q16",
@@ -251,8 +246,7 @@
       "China",
       "geopolítica capitalista de Estado"
     ],
-    "fonte": "https://www.tni.org/en/article/the-new-frontline",
-    "possui_imagem": false
+    "fonte": "https://www.tni.org/en/article/the-new-frontline"
   },
   {
     "id": "pss-geografia-2026-q17",
@@ -288,8 +282,7 @@
       "rios voadores",
       "desmatamento"
     ],
-    "fonte": "LOVEJOY, T. E.; NOBRE, C. Amazon Tipping Point. Science Advances, v.4, n.2, 2018.",
-    "possui_imagem": false
+    "fonte": "LOVEJOY, T. E.; NOBRE, C. Amazon Tipping Point. Science Advances, v.4, n.2, 2018."
   },
   {
     "id": "pss-geografia-2026-q18",
@@ -325,8 +318,7 @@
       "La Niña",
       "mudanças climáticas"
     ],
-    "possui_imagem": true,
-    "imagem_desc": "Gráfico de linha do Índice Oceânico Niño (ONI) de 2000 a 2025."
+    "imagens_desc": ["Gráfico de linha do Índice Oceânico Niño (ONI) de 2000 a 2025."]
   },
   {
     "id": "pss-geografia-2026-q19",
@@ -361,8 +353,7 @@
       "geopolítica",
       "leitura crítica de documentos"
     ],
-    "fonte": "ESTADOS UNIDOS. Casa Branca. National Security Strategy. Washington, DC: The White House, 2025.",
-    "possui_imagem": false
+    "fonte": "ESTADOS UNIDOS. Casa Branca. National Security Strategy. Washington, DC: The White House, 2025."
   },
   {
     "id": "pss-geografia-2026-q20",
@@ -398,8 +389,7 @@
       "geopolítica da saúde"
     ],
     "fonte": "Nature, https://www.nature.com/articles/d41586-025-03384-y",
-    "possui_imagem": true,
-    "imagem_desc": "Gráfico de barras “Saúde frágil”: financiamento da saúde global (2015-2025), EUA vs. outras fontes."
+    "imagens_desc": ["Gráfico de barras “Saúde frágil”: financiamento da saúde global (2015-2025), EUA vs. outras fontes."]
   },
   {
     "id": "pss-geografia-2026-q21",
@@ -435,8 +425,7 @@
       "bacia hidrográfica",
       "MapBiomas"
     ],
-    "fonte": "MapBiomas, https://brasil.mapbiomas.org/2025",
-    "possui_imagem": false
+    "fonte": "MapBiomas, https://brasil.mapbiomas.org/2025"
   },
   {
     "id": "pss-geografia-2026-q22",
@@ -472,8 +461,7 @@
       "energia solar",
       "transição energética justa"
     ],
-    "fonte": "https://oeco.org.br/reportagens/caatinga-vive-o-dilema-da-transicao-energetica-justa/",
-    "possui_imagem": false
+    "fonte": "https://oeco.org.br/reportagens/caatinga-vive-o-dilema-da-transicao-energetica-justa/"
   },
   {
     "id": "pss-geografia-2026-q23",
@@ -510,8 +498,7 @@
       "salares andinos"
     ],
     "fonte": "Valor Econômico, https://valor.globo.com/mundo/noticia/2023/07/13",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa da América do Sul com reservas e produção de lítio nos países do Triângulo do Lítio (Bolívia, Chile, Argentina) e no Brasil."
+    "imagens_desc": ["Mapa da América do Sul com reservas e produção de lítio nos países do Triângulo do Lítio (Bolívia, Chile, Argentina) e no Brasil."]
   },
   {
     "id": "pss-geografia-2026-q24",
@@ -547,8 +534,7 @@
       "IBGE",
       "territórios tradicionais"
     ],
-    "fonte": "IBGE, Agência de Notícias, https://agenciadenoticias.ibge.gov.br",
-    "possui_imagem": false
+    "fonte": "IBGE, Agência de Notícias, https://agenciadenoticias.ibge.gov.br"
   },
   {
     "id": "pss-geografia-2026-q25",
@@ -583,8 +569,7 @@
       "rede urbana",
       "Censo 2022",
       "municípios de médio porte"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "pss-geografia-2026-q26",
@@ -619,8 +604,7 @@
       "China",
       "Oceano Índico",
       "Cordão de Pérolas"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "pss-geografia-2026-q27",
@@ -656,8 +640,7 @@
       "assentamentos",
       "conflito israelo-palestino"
     ],
-    "fonte": "https://oglobo.globo.com/mundo/noticia/2025/05/29",
-    "possui_imagem": false
+    "fonte": "https://oglobo.globo.com/mundo/noticia/2025/05/29"
   },
   {
     "id": "pss-geografia-2026-q28",
@@ -694,8 +677,7 @@
       "vantagens comparativas"
     ],
     "fonte": "https://oglobo.globo.com/economia/noticia/2026/01/09 (dados: FMI e UE)",
-    "possui_imagem": true,
-    "imagem_desc": "Infográfico “O comércio entre os dois blocos”: principais produtos exportados pelo Mercosul e pela UE, com percentuais e valores em bilhões de euros."
+    "imagens_desc": ["Infográfico “O comércio entre os dois blocos”: principais produtos exportados pelo Mercosul e pela UE, com percentuais e valores em bilhões de euros."]
   },
   {
     "id": "pss-geografia-2026-q29",
@@ -732,8 +714,7 @@
       "Ásia-Pacífico"
     ],
     "fonte": "Deutsche Welle, https://www.dw.com/en/rcep-asia-readies-worlds-largest-trade-deal/a-60267980",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa da Ásia-Pacífico e Oceania distinguindo países-membros do RCEP que integram a ASEAN (cinza) dos demais membros (preto)."
+    "imagens_desc": ["Mapa da Ásia-Pacífico e Oceania distinguindo países-membros do RCEP que integram a ASEAN (cinza) dos demais membros (preto)."]
   },
   {
     "id": "pss-geografia-2026-q30",
@@ -769,8 +750,7 @@
       "Centro-Sul",
       "Nordeste",
       "Amazônia"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "pss-geografia-2026-q31",
@@ -806,8 +786,7 @@
       "Regiões Geográficas Imediatas",
       "rede urbana"
     ],
-    "fonte": "IBGE. Divisão Regional do Brasil em Regiões Geográficas Imediatas e Intermediárias, 2017.",
-    "possui_imagem": false
+    "fonte": "IBGE. Divisão Regional do Brasil em Regiões Geográficas Imediatas e Intermediárias, 2017."
   },
   {
     "id": "pss-geografia-2026-q32",
@@ -844,8 +823,7 @@
       "escoamento de commodities"
     ],
     "fonte": "Valor Econômico, https://valor.globo.com/brasil/noticia/2025/01/24 (Ministério dos Transportes)",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil com os eixos ferroviários prioritários de leilões e concessões previstos para 2026 (Ferrogrão, Ferrovia Norte-Sul, Transnordestina, FIOL, Anel Ferroviário Sudeste)."
+    "imagens_desc": ["Mapa do Brasil com os eixos ferroviários prioritários de leilões e concessões previstos para 2026 (Ferrogrão, Ferrovia Norte-Sul, Transnordestina, FIOL, Anel Ferroviário Sudeste)."]
   },
   {
     "id": "pss-geografia-2026-q33",
@@ -880,8 +858,7 @@
       "rede urbana",
       "reestruturação produtiva"
     ],
-    "fonte": "ELIAS, Denise. Uma radiografia das “cidades do agronegócio”. Outras Palavras, 6 jun. 2022.",
-    "possui_imagem": false
+    "fonte": "ELIAS, Denise. Uma radiografia das “cidades do agronegócio”. Outras Palavras, 6 jun. 2022."
   },
   {
     "id": "pss-geografia-2026-q34",
@@ -917,8 +894,7 @@
       "Europa",
       "guerra Rússia-Ucrânia"
     ],
-    "fonte": "MAJEED, A.; LIAQAT, B. B.; MUSTAFA, G. Resurgence of Nationalism in Europe in the Shadow of the Russia–Ukraine War. China Quarterly of International Strategic Studies, v.11, n.4, 2025.",
-    "possui_imagem": false
+    "fonte": "MAJEED, A.; LIAQAT, B. B.; MUSTAFA, G. Resurgence of Nationalism in Europe in the Shadow of the Russia–Ukraine War. China Quarterly of International Strategic Studies, v.11, n.4, 2025."
   },
   {
     "id": "pss-geografia-2026-q35",
@@ -954,8 +930,7 @@
       "não-alinhamento",
       "África pós-independência"
     ],
-    "fonte": "NKRUMAH, K. Neocolonialismo – último estágio do imperialismo. Rio de Janeiro: Civilização Brasileira, 1967.",
-    "possui_imagem": false
+    "fonte": "NKRUMAH, K. Neocolonialismo – último estágio do imperialismo. Rio de Janeiro: Civilização Brasileira, 1967."
   },
   {
     "id": "pss-geografia-2026-q36",
@@ -991,8 +966,7 @@
       "urbanização",
       "moradias informais"
     ],
-    "fonte": "ONU-HABITAT, 2026, https://brasil.un.org/pt-br",
-    "possui_imagem": false
+    "fonte": "ONU-HABITAT, 2026, https://brasil.un.org/pt-br"
   },
   {
     "id": "pss-geografia-2026-q37",
@@ -1029,8 +1003,7 @@
       "leitura de gráficos"
     ],
     "fonte": "World Urbanization Prospects 2025 (United Nations, 2025)",
-    "possui_imagem": true,
-    "imagem_desc": "Gráfico de linhas “World”: população mundial em cidades, vilas e áreas rurais, 1950-2050, com projeções a partir de 2025."
+    "imagens_desc": ["Gráfico de linhas “World”: população mundial em cidades, vilas e áreas rurais, 1950-2050, com projeções a partir de 2025."]
   },
   {
     "id": "pss-geografia-2026-q38",
@@ -1067,8 +1040,7 @@
       "paisagem",
       "lugar",
       "território usado"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "pss-geografia-2026-q39",
@@ -1103,8 +1075,7 @@
       "espaço absoluto",
       "espaço relativo",
       "espaço relacional"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "pss-geografia-2026-q40",
@@ -1139,8 +1110,7 @@
       "cartografia escolar",
       "sequência didática",
       "6º ano"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q21",
@@ -1170,8 +1140,7 @@
       "relevo brasileiro",
       "hidrografia",
       "domínios morfoclimáticos"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q22",
@@ -1201,8 +1170,7 @@
       "geopolítica mundial",
       "multipolaridade",
       "organizações internacionais"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q23",
@@ -1232,8 +1200,7 @@
       "tectônica de placas",
       "vulcanismo",
       "sismicidade"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q24",
@@ -1263,8 +1230,7 @@
       "alfabetização cartográfica",
       "cartografia escolar",
       "ensino de Geografia"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q25",
@@ -1294,8 +1260,7 @@
       "formação docente",
       "ensino de Geografia",
       "formação continuada"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q26",
@@ -1325,8 +1290,7 @@
       "metodologia de ensino",
       "geotecnologias",
       "ensino de Geografia"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q27",
@@ -1356,8 +1320,7 @@
       "estrutura interna da Terra",
       "tectônica de placas",
       "cartografia de risco"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q28",
@@ -1387,8 +1350,7 @@
       "quadro natural brasileiro",
       "domínios morfoclimáticos",
       "solos e relevo"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q29",
@@ -1418,8 +1380,7 @@
       "cartografia",
       "escala cartográfica",
       "projeções cartográficas"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "seletivo-municipal-catanduva-geografia-2025-q30",
@@ -1450,8 +1411,7 @@
       "determinismo geográfico",
       "geografia crítica",
       "Ratzel"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "enade-1-geografia-2025-q31",
@@ -1483,8 +1443,7 @@
       "Amazônia",
       "garimpo"
     ],
-    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado).",
-    "possui_imagem": false
+    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q32",
@@ -1516,8 +1475,7 @@
       "migrações climáticas",
       "geografia humanista"
     ],
-    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado).",
-    "possui_imagem": false
+    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q33",
@@ -1549,8 +1507,7 @@
       "colonização",
       "desigualdade social"
     ],
-    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado).",
-    "possui_imagem": false
+    "fonte": "MENEZES, V. S. A historiografia da geografia acadêmica e escolar: uma relação de (des)encontros. Geographia Meridionalis, n. 2, dez. 2015 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q34",
@@ -1582,8 +1539,7 @@
       "geografia humanista",
       "geografia marxista"
     ],
-    "fonte": "SUESS, R. C.; LEITE, C. M. C. Ensino de geografia e geografia humanista: aproximações a partir da teoria paulofreiriana e dos Parâmetros Curriculares Nacionais de Geografia. Rev. Bras. Educ. Geog., n. 15, jan.-jun., 2018 (adaptado). BARBOSA, T.; AZEVEDO, J. R. N. Contribuições marxistas para pensarmos o ensino de geografia. Rev. Bras. Educ. Geog., n. 2, jul.-dez., 2011 (adaptado).",
-    "possui_imagem": false
+    "fonte": "SUESS, R. C.; LEITE, C. M. C. Ensino de geografia e geografia humanista: aproximações a partir da teoria paulofreiriana e dos Parâmetros Curriculares Nacionais de Geografia. Rev. Bras. Educ. Geog., n. 15, jan.-jun., 2018 (adaptado). BARBOSA, T.; AZEVEDO, J. R. N. Contribuições marxistas para pensarmos o ensino de geografia. Rev. Bras. Educ. Geog., n. 2, jul.-dez., 2011 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q35",
@@ -1616,8 +1572,7 @@
       "Rio de Janeiro"
     ],
     "fonte": "Bairro de Copacabana, Rio de Janeiro, década de 1930. Disponível em: http://x.com/ORioAntigo. Acesso em: 3 jun. 2025. Bairro de Copacabana, Rio de Janeiro, 2025. Disponível em: http://reveillon.rio. Acesso em: 3 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Duas fotografias aéreas do bairro de Copacabana, Rio de Janeiro. A primeira, em preto e branco, de década de 1930, mostra a orla e a praia de Copacabana com poucas construções, prédios baixos e esparsos, morros ao fundo praticamente sem ocupação e uma faixa de areia extensa. A segunda, colorida, de 2025, mostra o mesmo trecho da orla totalmente urbanizado e verticalizado, com prédios altos ocupando toda a orla, grande adensamento populacional, praia lotada de pessoas e estrutura urbana consolidada (avenida, calçadão, quiosques), com o mesmo morro ao fundo agora emoldurado pela cidade."
+    "imagens_desc": ["Duas fotografias aéreas do bairro de Copacabana, Rio de Janeiro. A primeira, em preto e branco, de década de 1930, mostra a orla e a praia de Copacabana com poucas construções, prédios baixos e esparsos, morros ao fundo praticamente sem ocupação e uma faixa de areia extensa. A segunda, colorida, de 2025, mostra o mesmo trecho da orla totalmente urbanizado e verticalizado, com prédios altos ocupando toda a orla, grande adensamento populacional, praia lotada de pessoas e estrutura urbana consolidada (avenida, calçadão, quiosques), com o mesmo morro ao fundo agora emoldurado pela cidade."]
   },
   {
     "id": "enade-1-geografia-2025-q36",
@@ -1649,8 +1604,7 @@
       "redes geográficas",
       "escalas geográficas"
     ],
-    "fonte": "SANTOS, E.; LOCATEL, C. D. Redes geográficas e a capilarização do conteúdo urbano. Sociedade e Território, n. 2, maio-ago. 2021 (adaptado).",
-    "possui_imagem": false
+    "fonte": "SANTOS, E.; LOCATEL, C. D. Redes geográficas e a capilarização do conteúdo urbano. Sociedade e Território, n. 2, maio-ago. 2021 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q37",
@@ -1682,8 +1636,7 @@
       "semiárido",
       "SIG"
     ],
-    "fonte": "Disponível em: https://bit.ly/44PF331. Acesso em: 20 maio 2025 (adaptado). SÁ, I. B. et al. Processos de desertificação no semiárido brasileiro. In: SÁ, I. B.; SILVA, P. C. G. (Ed.). Semiárido brasileiro: pesquisa desenvolvimento e inovação. Petrolina: Embrapa Semiárido, 2010.",
-    "possui_imagem": false
+    "fonte": "Disponível em: https://bit.ly/44PF331. Acesso em: 20 maio 2025 (adaptado). SÁ, I. B. et al. Processos de desertificação no semiárido brasileiro. In: SÁ, I. B.; SILVA, P. C. G. (Ed.). Semiárido brasileiro: pesquisa desenvolvimento e inovação. Petrolina: Embrapa Semiárido, 2010."
   },
   {
     "id": "enade-1-geografia-2025-q38",
@@ -1715,8 +1668,7 @@
       "desertificação",
       "geotecnologias"
     ],
-    "fonte": "Disponível em: https://bit.ly/44PF331. Acesso em: 20 maio 2025 (adaptado). SÁ, I. B. et al. Processos de desertificação no semiárido brasileiro. In: SÁ, I. B.; SILVA, P. C. G. (Ed.). Semiárido brasileiro: pesquisa desenvolvimento e inovação. Petrolina: Embrapa Semiárido, 2010.",
-    "possui_imagem": false
+    "fonte": "Disponível em: https://bit.ly/44PF331. Acesso em: 20 maio 2025 (adaptado). SÁ, I. B. et al. Processos de desertificação no semiárido brasileiro. In: SÁ, I. B.; SILVA, P. C. G. (Ed.). Semiárido brasileiro: pesquisa desenvolvimento e inovação. Petrolina: Embrapa Semiárido, 2010."
   },
   {
     "id": "enade-1-geografia-2025-q39",
@@ -1748,8 +1700,7 @@
       "orientação",
       "rosa dos ventos"
     ],
-    "fonte": "PEREIRA, J. A. Geografia em rima. Disponível em: https://juaresdocordel.blogspot.com. Acesso em: 24 maio 2025 (fragmento).",
-    "possui_imagem": false
+    "fonte": "PEREIRA, J. A. Geografia em rima. Disponível em: https://juaresdocordel.blogspot.com. Acesso em: 24 maio 2025 (fragmento)."
   },
   {
     "id": "enade-1-geografia-2025-q40",
@@ -1781,8 +1732,7 @@
       "acessibilidade",
       "pessoas com deficiência"
     ],
-    "fonte": "ARTIEDA, L. et al. Acesso para pessoas com deficiência em áreas urbanas. Disponível em: https://itdp.org. Acesso em: 17 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "ARTIEDA, L. et al. Acesso para pessoas com deficiência em áreas urbanas. Disponível em: https://itdp.org. Acesso em: 17 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q41",
@@ -1814,8 +1764,7 @@
       "segregação espacial",
       "cultura hip-hop"
     ],
-    "fonte": "MANO BROWN. Raio-X do Brasil. São Paulo: Zimbabwe Records, 1993 (fragmento).",
-    "possui_imagem": false
+    "fonte": "MANO BROWN. Raio-X do Brasil. São Paulo: Zimbabwe Records, 1993 (fragmento)."
   },
   {
     "id": "enade-1-geografia-2025-q42",
@@ -1847,8 +1796,7 @@
       "produção do espaço",
       "cultura hip-hop"
     ],
-    "fonte": "MANO BROWN. Raio-X do Brasil. São Paulo: Zimbabwe Records, 1993 (fragmento).",
-    "possui_imagem": false
+    "fonte": "MANO BROWN. Raio-X do Brasil. São Paulo: Zimbabwe Records, 1993 (fragmento)."
   },
   {
     "id": "enade-1-geografia-2025-q43",
@@ -1880,8 +1828,7 @@
       "Cerrado",
       "agronegócio"
     ],
-    "fonte": "Relatório Anual do Desmatamento no Brasil – RAD 2024. Disponível em: alerta.mapbiomas.org. Acesso em: 22 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Relatório Anual do Desmatamento no Brasil – RAD 2024. Disponível em: alerta.mapbiomas.org. Acesso em: 22 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q44",
@@ -1913,8 +1860,7 @@
       "socioambiental",
       "recursos didáticos"
     ],
-    "fonte": "PIRES, C. Disponível em: www.revistaedugeo.com.br. Acesso em: 25 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "PIRES, C. Disponível em: www.revistaedugeo.com.br. Acesso em: 25 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q45",
@@ -1947,8 +1893,7 @@
       "recursos didáticos"
     ],
     "fonte": "MANHÃES, R. Disponível em: https://ndmais.com.br. Acesso em: 25 maio 2025. Disponível em: www.ecodebate.com.br. Acesso em: 25 maio 2025. GILMAR. Disponível em: https://gilmaronline.blogspot.com. Acesso em: 25 jun. 2025. ARIONAURO. Disponível em: https://blogs.correiobraziliense.com.br. Acesso em: 25 maio 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Quatro charges (A, B, C e D). A: uma nota de R$100 personificada dizendo \"Lembra de mim?\" para um homem que responde \"Claaaro!\" com corações ao redor (tema: dinheiro esquecido em bancos). B: uma retroescavadeira destruindo uma montanha de pedras onde estão sentados uma mulher indígena, uma criança, uma ave e uma árvore, e o operador diz \"O importante é expandir!\" (tema: destruição ambiental). C: um casal sobre o telhado de uma casa cercada por enchente e lixo, com cartaz \"Lei do lixo\", dizendo que precisam mudar os hábitos (tema: enchente/lixo urbano). D: uma família pobre em área de favela, com uma criança no colo do pai apontando para uma cidade com prédios altos ao fundo e dizendo \"Pai, eu quero morar naquele mundo!\" (tema: desigualdade de renda/contraste rico-pobre)."
+    "imagens_desc": ["Quatro charges (A, B, C e D). A: uma nota de R$100 personificada dizendo \"Lembra de mim?\" para um homem que responde \"Claaaro!\" com corações ao redor (tema: dinheiro esquecido em bancos). B: uma retroescavadeira destruindo uma montanha de pedras onde estão sentados uma mulher indígena, uma criança, uma ave e uma árvore, e o operador diz \"O importante é expandir!\" (tema: destruição ambiental). C: um casal sobre o telhado de uma casa cercada por enchente e lixo, com cartaz \"Lei do lixo\", dizendo que precisam mudar os hábitos (tema: enchente/lixo urbano). D: uma família pobre em área de favela, com uma criança no colo do pai apontando para uma cidade com prédios altos ao fundo e dizendo \"Pai, eu quero morar naquele mundo!\" (tema: desigualdade de renda/contraste rico-pobre)."]
   },
   {
     "id": "enade-1-geografia-2025-q46",
@@ -1981,8 +1926,7 @@
       "linguagens geográficas"
     ],
     "fonte": "Disponível em: https://www.jornalopcao.com.br. Acesso em: 22 maio 2025. Disponível em: https://plataforma.brasil.mapbiomas.org. Acesso em: 22 maio 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do território do Quilombo Kalunga (Goiás), recortado da plataforma MapBiomas, mostrando o contorno irregular da área quilombola sobre um mapa de fundo com cidades vizinhas indicadas (Campo Alegre, Santa Maria, Ponta da Serra, São José, São Félix, Monte Alegre de Goiás, Cavalcante/Teresina de Goiás, Nova Roma, Bonito). Dentro do contorno, a legenda apresenta duas classes de uso do solo: \"Natural\" (verde, cobrindo a grande maioria da área) e \"Antrópico\" (amarelo, em manchas dispersas e minoritárias), evidenciando alto grau de preservação da vegetação nativa dentro do território."
+    "imagens_desc": ["Mapa do território do Quilombo Kalunga (Goiás), recortado da plataforma MapBiomas, mostrando o contorno irregular da área quilombola sobre um mapa de fundo com cidades vizinhas indicadas (Campo Alegre, Santa Maria, Ponta da Serra, São José, São Félix, Monte Alegre de Goiás, Cavalcante/Teresina de Goiás, Nova Roma, Bonito). Dentro do contorno, a legenda apresenta duas classes de uso do solo: \"Natural\" (verde, cobrindo a grande maioria da área) e \"Antrópico\" (amarelo, em manchas dispersas e minoritárias), evidenciando alto grau de preservação da vegetação nativa dentro do território."]
   },
   {
     "id": "enade-1-geografia-2025-q47",
@@ -2015,8 +1959,7 @@
       "Cerrado"
     ],
     "fonte": "Disponível em: https://www.jornalopcao.com.br. Acesso em: 22 maio 2025. Disponível em: https://plataforma.brasil.mapbiomas.org. Acesso em: 22 maio 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do território do Quilombo Kalunga (Goiás), recortado da plataforma MapBiomas, mostrando o contorno irregular da área quilombola sobre um mapa de fundo com cidades vizinhas indicadas. Dentro do contorno, a legenda apresenta duas classes de uso do solo: \"Natural\" (verde, cobrindo a grande maioria da área) e \"Antrópico\" (amarelo, em manchas dispersas e minoritárias), evidenciando alto grau de preservação da vegetação nativa dentro do território."
+    "imagens_desc": ["Mapa do território do Quilombo Kalunga (Goiás), recortado da plataforma MapBiomas, mostrando o contorno irregular da área quilombola sobre um mapa de fundo com cidades vizinhas indicadas. Dentro do contorno, a legenda apresenta duas classes de uso do solo: \"Natural\" (verde, cobrindo a grande maioria da área) e \"Antrópico\" (amarelo, em manchas dispersas e minoritárias), evidenciando alto grau de preservação da vegetação nativa dentro do território."]
   },
   {
     "id": "enade-1-geografia-2025-q48",
@@ -2049,8 +1992,7 @@
       "políticas públicas"
     ],
     "fonte": "Disponível em: www.generonumero.media. Acesso em: 9 jun. 2025. CERQUEIRA, D. Atlas da violência 2025. Brasília: Ipea, 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Texto 1: mapa do Brasil com macrorregiões e círculos comparando 2014/2023 e percentuais de aumento da violência contra mulheres indígenas (Norte 411%, Nordeste 346%, Centro-Oeste 115%, Sudeste 283%, Sul 289%). Texto 2: gráfico de barras duplas por estado comparando percentual de homicídios de mulheres negras e percentual de mulheres negras na população, mostrando sobrerrepresentação das mulheres negras entre as vítimas na maioria dos estados."
+    "imagens_desc": ["Texto 1: mapa do Brasil com macrorregiões e círculos comparando 2014/2023 e percentuais de aumento da violência contra mulheres indígenas (Norte 411%, Nordeste 346%, Centro-Oeste 115%, Sudeste 283%, Sul 289%). Texto 2: gráfico de barras duplas por estado comparando percentual de homicídios de mulheres negras e percentual de mulheres negras na população, mostrando sobrerrepresentação das mulheres negras entre as vítimas na maioria dos estados."]
   },
   {
     "id": "enade-1-geografia-2025-q49",
@@ -2083,8 +2025,7 @@
       "dinâmica populacional"
     ],
     "fonte": "Disponível em: www.generonumero.media. Acesso em: 9 jun. 2025. CERQUEIRA, D. Atlas da violência 2025. Brasília: Ipea, 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Texto 1: mapa do Brasil com macrorregiões e círculos comparando 2014/2023 e percentuais de aumento da violência contra mulheres indígenas (Norte 411%, Nordeste 346%, Centro-Oeste 115%, Sudeste 283%, Sul 289%). Texto 2: gráfico de barras duplas por estado comparando percentual de homicídios de mulheres negras e percentual de mulheres negras na população, mostrando sobrerrepresentação das mulheres negras entre as vítimas na maioria dos estados."
+    "imagens_desc": ["Texto 1: mapa do Brasil com macrorregiões e círculos comparando 2014/2023 e percentuais de aumento da violência contra mulheres indígenas (Norte 411%, Nordeste 346%, Centro-Oeste 115%, Sudeste 283%, Sul 289%). Texto 2: gráfico de barras duplas por estado comparando percentual de homicídios de mulheres negras e percentual de mulheres negras na população, mostrando sobrerrepresentação das mulheres negras entre as vítimas na maioria dos estados."]
   },
   {
     "id": "enade-1-geografia-2025-q50",
@@ -2117,8 +2058,7 @@
       "saúde ambiental"
     ],
     "fonte": "Disponível em: https://brasil.mapbiomas.org. Acesso em: 7 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Infográfico \"Área de garimpo na Amazônia\": gráfico de barras mostrando 228 mil ha (2021) e 263 mil ha (2022) de área garimpada no Brasil, com 92% concentrados na Amazônia e 8% em outros biomas; ao lado, mapa do Brasil com o contorno dos estados em preto e a malha hidrográfica da Amazônia em azul, sobre a qual pontos amarelos assinalam as áreas de garimpo próximas aos rios."
+    "imagens_desc": ["Infográfico \"Área de garimpo na Amazônia\": gráfico de barras mostrando 228 mil ha (2021) e 263 mil ha (2022) de área garimpada no Brasil, com 92% concentrados na Amazônia e 8% em outros biomas; ao lado, mapa do Brasil com o contorno dos estados em preto e a malha hidrográfica da Amazônia em azul, sobre a qual pontos amarelos assinalam as áreas de garimpo próximas aos rios."]
   },
   {
     "id": "enade-1-geografia-2025-q51",
@@ -2151,8 +2091,7 @@
       "facções criminosas"
     ],
     "fonte": "Fonte: Instituto Mãe Crioula / Forum Brasileiro de Segurança Pública. Disponível em: https://diariodoacre.com.br. Acesso em: 25 maio 2025. Disponível em: https://oglobo.globo.com. Acesso em: 25 maio 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa da América do Sul destacando a Amazônia Legal brasileira, com áreas em laranja indicando \"Presença de apenas uma facção\" e áreas em azul-escuro indicando \"Disputa territorial por facções\", cobrindo grande parte do território amazônico; países vizinhos (Venezuela, Guiana, Suriname, Guiana Francesa, Colômbia, Peru, Bolívia, Paraguai) estão indicados ao redor, com um mapa de localização da América do Sul no canto inferior esquerdo."
+    "imagens_desc": ["Mapa da América do Sul destacando a Amazônia Legal brasileira, com áreas em laranja indicando \"Presença de apenas uma facção\" e áreas em azul-escuro indicando \"Disputa territorial por facções\", cobrindo grande parte do território amazônico; países vizinhos (Venezuela, Guiana, Suriname, Guiana Francesa, Colômbia, Peru, Bolívia, Paraguai) estão indicados ao redor, com um mapa de localização da América do Sul no canto inferior esquerdo."]
   },
   {
     "id": "enade-1-geografia-2025-q52",
@@ -2183,8 +2122,7 @@
       "estudante cego",
       "relevo brasileiro",
       "recursos didáticos táteis"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "enade-1-geografia-2025-q53",
@@ -2215,8 +2153,7 @@
       "estudante cego",
       "relevo brasileiro",
       "material tátil"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "enade-1-geografia-2025-q54",
@@ -2248,8 +2185,7 @@
       "território ancestral",
       "impactos socioambientais"
     ],
-    "fonte": "BETIM, F.; JUCA, B. Os ventos da economia verde não sopram para o Quilombo do Cumbe. Disponível em: https://brasil.elpais.com. Acesso em: 14 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "BETIM, F.; JUCA, B. Os ventos da economia verde não sopram para o Quilombo do Cumbe. Disponível em: https://brasil.elpais.com. Acesso em: 14 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q55",
@@ -2281,8 +2217,7 @@
       "questão fundiária",
       "impactos socioambientais"
     ],
-    "fonte": "Disponível em: https://jornal.usp.br. Acesso em: 21 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Disponível em: https://jornal.usp.br. Acesso em: 21 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q56",
@@ -2314,8 +2249,7 @@
       "dupla afetação",
       "conhecimento tradicional"
     ],
-    "fonte": "Disponível em: www.gov.br/incra. Acesso em: 16 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Disponível em: www.gov.br/incra. Acesso em: 16 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q57",
@@ -2347,8 +2281,7 @@
       "interdisciplinaridade",
       "identidade cultural"
     ],
-    "fonte": "Disponível em: www.gov.br/incra. Acesso em: 16 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Disponível em: www.gov.br/incra. Acesso em: 16 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q58",
@@ -2381,8 +2314,7 @@
       "autonomia do estudante"
     ],
     "fonte": "fonte: Econovis, com base em dados do US.Census e do General Admistration of Customs, 9.abr.2025. Disponível em: www.poder360.com.br. Acesso em: 25 maio 2025. RAJAH, R.; ALBAYRAK, A. China versus America on Global Trade. Lowy Institute, jan. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Dois mapas-múndi comparando o principal parceiro comercial de cada país em 2000 e em 2024: no mapa de 2000, a maioria dos países está pintada de azul (EUA como maior parceiro comercial); no mapa de 2024, a maioria está pintada de vermelho (China como maior parceiro comercial), evidenciando a inversão da hegemonia comercial global entre as duas potências."
+    "imagens_desc": ["Dois mapas-múndi comparando o principal parceiro comercial de cada país em 2000 e em 2024: no mapa de 2000, a maioria dos países está pintada de azul (EUA como maior parceiro comercial); no mapa de 2024, a maioria está pintada de vermelho (China como maior parceiro comercial), evidenciando a inversão da hegemonia comercial global entre as duas potências."]
   },
   {
     "id": "enade-1-geografia-2025-q59",
@@ -2415,8 +2347,7 @@
       "comércio internacional"
     ],
     "fonte": "fonte: Econovis, com base em dados do US.Census e do General Admistration of Customs, 9.abr.2025. Disponível em: www.poder360.com.br. Acesso em: 25 maio 2025. RAJAH, R.; ALBAYRAK, A. China versus America on Global Trade. Lowy Institute, jan. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Dois mapas-múndi comparando o principal parceiro comercial de cada país em 2000 e em 2024: no mapa de 2000, a maioria dos países está pintada de azul (EUA como maior parceiro comercial); no mapa de 2024, a maioria está pintada de vermelho (China como maior parceiro comercial), evidenciando a inversão da hegemonia comercial global entre as duas potências."
+    "imagens_desc": ["Dois mapas-múndi comparando o principal parceiro comercial de cada país em 2000 e em 2024: no mapa de 2000, a maioria dos países está pintada de azul (EUA como maior parceiro comercial); no mapa de 2024, a maioria está pintada de vermelho (China como maior parceiro comercial), evidenciando a inversão da hegemonia comercial global entre as duas potências."]
   },
   {
     "id": "enade-1-geografia-2025-q60",
@@ -2449,8 +2380,7 @@
       "infraestrutura portuária"
     ],
     "fonte": "Disponível em: https://agenciagov.ebc.com.br. Acesso em: 3 jun. 2025. Disponível em: https://rotabioceanicanews.com.br. Acesso em: 3 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa da América do Sul com o corredor ferroviário bioceânico Brasil-Peru: o porto de Chancay (Peru), no Oceano Pacífico, conectado por uma rota de projetos/estudos via Cusco, Rio Branco e Porto Velho até Lucas do Rio Verde (Mato Grosso); a partir daí, a Ferrovia de Integração Centro-Oeste (FICO) liga Lucas do Rio Verde a Mara Rosa (Goiás), e a Ferrovia Oeste-Leste (FIOL) liga Mara Rosa ao porto de Ilhéus (Bahia), no Oceano Atlântico, com legenda diferenciando ferrovias existentes, planejadas e em estudo."
+    "imagens_desc": ["Mapa da América do Sul com o corredor ferroviário bioceânico Brasil-Peru: o porto de Chancay (Peru), no Oceano Pacífico, conectado por uma rota de projetos/estudos via Cusco, Rio Branco e Porto Velho até Lucas do Rio Verde (Mato Grosso); a partir daí, a Ferrovia de Integração Centro-Oeste (FICO) liga Lucas do Rio Verde a Mara Rosa (Goiás), e a Ferrovia Oeste-Leste (FIOL) liga Mara Rosa ao porto de Ilhéus (Bahia), no Oceano Atlântico, com legenda diferenciando ferrovias existentes, planejadas e em estudo."]
   },
   {
     "id": "enade-1-geografia-2025-q61",
@@ -2483,8 +2413,7 @@
       "metodologia de ensino"
     ],
     "fonte": "Disponível em: https://jacobin.com.br. Acesso em: 21 maio 2025. Disponível em: www.bbc.com. Acesso em: 21 maio 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa-múndi com pontos indicando bases militares dos EUA no exterior em 2015, concentradas na Europa (especialmente Alemanha), Ásia (Japão, Coreia do Sul) e diversos outros países. Segundo mapa mostrando as rotas planejadas da \"nova rota da seda\" chinesa, conectando a China à Europa, Oriente Médio, África e Sudeste Asiático por ferrovias (existentes e planejadas) e rotas marítimas."
+    "imagens_desc": ["Mapa-múndi com pontos indicando bases militares dos EUA no exterior em 2015, concentradas na Europa (especialmente Alemanha), Ásia (Japão, Coreia do Sul) e diversos outros países. Segundo mapa mostrando as rotas planejadas da \"nova rota da seda\" chinesa, conectando a China à Europa, Oriente Médio, África e Sudeste Asiático por ferrovias (existentes e planejadas) e rotas marítimas."]
   },
   {
     "id": "enade-1-geografia-2025-q62",
@@ -2517,8 +2446,7 @@
       "conflitos armados"
     ],
     "fonte": "Disponível em: https://jacobin.com.br. Acesso em: 21 maio 2025. Disponível em: www.bbc.com. Acesso em: 21 maio 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa-múndi com pontos indicando bases militares dos EUA no exterior em 2015, concentradas na Europa (especialmente Alemanha), Ásia (Japão, Coreia do Sul) e diversos outros países. Segundo mapa mostrando as rotas planejadas da \"nova rota da seda\" chinesa, conectando a China à Europa, Oriente Médio, África e Sudeste Asiático por ferrovias (existentes e planejadas) e rotas marítimas, incluindo o trajeto marítimo que passa pelo Mar Vermelho."
+    "imagens_desc": ["Mapa-múndi com pontos indicando bases militares dos EUA no exterior em 2015, concentradas na Europa (especialmente Alemanha), Ásia (Japão, Coreia do Sul) e diversos outros países. Segundo mapa mostrando as rotas planejadas da \"nova rota da seda\" chinesa, conectando a China à Europa, Oriente Médio, África e Sudeste Asiático por ferrovias (existentes e planejadas) e rotas marítimas, incluindo o trajeto marítimo que passa pelo Mar Vermelho."]
   },
   {
     "id": "enade-1-geografia-2025-q63",
@@ -2550,8 +2478,7 @@
       "sistema financeiro",
       "urbanização"
     ],
-    "fonte": "ELIAS, D. Consumo produtivo e urbanização no Brasil: as cidades do agronegócio. Revista Ciência Geográfica, jan.-dez. 2022 (adaptado).",
-    "possui_imagem": false
+    "fonte": "ELIAS, D. Consumo produtivo e urbanização no Brasil: as cidades do agronegócio. Revista Ciência Geográfica, jan.-dez. 2022 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q64",
@@ -2584,8 +2511,7 @@
       "manejo ambiental"
     ],
     "fonte": "Disponível em: https://agenciadenoticias.ibge.gov.br. Acesso em: 8 jun. 2025 (adaptado). Disponível em: https://brasil.mapbiomas.org. Acesso em: 8 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Gráficos de rosca por bioma mostrando o número de espécies avaliadas e sua distribuição em categorias de conservação (do criticamente em perigo ao menos ameaça); e gráfico/tabela de área queimada por bioma entre 1985 e 2024, com o Cerrado liderando em percentual do total nacional (43%) e do próprio bioma (45%) queimado, seguido pela Amazônia (42% do total, 21% do bioma), e ranking dos estados com maior área queimada (Mato Grosso, Pará, Maranhão, Tocantins, Bahia)."
+    "imagens_desc": ["Gráficos de rosca por bioma mostrando o número de espécies avaliadas e sua distribuição em categorias de conservação (do criticamente em perigo ao menos ameaça); e gráfico/tabela de área queimada por bioma entre 1985 e 2024, com o Cerrado liderando em percentual do total nacional (43%) e do próprio bioma (45%) queimado, seguido pela Amazônia (42% do total, 21% do bioma), e ranking dos estados com maior área queimada (Mato Grosso, Pará, Maranhão, Tocantins, Bahia)."]
   },
   {
     "id": "enade-1-geografia-2025-q65",
@@ -2618,8 +2544,7 @@
       "queimadas"
     ],
     "fonte": "Disponível em: https://agenciadenoticias.ibge.gov.br. Acesso em: 8 jun. 2025 (adaptado). Disponível em: https://brasil.mapbiomas.org. Acesso em: 8 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Gráficos de rosca por bioma mostrando o número de espécies avaliadas e sua distribuição em categorias de conservação, com a Mata Atlântica apresentando os maiores números absolutos nas categorias de maior ameaça (1139 criticamente em perigo, 675 em perigo, 1491 vulnerável); e gráfico/tabela de área queimada por bioma entre 1985 e 2024, com o Cerrado liderando em percentual do total nacional e do próprio bioma queimado."
+    "imagens_desc": ["Gráficos de rosca por bioma mostrando o número de espécies avaliadas e sua distribuição em categorias de conservação, com a Mata Atlântica apresentando os maiores números absolutos nas categorias de maior ameaça (1139 criticamente em perigo, 675 em perigo, 1491 vulnerável); e gráfico/tabela de área queimada por bioma entre 1985 e 2024, com o Cerrado liderando em percentual do total nacional e do próprio bioma queimado."]
   },
   {
     "id": "enade-1-geografia-2025-q66",
@@ -2652,8 +2577,7 @@
       "demarcação de terras"
     ],
     "fonte": "Disponível em: https://apiboficial.org. Acesso em: 8 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Fotografia, vista de baixo para cima, de um homem indígena com cocar de penas brancas, de costas, segurando com os dois braços erguidos um cartaz oficial acima da cabeça, com o brasão do Governo Federal e os dizeres \"Governo Federal — Ministério da Justiça — Fundação Nacional dos Povos Indígenas — TERRA PROTEGIDA\", além de aviso de acesso restrito. Ao fundo, céu azul com nuvens."
+    "imagens_desc": ["Fotografia, vista de baixo para cima, de um homem indígena com cocar de penas brancas, de costas, segurando com os dois braços erguidos um cartaz oficial acima da cabeça, com o brasão do Governo Federal e os dizeres \"Governo Federal — Ministério da Justiça — Fundação Nacional dos Povos Indígenas — TERRA PROTEGIDA\", além de aviso de acesso restrito. Ao fundo, céu azul com nuvens."]
   },
   {
     "id": "enade-1-geografia-2025-q67",
@@ -2686,8 +2610,7 @@
       "cartografia histórica"
     ],
     "fonte": "THÉRY, H.; MELLO-THÉRY, N. A. Atlas do Brasil: disparidades e dinâmicas do território. São Paulo: Edusp, 2018 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Quatro mapas do Brasil intitulados \"Economia e Território\", um para cada século (XVI, XVII, XVIII e XIX). Século XVI: meridiano de Tordesilhas, capitanias hereditárias e reais, áreas de pau-brasil, cana-de-açúcar e pecuária no litoral. Século XVII: expansão da pecuária para o interior, áreas de ouro, drogas do sertão na Amazônia, região ocupada pelos holandeses. Século XVIII: grande expansão de ouro e diamantes no interior (Minas Gerais), drogas do sertão ampliadas, algodão, cana-de-açúcar e pecuária mais distribuídas, eixos de transporte. Século XIX: café no Sudeste, mate, cacau, fumo, algodão, ouro e diamante, drogas do sertão e borracha na Amazônia, pecuária distribuída, surgimento de ferrovias e mais cidades."
+    "imagens_desc": ["Quatro mapas do Brasil intitulados \"Economia e Território\", um para cada século (XVI, XVII, XVIII e XIX). Século XVI: meridiano de Tordesilhas, capitanias hereditárias e reais, áreas de pau-brasil, cana-de-açúcar e pecuária no litoral. Século XVII: expansão da pecuária para o interior, áreas de ouro, drogas do sertão na Amazônia, região ocupada pelos holandeses. Século XVIII: grande expansão de ouro e diamantes no interior (Minas Gerais), drogas do sertão ampliadas, algodão, cana-de-açúcar e pecuária mais distribuídas, eixos de transporte. Século XIX: café no Sudeste, mate, cacau, fumo, algodão, ouro e diamante, drogas do sertão e borracha na Amazônia, pecuária distribuída, surgimento de ferrovias e mais cidades."]
   },
   {
     "id": "enade-1-geografia-2025-q68",
@@ -2719,8 +2642,7 @@
       "produção do espaço",
       "trabalho de campo"
     ],
-    "fonte": "CAVALCANTI, L. S. Aprender sobre a cidade: a Geografia Urbana Brasileira e a formação de jovens escolares. Revista Geográfica de América Central, Número Especial EGAL, Costa Rica, jul.-dez. 2011 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CAVALCANTI, L. S. Aprender sobre a cidade: a Geografia Urbana Brasileira e a formação de jovens escolares. Revista Geográfica de América Central, Número Especial EGAL, Costa Rica, jul.-dez. 2011 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q69",
@@ -2752,8 +2674,7 @@
       "segregação socioespacial",
       "Ensino Médio"
     ],
-    "fonte": "CAVALCANTI, L. S. Aprender sobre a cidade: a Geografia Urbana Brasileira e a formação de jovens escolares. Revista Geográfica de América Central, Número Especial EGAL, Costa Rica, jul.-dez. 2011 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CAVALCANTI, L. S. Aprender sobre a cidade: a Geografia Urbana Brasileira e a formação de jovens escolares. Revista Geográfica de América Central, Número Especial EGAL, Costa Rica, jul.-dez. 2011 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q70",
@@ -2786,8 +2707,7 @@
       "políticas ambientais"
     ],
     "fonte": "Texto 1: Disponível em: https://g1.globo.com. Acesso em: 3 jun. 2025. Texto 2: Disponível em: www.poder360.com.br. Acesso em: 3 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil destacando em vermelho, sobre o contorno dos estados, as áreas atingidas por seca histórica entre maio e junho de 2024, concentradas no Norte, partes do Nordeste, Centro-Oeste e Sudeste/Sul. Segundo mapa, colorido por intensidade (amarelo a vermelho escuro), mostrando os focos de incêndio no Brasil em agosto de 2024 por estado, com Mato Grosso concentrando 21% das queimadas do país, acompanhado de tabela numérica de focos por unidade da federação.",
+    "imagens_desc": ["Mapa do Brasil destacando em vermelho, sobre o contorno dos estados, as áreas atingidas por seca histórica entre maio e junho de 2024, concentradas no Norte, partes do Nordeste, Centro-Oeste e Sudeste/Sul. Segundo mapa, colorido por intensidade (amarelo a vermelho escuro), mostrando os focos de incêndio no Brasil em agosto de 2024 por estado, com Mato Grosso concentrando 21% das queimadas do país, acompanhado de tabela numérica de focos por unidade da federação."],
     "tabela": {
       "colunas": [
         "Estado",
@@ -2935,8 +2855,7 @@
       "poesia e geografia",
       "Carlos Drummond de Andrade"
     ],
-    "fonte": "ANDRADE, C. D. Alguma poesia. Rio de Janeiro, Record, 2022 (fragmento).",
-    "possui_imagem": false
+    "fonte": "ANDRADE, C. D. Alguma poesia. Rio de Janeiro, Record, 2022 (fragmento)."
   },
   {
     "id": "enade-1-geografia-2025-q72",
@@ -2969,8 +2888,7 @@
       "saneamento básico"
     ],
     "fonte": "Censo 2022: rede de esgoto alcança 62,5% da população, mas desigualdades regionais e por cor e raça persistem. Disponível em: https://agenciadenoticias.ibge.gov.br. Acesso em: 24 maio 2025 (adaptado). SILVA, J. A.; DALMASO, A. S. O agente comunitário de saúde e suas atribuições: os desafios para os processos de formação de recursos humanos em saúde. Interface – Comunicação, Saúde, Educação, n. 10, fev. 2002 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa coroplético do Brasil por municípios mostrando o percentual de moradores em domicílio sem banheiro ou sanitário em 2022, com tons mais escuros (piores percentuais, até 45,99%) concentrados principalmente na região Norte e em partes do Nordeste, e tons mais claros (melhores condições) predominando no Sul e Sudeste."
+    "imagens_desc": ["Mapa coroplético do Brasil por municípios mostrando o percentual de moradores em domicílio sem banheiro ou sanitário em 2022, com tons mais escuros (piores percentuais, até 45,99%) concentrados principalmente na região Norte e em partes do Nordeste, e tons mais claros (melhores condições) predominando no Sul e Sudeste."]
   },
   {
     "id": "enade-1-geografia-2025-q73",
@@ -3003,8 +2921,7 @@
       "saneamento"
     ],
     "fonte": "Censo 2022: rede de esgoto alcança 62,5% da população, mas desigualdades regionais e por cor e raça persistem. Disponível em: https://agenciadenoticias.ibge.gov.br. Acesso em: 24 maio 2025 (adaptado). SILVA, J. A.; DALMASO, A. S. O agente comunitário de saúde e suas atribuições: os desafios para os processos de formação de recursos humanos em saúde. Interface – Comunicação, Saúde, Educação, n. 10, fev. 2002 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa coroplético do Brasil por municípios mostrando o percentual de moradores em domicílio sem banheiro ou sanitário em 2022, com tons mais escuros (piores percentuais) concentrados principalmente na região Norte e em partes do Nordeste, e tons mais claros predominando no Sul e Sudeste."
+    "imagens_desc": ["Mapa coroplético do Brasil por municípios mostrando o percentual de moradores em domicílio sem banheiro ou sanitário em 2022, com tons mais escuros (piores percentuais) concentrados principalmente na região Norte e em partes do Nordeste, e tons mais claros predominando no Sul e Sudeste."]
   },
   {
     "id": "enade-1-geografia-2025-q74",
@@ -3036,8 +2953,7 @@
       "redes geográficas",
       "globalização"
     ],
-    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2006 (adaptado).",
-    "possui_imagem": false
+    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2006 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q75",
@@ -3069,8 +2985,7 @@
       "desigualdade socioespacial",
       "Milton Santos"
     ],
-    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2006 (adaptado).",
-    "possui_imagem": false
+    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2006 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q76",
@@ -3103,8 +3018,7 @@
       "sociobiodiversidade"
     ],
     "fonte": "Disponível em: www.ufmg.br. Acesso em: 23 jul. 2025 (adaptado). Disponível em: https://ispn.org.br. Acesso em: 1 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa temático de uma área do Cerrado maranhense com duas classes de cobertura: \"Vegetação nativa\" (verde, concentrada na porção norte da área) e \"Desmatamento\" (amarelo, concentrado na porção sul/centro-sul, ocupando proporção próxima à metade da área mapeada), com escala gráfica de 0 a 900 km."
+    "imagens_desc": ["Mapa temático de uma área do Cerrado maranhense com duas classes de cobertura: \"Vegetação nativa\" (verde, concentrada na porção norte da área) e \"Desmatamento\" (amarelo, concentrado na porção sul/centro-sul, ocupando proporção próxima à metade da área mapeada), com escala gráfica de 0 a 900 km."]
   },
   {
     "id": "enade-1-geografia-2025-q77",
@@ -3136,8 +3050,7 @@
       "territórios sagrados",
       "metodologia de pesquisa"
     ],
-    "fonte": "Intolerância religiosa, racismo religioso e casas de rezas Kaiowá e Guarani queimadas. Disponível em: https://apiboficial.org. Acesso em: 15 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Intolerância religiosa, racismo religioso e casas de rezas Kaiowá e Guarani queimadas. Disponível em: https://apiboficial.org. Acesso em: 15 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q78",
@@ -3169,8 +3082,7 @@
       "territorialidade religiosa",
       "conflitos territoriais"
     ],
-    "fonte": "Intolerância religiosa, racismo religioso e casas de rezas Kaiowá e Guarani queimadas. Disponível em: https://apiboficial.org. Acesso em: 15 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Intolerância religiosa, racismo religioso e casas de rezas Kaiowá e Guarani queimadas. Disponível em: https://apiboficial.org. Acesso em: 15 maio 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q79",
@@ -3202,8 +3114,7 @@
       "fluxo migratório",
       "espaço urbano"
     ],
-    "fonte": "VESSONI, A. Unesp discute políticas públicas para migrantes internacionais em Botucatu. Disponível em: https://jornal.unesp.br. Acesso em: 5 jun. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "VESSONI, A. Unesp discute políticas públicas para migrantes internacionais em Botucatu. Disponível em: https://jornal.unesp.br. Acesso em: 5 jun. 2025 (adaptado)."
   },
   {
     "id": "enade-1-geografia-2025-q80",
@@ -3235,8 +3146,7 @@
       "trabalho formal",
       "políticas públicas municipais"
     ],
-    "fonte": "VESSONI, A. Unesp discute políticas públicas para migrantes internacionais em Botucatu. Disponível em: https://jornal.unesp.br. Acesso em: 5 jun. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "VESSONI, A. Unesp discute políticas públicas para migrantes internacionais em Botucatu. Disponível em: https://jornal.unesp.br. Acesso em: 5 jun. 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q31",
@@ -3269,8 +3179,7 @@
       "ensino fundamental"
     ],
     "fonte": "Disponível em: https://arquilogia.wordpress.com. Acesso em: 30 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Foto aérea (vista vertical/de satélite) do Projeto do Colégio Gerardo Molina, em Bogotá, Colômbia: mostra um conjunto de edificações escolares modulares dispostas lado a lado, com telhados escuros, cercadas por uma quadra poliesportiva e áreas verdes, inserido em meio a um bairro popular denso, com ruas estreitas e lotes residenciais autoconstruídos ao redor."
+    "imagens_desc": ["Foto aérea (vista vertical/de satélite) do Projeto do Colégio Gerardo Molina, em Bogotá, Colômbia: mostra um conjunto de edificações escolares modulares dispostas lado a lado, com telhados escuros, cercadas por uma quadra poliesportiva e áreas verdes, inserido em meio a um bairro popular denso, com ruas estreitas e lotes residenciais autoconstruídos ao redor."]
   },
   {
     "id": "enade-2-geografia-2025-q32",
@@ -3302,8 +3211,7 @@
       "conflitos internacionais",
       "categorias geográficas"
     ],
-    "possui_imagem": true,
-    "imagem_desc": "Capa do livro em quadrinhos \"Palestina\", de Joe Sacco: ilustração em tons de rosa/magenta e preto, com o título \"PALESTINA\" disposto verticalmente nas laterais em letras grandes, mostrando uma cena de rua com veículos (uma caminhonete e um carro) cercados por pessoas em movimento — algumas correndo, outras carregando objetos —, remetendo a um contexto de conflito e deslocamento urbano nos territórios palestinos."
+    "imagens_desc": ["Capa do livro em quadrinhos \"Palestina\", de Joe Sacco: ilustração em tons de rosa/magenta e preto, com o título \"PALESTINA\" disposto verticalmente nas laterais em letras grandes, mostrando uma cena de rua com veículos (uma caminhonete e um carro) cercados por pessoas em movimento — algumas correndo, outras carregando objetos —, remetendo a um contexto de conflito e deslocamento urbano nos territórios palestinos."]
   },
   {
     "id": "enade-2-geografia-2025-q33",
@@ -3335,8 +3243,7 @@
       "curdos",
       "autodeterminação"
     ],
-    "possui_imagem": true,
-    "imagem_desc": "Capa do livro em quadrinhos \"Palestina\", de Joe Sacco: ilustração em tons de rosa/magenta e preto, com o título \"PALESTINA\" disposto verticalmente nas laterais em letras grandes, mostrando uma cena de rua com veículos cercados por pessoas em movimento, remetendo a um contexto de conflito e deslocamento urbano nos territórios palestinos."
+    "imagens_desc": ["Capa do livro em quadrinhos \"Palestina\", de Joe Sacco: ilustração em tons de rosa/magenta e preto, com o título \"PALESTINA\" disposto verticalmente nas laterais em letras grandes, mostrando uma cena de rua com veículos cercados por pessoas em movimento, remetendo a um contexto de conflito e deslocamento urbano nos territórios palestinos."]
   },
   {
     "id": "enade-2-geografia-2025-q34",
@@ -3368,8 +3275,7 @@
       "identidade",
       "ancestralidade"
     ],
-    "fonte": "Disponível em: https://g1.globo.com. Acesso em: 13 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Disponível em: https://g1.globo.com. Acesso em: 13 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q35",
@@ -3401,8 +3307,7 @@
       "racismo",
       "periferia"
     ],
-    "fonte": "Racionais MC's. Negro Drama. Disponível em: www.vagalume.com.br. Acesso em: 4 jun. 2025.",
-    "possui_imagem": false
+    "fonte": "Racionais MC's. Negro Drama. Disponível em: www.vagalume.com.br. Acesso em: 4 jun. 2025."
   },
   {
     "id": "enade-2-geografia-2025-q36",
@@ -3434,8 +3339,7 @@
       "biomas",
       "recursos didáticos"
     ],
-    "fonte": "BARBOZA, C. R.; CRUZ, V. M. C. C.; SANTOS, G. F. Elaboração de mapas táteis como recurso inclusivo para aulas de Geografia. Perspectiva Geográfica, n. 19, 2018 (adaptado).",
-    "possui_imagem": false
+    "fonte": "BARBOZA, C. R.; CRUZ, V. M. C. C.; SANTOS, G. F. Elaboração de mapas táteis como recurso inclusivo para aulas de Geografia. Perspectiva Geográfica, n. 19, 2018 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q37",
@@ -3468,8 +3372,7 @@
       "fronteira agrícola"
     ],
     "fonte": "Disponível em: https://canal.cecierj.edu.br. Acesso em: 25 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil mostrando domínios morfoclimáticos e problemas ambientais, com legenda indicando: Domínio amazônico (verde), limite meridional da floresta amazônica, Arco do desmatamento (faixa vermelha cruzando o sul da Amazônia, do Acre ao Maranhão/Tocantins), área de Pantanal, Domínio dos cerrados, Domínio da caatinga, um ponto de desertificação no interior nordestino (círculo amarelo/laranja no sertão), Costas e floresta atlântica, limite da floresta caducifólia, área de desmatamento, uma faixa de desabamentos na Floresta Atlântica (sudeste), Domínio dos campos e área de pinheiros no sul do país, além de curvas de altitude entre 200 e 500 metros e as linhas do Equador e do Trópico de Capricórnio."
+    "imagens_desc": ["Mapa do Brasil mostrando domínios morfoclimáticos e problemas ambientais, com legenda indicando: Domínio amazônico (verde), limite meridional da floresta amazônica, Arco do desmatamento (faixa vermelha cruzando o sul da Amazônia, do Acre ao Maranhão/Tocantins), área de Pantanal, Domínio dos cerrados, Domínio da caatinga, um ponto de desertificação no interior nordestino (círculo amarelo/laranja no sertão), Costas e floresta atlântica, limite da floresta caducifólia, área de desmatamento, uma faixa de desabamentos na Floresta Atlântica (sudeste), Domínio dos campos e área de pinheiros no sul do país, além de curvas de altitude entre 200 e 500 metros e as linhas do Equador e do Trópico de Capricórnio."]
   },
   {
     "id": "enade-2-geografia-2025-q38",
@@ -3501,8 +3404,7 @@
       "cartografia escolar",
       "mapas mentais"
     ],
-    "fonte": "CASTELLAR, S. M. V.; PEREIRA, M. G. P.; PAULA, I. R. O pensamento espacial e raciocínio geográfico: considerações teórico-metodológicas a partir da experiência brasileira. Revista de Geografia Norte Grande, v. 81, 2022 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CASTELLAR, S. M. V.; PEREIRA, M. G. P.; PAULA, I. R. O pensamento espacial e raciocínio geográfico: considerações teórico-metodológicas a partir da experiência brasileira. Revista de Geografia Norte Grande, v. 81, 2022 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q39",
@@ -3534,8 +3436,7 @@
       "interdisciplinaridade",
       "concentração de terras"
     ],
-    "fonte": "MELO NETO, J. C. Morte e vida Severina: auto de natal pernambucano. Rio de Janeiro: José Olympio, 1955 (fragmento).",
-    "possui_imagem": false
+    "fonte": "MELO NETO, J. C. Morte e vida Severina: auto de natal pernambucano. Rio de Janeiro: José Olympio, 1955 (fragmento)."
   },
   {
     "id": "enade-2-geografia-2025-q40",
@@ -3567,8 +3468,7 @@
       "maquete",
       "escala local"
     ],
-    "fonte": "FRANCISCHETTI, M. N. A didática na cartografia escolar no ensino fundamental de Geografia. In: ALCARAZ, R. S.; MONLLOR, E. M. T. La investigacion e innovacion en la ensenanza de la Geografia. Alicante: Publicaciones de la Universidad de Alicante, 2016 (adaptado).",
-    "possui_imagem": false
+    "fonte": "FRANCISCHETTI, M. N. A didática na cartografia escolar no ensino fundamental de Geografia. In: ALCARAZ, R. S.; MONLLOR, E. M. T. La investigacion e innovacion en la ensenanza de la Geografia. Alicante: Publicaciones de la Universidad de Alicante, 2016 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q41",
@@ -3600,8 +3500,7 @@
       "globalização",
       "fluxos"
     ],
-    "fonte": "PENA, R. F. A. Fluxos da sociedade global. Disponível em: https://mundoeducacao.uol.com.br. Acesso em: 25 jun. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "PENA, R. F. A. Fluxos da sociedade global. Disponível em: https://mundoeducacao.uol.com.br. Acesso em: 25 jun. 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q42",
@@ -3634,8 +3533,7 @@
       "mapas vividos"
     ],
     "fonte": "Aldeia Ikpeng. Desenho de Napikü Ikpeng. Disponível em: https://img.socioambiental.org. Acesso em: 13 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Desenho colorido, de autoria indígena (Napikü Ikpeng), representando a Aldeia Ikpeng em formato de mapa: no centro, um círculo amarelo com as casas da aldeia dispostas ao redor de um campo de futebol; ao redor, são identificados elementos como roças, córregos, mata, uma pista de aeroporto, o posto indígena, uma garagem, canoas e barcos nos rios/córregos que margeiam a área, além da indicação do sol nascente e do sol poente nos cantos do desenho, situando a orientação da aldeia."
+    "imagens_desc": ["Desenho colorido, de autoria indígena (Napikü Ikpeng), representando a Aldeia Ikpeng em formato de mapa: no centro, um círculo amarelo com as casas da aldeia dispostas ao redor de um campo de futebol; ao redor, são identificados elementos como roças, córregos, mata, uma pista de aeroporto, o posto indígena, uma garagem, canoas e barcos nos rios/córregos que margeiam a área, além da indicação do sol nascente e do sol poente nos cantos do desenho, situando a orientação da aldeia."]
   },
   {
     "id": "enade-2-geografia-2025-q43",
@@ -3668,8 +3566,7 @@
       "representação espacial"
     ],
     "fonte": "Aldeia Ikpeng. Desenho de Napikü Ikpeng. Disponível em: https://img.socioambiental.org. Acesso em: 13 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Desenho colorido, de autoria indígena (Napikü Ikpeng), representando a Aldeia Ikpeng em formato de mapa: no centro, um círculo amarelo com as casas da aldeia dispostas ao redor de um campo de futebol; ao redor, são identificados elementos como roças, córregos, mata, uma pista de aeroporto, o posto indígena, uma garagem, canoas e barcos nos rios/córregos que margeiam a área, além da indicação do sol nascente e do sol poente nos cantos do desenho."
+    "imagens_desc": ["Desenho colorido, de autoria indígena (Napikü Ikpeng), representando a Aldeia Ikpeng em formato de mapa: no centro, um círculo amarelo com as casas da aldeia dispostas ao redor de um campo de futebol; ao redor, são identificados elementos como roças, córregos, mata, uma pista de aeroporto, o posto indígena, uma garagem, canoas e barcos nos rios/córregos que margeiam a área, além da indicação do sol nascente e do sol poente nos cantos do desenho."]
   },
   {
     "id": "enade-2-geografia-2025-q44",
@@ -3701,8 +3598,7 @@
       "literatura e geografia",
       "concentração fundiária"
     ],
-    "fonte": "VIEIRA JR, I. Torto Arado. Alfragide: Grupo Leya, 2018.",
-    "possui_imagem": false
+    "fonte": "VIEIRA JR, I. Torto Arado. Alfragide: Grupo Leya, 2018."
   },
   {
     "id": "enade-2-geografia-2025-q45",
@@ -3735,8 +3631,7 @@
       "escalas do território"
     ],
     "fonte": "Disponível em: https://jornalistaslivres.org. Acesso em: 3 jun. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Cartaz da \"Primeira Marcha das Mulheres Indígenas\", realizada de 9 a 13 de agosto em Brasília (DF), com o lema \"Território: nosso corpo, nosso espírito\". A ilustração, em tons de rosa e roxo, mostra um grande grupo de mulheres indígenas com pinturas corporais e adereços tradicionais, em movimento de marcha/protesto, com prédios governamentais ao fundo."
+    "imagens_desc": ["Cartaz da \"Primeira Marcha das Mulheres Indígenas\", realizada de 9 a 13 de agosto em Brasília (DF), com o lema \"Território: nosso corpo, nosso espírito\". A ilustração, em tons de rosa e roxo, mostra um grande grupo de mulheres indígenas com pinturas corporais e adereços tradicionais, em movimento de marcha/protesto, com prédios governamentais ao fundo."]
   },
   {
     "id": "enade-2-geografia-2025-q46",
@@ -3767,8 +3662,7 @@
       "história oral",
       "interdisciplinaridade",
       "tecnologias no ensino"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "enade-2-geografia-2025-q47",
@@ -3800,8 +3694,7 @@
       "geografia humanista",
       "impactos socioambientais"
     ],
-    "fonte": "CARNEIRO, G. Comunidades rurais do Nordeste enfrentam desafios causados por parques eólicos. Disponível em: https://brasil.mongabay.com. Acesso em: 27 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CARNEIRO, G. Comunidades rurais do Nordeste enfrentam desafios causados por parques eólicos. Disponível em: https://brasil.mongabay.com. Acesso em: 27 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q48",
@@ -3834,8 +3727,7 @@
       "oferta e demanda"
     ],
     "fonte": "Disponível em: https://oglobo.globo.com. Acesso em: 15 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Infográfico com mapa-múndi mostrando, a partir de Guarulhos (SP), linhas de rotas aéreas para dois grupos de destinos, com preços de passagens só ida em 2023 (em R$): \"Pelo mundo\" (linhas azuis) — Nova York R$2.806 (9h50 de voo), Dubai R$3.844 (14h), Tóquio R$4.306 (31h, duas escalas), Paris R$5.015 (11h20), Moscou R$5.162 (30h30, uma escala); e \"Para a África\" (linhas laranja) — Cidade do Cabo R$5.389 (56h, três escalas), Johannesburgo R$5.910 (14h35, duas escalas), Luanda R$5.995 (8h20), Adis Abeba R$7.209 (12h, preço 156% mais caro que para Nova York)."
+    "imagens_desc": ["Infográfico com mapa-múndi mostrando, a partir de Guarulhos (SP), linhas de rotas aéreas para dois grupos de destinos, com preços de passagens só ida em 2023 (em R$): \"Pelo mundo\" (linhas azuis) — Nova York R$2.806 (9h50 de voo), Dubai R$3.844 (14h), Tóquio R$4.306 (31h, duas escalas), Paris R$5.015 (11h20), Moscou R$5.162 (30h30, uma escala); e \"Para a África\" (linhas laranja) — Cidade do Cabo R$5.389 (56h, três escalas), Johannesburgo R$5.910 (14h35, duas escalas), Luanda R$5.995 (8h20), Adis Abeba R$7.209 (12h, preço 156% mais caro que para Nova York)."]
   },
   {
     "id": "enade-2-geografia-2025-q49",
@@ -3867,8 +3759,7 @@
       "dinâmicas populacionais",
       "direitos humanos"
     ],
-    "fonte": "TAKASHIMA, A. Uma nova chance: histórias de pessoas refugiadas que começaram a vida no Brasil. Disponível em: www.uol.com.br. Acesso em: 13 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "TAKASHIMA, A. Uma nova chance: histórias de pessoas refugiadas que começaram a vida no Brasil. Disponível em: www.uol.com.br. Acesso em: 13 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q50",
@@ -3900,8 +3791,7 @@
       "impactos socioambientais",
       "conflitos territoriais"
     ],
-    "fonte": "GIMENES, E. E o vento pode levar. Disponível em: www.intercept.com.br. Acesso em: 6 jun. 2025.",
-    "possui_imagem": false
+    "fonte": "GIMENES, E. E o vento pode levar. Disponível em: www.intercept.com.br. Acesso em: 6 jun. 2025."
   },
   {
     "id": "enade-2-geografia-2025-q51",
@@ -3932,8 +3822,7 @@
       "geografia crítica",
       "correntes do pensamento geográfico"
     ],
-    "fonte": "MENDES, J. Fundamentos e metodologia do ensino de geografia. Curitiba: Fael, 2010 (adaptado).",
-    "possui_imagem": false
+    "fonte": "MENDES, J. Fundamentos e metodologia do ensino de geografia. Curitiba: Fael, 2010 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q52",
@@ -3966,8 +3855,7 @@
       "cartografia escolar"
     ],
     "fonte": "ARGOLO, R. Vista aérea de Belo Horizonte. 2025. Disponível em: www.instagram.com/rogerioargolo. Acesso em: 13 nov. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Duas fotografias aéreas de Belo Horizonte comparando \"antes e depois\": a primeira, em preto e branco, de 1966, mostra a cidade com baixa verticalização, casas e poucos edifícios, tendo ao fundo a Serra do Curral (com um trecho de sua crista destacado em amarelo); a segunda, colorida, de 2025, mostra a mesma paisagem com forte verticalização — dezenas de prédios altos e adensamento urbano intenso —, mantendo a mesma Serra do Curral ao fundo como referência de comparação."
+    "imagens_desc": ["Duas fotografias aéreas de Belo Horizonte comparando \"antes e depois\": a primeira, em preto e branco, de 1966, mostra a cidade com baixa verticalização, casas e poucos edifícios, tendo ao fundo a Serra do Curral (com um trecho de sua crista destacado em amarelo); a segunda, colorida, de 2025, mostra a mesma paisagem com forte verticalização — dezenas de prédios altos e adensamento urbano intenso —, mantendo a mesma Serra do Curral ao fundo como referência de comparação."]
   },
   {
     "id": "enade-2-geografia-2025-q53",
@@ -4000,8 +3888,7 @@
       "adensamento construtivo"
     ],
     "fonte": "ARGOLO, R. Vista aérea de Belo Horizonte. 2025. Disponível em: www.instagram.com/rogerioargolo. Acesso em: 13 nov. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Duas fotografias aéreas de Belo Horizonte comparando \"antes e depois\": a primeira, em preto e branco, de 1966, mostra a cidade com baixa verticalização, casas e poucos edifícios, tendo ao fundo a Serra do Curral; a segunda, colorida, de 2025, mostra a mesma paisagem com forte verticalização — dezenas de prédios altos e adensamento urbano intenso."
+    "imagens_desc": ["Duas fotografias aéreas de Belo Horizonte comparando \"antes e depois\": a primeira, em preto e branco, de 1966, mostra a cidade com baixa verticalização, casas e poucos edifícios, tendo ao fundo a Serra do Curral; a segunda, colorida, de 2025, mostra a mesma paisagem com forte verticalização — dezenas de prédios altos e adensamento urbano intenso."]
   },
   {
     "id": "enade-2-geografia-2025-q54",
@@ -4033,8 +3920,7 @@
       "territorialidade indígena",
       "invisibilidade territorial"
     ],
-    "fonte": "KRENAK, A. Futuro Ancestral. São Paulo: Cia. das Letras, 2022 (adaptado).",
-    "possui_imagem": false
+    "fonte": "KRENAK, A. Futuro Ancestral. São Paulo: Cia. das Letras, 2022 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q55",
@@ -4066,8 +3952,7 @@
       "demarcação de terras",
       "autonomia discente"
     ],
-    "fonte": "Povos indígenas e quilombolas: 3 motivos pelos quais a demarcação de terras é importante, 2018. Disponível em: https://raizesds.com.br. Acesso em: 13 jun. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Povos indígenas e quilombolas: 3 motivos pelos quais a demarcação de terras é importante, 2018. Disponível em: https://raizesds.com.br. Acesso em: 13 jun. 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q56",
@@ -4099,8 +3984,7 @@
       "positivismo",
       "classificação geográfica"
     ],
-    "fonte": "KAERCHER, N.; BOHRER, M. Docencio, logo, existo: crenças que movem o professor formador de professores: que diferença podemos fazer em nossos alunos? Revista Brasileira de Educação em Geografia, n. 19, 2020 (adaptado).",
-    "possui_imagem": false
+    "fonte": "KAERCHER, N.; BOHRER, M. Docencio, logo, existo: crenças que movem o professor formador de professores: que diferença podemos fazer em nossos alunos? Revista Brasileira de Educação em Geografia, n. 19, 2020 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q57",
@@ -4133,8 +4017,7 @@
       "ensino de cartografia"
     ],
     "fonte": "FONSECA, F. P. A naturalização como obstáculo à inovação da cartografia escolar. Revista Geografares, n. 12, jul. 2012 (adaptado); Disponível em: https://journals.openedition.org/. Acesso em: 6 set. 2025; Relatório Anual do Desmatamento no Brasil 2024. São Paulo: MapBiomas, 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Quatro mapas do Brasil dispostos em grade, cada um ilustrando uma alternativa: (A) 'Fluxo de passageiros' — mapa com linhas de diferentes espessuras e cores conectando cidades brasileiras, representando o número de passageiros em 2001 (variando de 121 a 1.584.790), com concentração de linhas nas regiões Sudeste e Sul, mantendo o contorno geográfico convencional do país; (C) 'PIB das microrregiões' — um cartograma (anamorfose) em que o contorno do Brasil é deformado, cada microrregião redimensionada proporcionalmente ao valor de seu PIB, distorcendo a forma geográfica tradicional do país; (B) 'Densidade do povoamento' — mapa coroplético do Brasil com gradação de cores (do bege claro ao vermelho escuro) indicando a densidade populacional por habitantes/km², concentrada no litoral e nas grandes cidades, mantendo o contorno convencional; (D) 'Mapa dos alertas de desmatamento no Brasil em 2024' — mapa colorido por biomas (Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal) com pontos vermelhos (losangos) indicando os alertas de desmatamento registrados, concentrados nas bordas da Amazônia e em áreas do Cerrado/Caatinga no Nordeste, mantendo o contorno convencional do país."
+    "imagens_desc": ["Quatro mapas do Brasil dispostos em grade, cada um ilustrando uma alternativa: (A) 'Fluxo de passageiros' — mapa com linhas de diferentes espessuras e cores conectando cidades brasileiras, representando o número de passageiros em 2001 (variando de 121 a 1.584.790), com concentração de linhas nas regiões Sudeste e Sul, mantendo o contorno geográfico convencional do país; (C) 'PIB das microrregiões' — um cartograma (anamorfose) em que o contorno do Brasil é deformado, cada microrregião redimensionada proporcionalmente ao valor de seu PIB, distorcendo a forma geográfica tradicional do país; (B) 'Densidade do povoamento' — mapa coroplético do Brasil com gradação de cores (do bege claro ao vermelho escuro) indicando a densidade populacional por habitantes/km², concentrada no litoral e nas grandes cidades, mantendo o contorno convencional; (D) 'Mapa dos alertas de desmatamento no Brasil em 2024' — mapa colorido por biomas (Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa, Pantanal) com pontos vermelhos (losangos) indicando os alertas de desmatamento registrados, concentrados nas bordas da Amazônia e em áreas do Cerrado/Caatinga no Nordeste, mantendo o contorno convencional do país."]
   },
   {
     "id": "enade-2-geografia-2025-q58",
@@ -4166,8 +4049,7 @@
       "segregação socioespacial",
       "territorialidade"
     ],
-    "fonte": "OLIVEIRA, A. B.; SANTOS, C. N.; OLIVEIRA, R. B. Saúde e defesa de direitos: uma cartografia dos territórios populares do Rio de Janeiro. Rio de Janeiro: Grafitto, 2023 (adaptado).",
-    "possui_imagem": false
+    "fonte": "OLIVEIRA, A. B.; SANTOS, C. N.; OLIVEIRA, R. B. Saúde e defesa de direitos: uma cartografia dos territórios populares do Rio de Janeiro. Rio de Janeiro: Grafitto, 2023 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q59",
@@ -4199,8 +4081,7 @@
       "urbanização",
       "metodologia ativa"
     ],
-    "fonte": "OLIVEIRA, A. B.; SANTOS, C. N.; OLIVEIRA, R. B. Saúde e defesa de direitos: uma cartografia dos territórios populares do Rio de Janeiro. Rio de Janeiro: Grafitto, 2023 (adaptado).",
-    "possui_imagem": false
+    "fonte": "OLIVEIRA, A. B.; SANTOS, C. N.; OLIVEIRA, R. B. Saúde e defesa de direitos: uma cartografia dos territórios populares do Rio de Janeiro. Rio de Janeiro: Grafitto, 2023 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q60",
@@ -4233,8 +4114,7 @@
       "saúde pública"
     ],
     "fonte": "SIMONI, W. F. Os desafios da qualidade do ar no Brasil. Disponível em: www.wribrasil.org.br. Acesso em: 24 maio 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil intitulado \"Brasil: focos de calor por biomas (%), de janeiro a setembro de 2020\", com o território colorido em rosa/vermelho representando a distribuição dos focos de calor, e percentuais indicados por bioma: Amazônia 45,7%, Cerrado 30,2%, Pantanal 10,9%, Mata Atlântica 8,7%, Caatinga 3,6% e Pampa 0,9%."
+    "imagens_desc": ["Mapa do Brasil intitulado \"Brasil: focos de calor por biomas (%), de janeiro a setembro de 2020\", com o território colorido em rosa/vermelho representando a distribuição dos focos de calor, e percentuais indicados por bioma: Amazônia 45,7%, Cerrado 30,2%, Pantanal 10,9%, Mata Atlântica 8,7%, Caatinga 3,6% e Pampa 0,9%."]
   },
   {
     "id": "enade-2-geografia-2025-q61",
@@ -4267,8 +4147,7 @@
       "gênero no campo"
     ],
     "fonte": "TABORDA, N. W. Feminismo camponês popular: território de luta e resistência no Movimento de Mulheres Camponesas. São Paulo: Unesp, 2023 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil intitulado \"Brasil: Espacialização do Movimento de Mulheres Camponesas, 2023\", com os estados que possuem presença do movimento destacados em roxo: Roraima, Acre, Rondônia, Maranhão, Bahia, Goiás, Distrito Federal, Mato Grosso do Sul, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas e Sergipe; já Amazonas, Pará, Amapá, Mato Grosso, Tocantins, Piauí, Ceará, São Paulo e Rio de Janeiro aparecem sem destaque (sem presença indicada do movimento)."
+    "imagens_desc": ["Mapa do Brasil intitulado \"Brasil: Espacialização do Movimento de Mulheres Camponesas, 2023\", com os estados que possuem presença do movimento destacados em roxo: Roraima, Acre, Rondônia, Maranhão, Bahia, Goiás, Distrito Federal, Mato Grosso do Sul, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas e Sergipe; já Amazonas, Pará, Amapá, Mato Grosso, Tocantins, Piauí, Ceará, São Paulo e Rio de Janeiro aparecem sem destaque (sem presença indicada do movimento)."]
   },
   {
     "id": "enade-2-geografia-2025-q62",
@@ -4301,8 +4180,7 @@
       "organização política"
     ],
     "fonte": "TABORDA, N. W. Feminismo camponês popular: território de luta e resistência no Movimento de Mulheres Camponesas. São Paulo: Unesp, 2023 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil intitulado \"Brasil: Espacialização do Movimento de Mulheres Camponesas, 2023\", com os estados que possuem presença do movimento destacados em roxo: Roraima, Acre, Rondônia, Maranhão, Bahia, Goiás, Distrito Federal, Mato Grosso do Sul, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas e Sergipe; já Amazonas, Pará, Amapá, Mato Grosso, Tocantins, Piauí, Ceará, São Paulo e Rio de Janeiro aparecem sem destaque (sem presença indicada do movimento)."
+    "imagens_desc": ["Mapa do Brasil intitulado \"Brasil: Espacialização do Movimento de Mulheres Camponesas, 2023\", com os estados que possuem presença do movimento destacados em roxo: Roraima, Acre, Rondônia, Maranhão, Bahia, Goiás, Distrito Federal, Mato Grosso do Sul, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas e Sergipe; já Amazonas, Pará, Amapá, Mato Grosso, Tocantins, Piauí, Ceará, São Paulo e Rio de Janeiro aparecem sem destaque (sem presença indicada do movimento)."]
   },
   {
     "id": "enade-2-geografia-2025-q63",
@@ -4335,8 +4213,7 @@
       "expropriação de terras"
     ],
     "fonte": "LIMA, A. P. P.; LANDA, B. S.; MATOS, G. L. Quilombo da Picadinha. Disponível em: https://educapes.capes.gov.br. Acesso em: 5 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "História em quadrinhos (HQ) intitulada \"Quilombo da Picadinha\", narrando em primeira pessoa (a partir da voz de Maria Cândida de Oliveira, já falecida) a expropriação de terras de uma família quilombola: um \"engenheiro que havia medido as terras\" reaparece anos depois cobrando uma suposta dívida a ser quitada em terras, tomando posse de cerca de 3.148 hectares e deixando à família apenas 600 hectares; o engenheiro depois vende partes das terras a outras famílias, obrigando muitos moradores a se mudar; a esposa da narradora adoece em 1945 e precisa vender mais 200 hectares para custear o tratamento; a família, por não saber ler, assina um contrato que resulta na perda das terras; a HQ termina informando que Maria Cândida de Oliveira faleceu em 14 de junho de 1951, expressando confiança de que seus herdeiros um dia venceriam a disputa."
+    "imagens_desc": ["História em quadrinhos (HQ) intitulada \"Quilombo da Picadinha\", narrando em primeira pessoa (a partir da voz de Maria Cândida de Oliveira, já falecida) a expropriação de terras de uma família quilombola: um \"engenheiro que havia medido as terras\" reaparece anos depois cobrando uma suposta dívida a ser quitada em terras, tomando posse de cerca de 3.148 hectares e deixando à família apenas 600 hectares; o engenheiro depois vende partes das terras a outras famílias, obrigando muitos moradores a se mudar; a esposa da narradora adoece em 1945 e precisa vender mais 200 hectares para custear o tratamento; a família, por não saber ler, assina um contrato que resulta na perda das terras; a HQ termina informando que Maria Cândida de Oliveira faleceu em 14 de junho de 1951, expressando confiança de que seus herdeiros um dia venceriam a disputa."]
   },
   {
     "id": "enade-2-geografia-2025-q64",
@@ -4368,8 +4245,7 @@
       "práticas ancestrais",
       "sustentabilidade"
     ],
-    "fonte": "SILVA, R. U.; MELLO, A. H. Conflitos socioambientais em unidades de conservação: direitos fundamentais das populações tradicionais versus meio ambiente. Agroecossistemas, n. 2, 2021.",
-    "possui_imagem": false
+    "fonte": "SILVA, R. U.; MELLO, A. H. Conflitos socioambientais em unidades de conservação: direitos fundamentais das populações tradicionais versus meio ambiente. Agroecossistemas, n. 2, 2021."
   },
   {
     "id": "enade-2-geografia-2025-q65",
@@ -4401,8 +4277,7 @@
       "sustentabilidade",
       "metodologia ativa"
     ],
-    "fonte": "SILVA, R. U.; MELLO, A. H. Conflitos socioambientais em unidades de conservação: direitos fundamentais das populações tradicionais versus meio ambiente. Agroecossistemas, n. 2, 2021.",
-    "possui_imagem": false
+    "fonte": "SILVA, R. U.; MELLO, A. H. Conflitos socioambientais em unidades de conservação: direitos fundamentais das populações tradicionais versus meio ambiente. Agroecossistemas, n. 2, 2021."
   },
   {
     "id": "enade-2-geografia-2025-q66",
@@ -4435,8 +4310,7 @@
       "práticas agroecológicas"
     ],
     "fonte": "Disponível em: http://conectegeo.blogspot.com. Acesso em: 12 maio 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Ilustração de um \"Perfil de solo\" em corte transversal, mostrando, de cima para baixo: a camada de matéria orgânica na superfície (com árvores), o Horizonte A (matéria orgânica e inorgânica), o Horizonte B (zona de acumulação), o Horizonte C (materiais provenientes da rocha mãe) e, na base, a Rocha Mãe."
+    "imagens_desc": ["Ilustração de um \"Perfil de solo\" em corte transversal, mostrando, de cima para baixo: a camada de matéria orgânica na superfície (com árvores), o Horizonte A (matéria orgânica e inorgânica), o Horizonte B (zona de acumulação), o Horizonte C (materiais provenientes da rocha mãe) e, na base, a Rocha Mãe."]
   },
   {
     "id": "enade-2-geografia-2025-q67",
@@ -4468,8 +4342,7 @@
       "geografia crítica",
       "Haesbaert"
     ],
-    "fonte": "HAESBAERT, R. Conceitos fundamentais da Geografia. GEOgraphia, n. 55, 2023 (adaptado).",
-    "possui_imagem": false
+    "fonte": "HAESBAERT, R. Conceitos fundamentais da Geografia. GEOgraphia, n. 55, 2023 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q68",
@@ -4502,8 +4375,7 @@
       "movimentos pendulares"
     ],
     "fonte": "Disponível em: http://earth.google.com. Acesso em: 20 set. 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Imagem de satélite (captura do Google Earth) da Grande São Paulo, mostrando a mancha urbana contínua que engloba São Paulo e municípios vizinhos como Santana de Parnaíba, Barueri, Osasco, Embu das Artes, Taboão da Serra, Guarulhos, Itaquaquecetuba, Suzano, Mogi das Cruzes, São Caetano do Sul, Mauá e São Bernardo do Campo, interligados por uma extensa malha de rodovias (identificadas por códigos como SP-021, SP-070 etc.), evidenciando a conurbação da região metropolitana."
+    "imagens_desc": ["Imagem de satélite (captura do Google Earth) da Grande São Paulo, mostrando a mancha urbana contínua que engloba São Paulo e municípios vizinhos como Santana de Parnaíba, Barueri, Osasco, Embu das Artes, Taboão da Serra, Guarulhos, Itaquaquecetuba, Suzano, Mogi das Cruzes, São Caetano do Sul, Mauá e São Bernardo do Campo, interligados por uma extensa malha de rodovias (identificadas por códigos como SP-021, SP-070 etc.), evidenciando a conurbação da região metropolitana."]
   },
   {
     "id": "enade-2-geografia-2025-q69",
@@ -4536,8 +4408,7 @@
       "MATOPIBA"
     ],
     "fonte": "MINISTÉRIO PÚBLICO DO MARANHÃO. Fórum Maranhense de Combate aos Impactos dos Agrotóxicos. Disponível em: www.mpma.mp.br. Acesso em: 13 nov. 2025 (adaptado); Relatório sobre os impactos da pulverização aérea de agrotóxicos no Maranhão é enviado à ONU. Disponível em: www.rederama.org. Acesso em: 13 nov. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do estado do Maranhão (com destaque para sua inserção na região do MATOPIBA) mostrando \"territórios atingidos\" pela pulverização aérea de agrotóxicos, com uma escala de cores do amarelo claro ao vermelho indicando a intensidade (até 5, até 15, até 25 e 60 territórios atingidos), concentrando a área de maior intensidade (vermelho) na porção leste/nordeste do estado."
+    "imagens_desc": ["Mapa do estado do Maranhão (com destaque para sua inserção na região do MATOPIBA) mostrando \"territórios atingidos\" pela pulverização aérea de agrotóxicos, com uma escala de cores do amarelo claro ao vermelho indicando a intensidade (até 5, até 15, até 25 e 60 territórios atingidos), concentrando a área de maior intensidade (vermelho) na porção leste/nordeste do estado."]
   },
   {
     "id": "enade-2-geografia-2025-q70",
@@ -4570,8 +4441,7 @@
       "ensino fundamental"
     ],
     "fonte": "MINISTÉRIO PÚBLICO DO MARANHÃO. Fórum Maranhense de Combate aos Impactos dos Agrotóxicos. Disponível em: www.mpma.mp.br. Acesso em: 13 nov. 2025 (adaptado); Relatório sobre os impactos da pulverização aérea de agrotóxicos no Maranhão é enviado à ONU. Disponível em: www.rederama.org. Acesso em: 13 nov. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do estado do Maranhão (com destaque para sua inserção na região do MATOPIBA) mostrando \"territórios atingidos\" pela pulverização aérea de agrotóxicos, com uma escala de cores do amarelo claro ao vermelho indicando a intensidade (até 5, até 15, até 25 e 60 territórios atingidos), concentrando a área de maior intensidade (vermelho) na porção leste/nordeste do estado."
+    "imagens_desc": ["Mapa do estado do Maranhão (com destaque para sua inserção na região do MATOPIBA) mostrando \"territórios atingidos\" pela pulverização aérea de agrotóxicos, com uma escala de cores do amarelo claro ao vermelho indicando a intensidade (até 5, até 15, até 25 e 60 territórios atingidos), concentrando a área de maior intensidade (vermelho) na porção leste/nordeste do estado."]
   },
   {
     "id": "enade-2-geografia-2025-q71",
@@ -4603,8 +4473,7 @@
       "territorialidade",
       "identidade cultural"
     ],
-    "fonte": "BARBOSA, J. L.; TEIXEIRA, L. Territorialidades de práticas culturais e artísticas da Favela da Maré (RJ). Disponível em: https://observatoriodefavelas.org.br. Acesso em: 14 nov. 2025.",
-    "possui_imagem": false
+    "fonte": "BARBOSA, J. L.; TEIXEIRA, L. Territorialidades de práticas culturais e artísticas da Favela da Maré (RJ). Disponível em: https://observatoriodefavelas.org.br. Acesso em: 14 nov. 2025."
   },
   {
     "id": "enade-2-geografia-2025-q72",
@@ -4636,8 +4505,7 @@
       "caderno de campo",
       "conhecimento tradicional"
     ],
-    "fonte": "CONAQ. Quem somos. Disponível em: https://conaq.org.br. Acesso em: 25 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CONAQ. Quem somos. Disponível em: https://conaq.org.br. Acesso em: 25 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q73",
@@ -4670,8 +4538,7 @@
       "MapBiomas"
     ],
     "fonte": "Relatório Anual do Desmatamento no Brasil 2024. São Paulo: MapBiomas, 2025.",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil intitulado \"Áreas desmatadas no Brasil em 2024 com os limites das macrorregiões hidrográficas\", com pontos vermelhos indicando os alertas de desmatamento de 2024 concentrados principalmente nas bordas da macrorregião Amazônica e em áreas das macrorregiões Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, Parnaíba, Tocantins-Araguaia e São Francisco; massas d'água em azul-escuro e limites das macrorregiões hidrográficas delimitados em azul-claro.",
+    "imagens_desc": ["Mapa do Brasil intitulado \"Áreas desmatadas no Brasil em 2024 com os limites das macrorregiões hidrográficas\", com pontos vermelhos indicando os alertas de desmatamento de 2024 concentrados principalmente nas bordas da macrorregião Amazônica e em áreas das macrorregiões Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, Parnaíba, Tocantins-Araguaia e São Francisco; massas d'água em azul-escuro e limites das macrorregiões hidrográficas delimitados em azul-claro."],
     "tabela": {
       "colunas": [
         "Bioma",
@@ -4747,8 +4614,7 @@
       "conhecimentos tradicionais",
       "Amazônia"
     ],
-    "fonte": "CONTERNO, I. Adubo pré-histórico foi planejado por indígenas da Amazônia no passado. Disponível em: https://jornal.usp.br. Acesso em: 9 jun. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "CONTERNO, I. Adubo pré-histórico foi planejado por indígenas da Amazônia no passado. Disponível em: https://jornal.usp.br. Acesso em: 9 jun. 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q75",
@@ -4780,8 +4646,7 @@
       "série histórica",
       "degradação ambiental"
     ],
-    "fonte": "OLIVEIRA, J. Comitê do Rio das Velhas teme colapso no uso da água que abastece BH e região. Disponível em: www.em.com.br. Acesso em: 15 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "OLIVEIRA, J. Comitê do Rio das Velhas teme colapso no uso da água que abastece BH e região. Disponível em: www.em.com.br. Acesso em: 15 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q76",
@@ -4813,8 +4678,7 @@
       "bacia hidrográfica",
       "recursos hídricos"
     ],
-    "fonte": "OLIVEIRA, J. Comitê do Rio das Velhas teme colapso no uso da água que abastece BH e região. Disponível em: www.em.com.br. Acesso em: 15 maio 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "OLIVEIRA, J. Comitê do Rio das Velhas teme colapso no uso da água que abastece BH e região. Disponível em: www.em.com.br. Acesso em: 15 maio 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q77",
@@ -4847,8 +4711,7 @@
       "Centro-Oeste"
     ],
     "fonte": "Disponível em: http://journals.openedition.org/confins/54974. Acesso em: 25 jun. 2025 (adaptado).",
-    "possui_imagem": true,
-    "imagem_desc": "Mapa do Brasil intitulado \"Municípios brasileiros com ganhos ou perdas de população (2010/2022)\", com símbolos triangulares: triângulos verdes voltados para cima representam ganhos populacionais (em três tamanhos, correspondendo a 65.383,25, 130.766,5 e 261.533 habitantes) e triângulos vermelhos invertidos representam perdas (-64.412, -128.825 e -257.651). O mapa mostra grande concentração de triângulos verdes grandes nas regiões Centro-Oeste (especialmente Mato Grosso, Goiás) e no interior do Sudeste/Sul, além de triângulos vermelhos (perdas) concentrados especialmente no litoral do Nordeste, incluindo um grande triângulo vermelho próximo a Salvador (BA)."
+    "imagens_desc": ["Mapa do Brasil intitulado \"Municípios brasileiros com ganhos ou perdas de população (2010/2022)\", com símbolos triangulares: triângulos verdes voltados para cima representam ganhos populacionais (em três tamanhos, correspondendo a 65.383,25, 130.766,5 e 261.533 habitantes) e triângulos vermelhos invertidos representam perdas (-64.412, -128.825 e -257.651). O mapa mostra grande concentração de triângulos verdes grandes nas regiões Centro-Oeste (especialmente Mato Grosso, Goiás) e no interior do Sudeste/Sul, além de triângulos vermelhos (perdas) concentrados especialmente no litoral do Nordeste, incluindo um grande triângulo vermelho próximo a Salvador (BA)."]
   },
   {
     "id": "enade-2-geografia-2025-q78",
@@ -4880,8 +4743,7 @@
       "autonomia estudantil",
       "mobilidade pendular"
     ],
-    "fonte": "Mobilidade no Grande Recife. Disponível em: https://jc.uol.com.br. Acesso em: 13 nov. 2025 (adaptado).",
-    "possui_imagem": false
+    "fonte": "Mobilidade no Grande Recife. Disponível em: https://jc.uol.com.br. Acesso em: 13 nov. 2025 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q79",
@@ -4913,8 +4775,7 @@
       "recursos hídricos",
       "Milton Santos"
     ],
-    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2002 (adaptado).",
-    "possui_imagem": false
+    "fonte": "SANTOS, M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: Edusp, 2002 (adaptado)."
   },
   {
     "id": "enade-2-geografia-2025-q80",
@@ -4946,8 +4807,7 @@
       "conceito de fronteira",
       "integração de linguagens"
     ],
-    "fonte": "SOBRAL, C.; ZANLORENSSI, G. O território ucraniano tomado pela Rússia em 3 anos de guerra. Disponível em: www.nexojornal.com.br. Acesso em: 12 nov. 2025.",
-    "possui_imagem": false
+    "fonte": "SOBRAL, C.; ZANLORENSSI, G. O território ucraniano tomado pela Rússia em 3 anos de guerra. Disponível em: www.nexojornal.com.br. Acesso em: 12 nov. 2025."
   },
   {
     "id": "catanduva-ps02-2026-geografia-q001",
@@ -4978,8 +4838,7 @@
       "humboldt",
       "ritter",
       "geografia clássica"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q002",
@@ -5010,8 +4869,7 @@
       "ratzel",
       "determinismo geográfico",
       "antropogeografia"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q003",
@@ -5042,8 +4900,7 @@
       "vidal de la blache",
       "possibilismo geográfico",
       "gênero de vida"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q004",
@@ -5075,8 +4932,7 @@
       "tectônica de placas",
       "placa sul-americana",
       "sismicidade"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q005",
@@ -5107,8 +4963,7 @@
       "relevo brasileiro",
       "escudos cristalinos",
       "bacias sedimentares"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q006",
@@ -5139,8 +4994,7 @@
       "massas de ar",
       "climatologia",
       "amazônia"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q007",
@@ -5171,8 +5025,7 @@
       "el niño",
       "enos",
       "variabilidade climática"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q008",
@@ -5203,8 +5056,7 @@
       "classificação de köppen",
       "clima semiárido",
       "sertão nordestino"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q009",
@@ -5235,8 +5087,7 @@
       "cerrado",
       "vegetação",
       "domínios morfoclimáticos"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q010",
@@ -5267,8 +5118,7 @@
       "mata atlântica",
       "desmatamento",
       "ocupação do território"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q011",
@@ -5299,8 +5149,7 @@
       "capitanias hereditárias",
       "brasil colônia",
       "colonização"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q012",
@@ -5332,8 +5181,7 @@
       "ciclo do açúcar",
       "ciclo do ouro",
       "ciclo da borracha"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q013",
@@ -5364,8 +5212,7 @@
       "ibge",
       "divisão regional",
       "macrorregiões"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q014",
@@ -5396,8 +5243,7 @@
       "desconcentração industrial",
       "guerra fiscal",
       "são paulo"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q015",
@@ -5428,8 +5274,7 @@
       "distribuição regional da indústria",
       "zona franca de manaus",
       "pib industrial"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q016",
@@ -5460,8 +5305,7 @@
       "modernização da agricultura",
       "estrutura fundiária",
       "agronegócio"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q017",
@@ -5492,8 +5336,7 @@
       "agricultura familiar",
       "agronegócio",
       "estrutura fundiária"
-    ],
-    "possui_imagem": false
+    ]
   },
   {
     "id": "catanduva-ps02-2026-geografia-q018",
@@ -5525,7 +5368,6 @@
       "censo 2022",
       "envelhecimento populacional"
     ],
-    "possui_imagem": false,
     "fonte": "IBGE, Censo Demográfico 2022"
   },
   {
@@ -5559,7 +5401,6 @@
       "políticas públicas",
       "envelhecimento populacional"
     ],
-    "possui_imagem": false,
     "fonte": "IBGE, Censo Demográfico 2022"
   },
   {
@@ -5593,7 +5434,6 @@
       "metodologia de ensino",
       "geopolítica"
     ],
-    "possui_imagem": false,
     "fonte": "Dados de comércio Brasil-China em 2025 amplamente noticiados (ex.: Exame, Poder360, com base em dados do Comércio Exterior/MDIC), 2025-2026"
   }
 ]

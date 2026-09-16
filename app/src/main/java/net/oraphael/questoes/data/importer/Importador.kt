@@ -2,6 +2,7 @@ package net.oraphael.questoes.data.importer
 
 import android.content.Context
 import androidx.room.withTransaction
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
@@ -63,6 +64,5 @@ private fun QuestaoJson.paraEntity(disciplinaId: String) = QuestaoEntity(
     respostaCorreta = respostaCorreta,
     explicacao = explicacao,
     fonte = fonte,
-    possuiImagem = possuiImagem,
-    imagemDesc = imagemDesc,
+    imagensDescJson = Json.encodeToString(imagensDesc),
 )
