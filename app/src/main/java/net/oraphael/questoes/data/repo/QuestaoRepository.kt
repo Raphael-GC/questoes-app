@@ -2,6 +2,7 @@ package net.oraphael.questoes.data.repo
 
 import net.oraphael.questoes.data.db.AppDatabase
 import net.oraphael.questoes.data.db.DisciplinaContagem
+import net.oraphael.questoes.data.db.DisciplinaTagNome
 import net.oraphael.questoes.data.db.QuestaoCompleta
 import net.oraphael.questoes.data.db.TagContagem
 import net.oraphael.questoes.data.db.TagEntity
@@ -39,4 +40,8 @@ class QuestaoRepository(private val db: AppDatabase) {
 
     suspend fun buscarQuestaoCompleta(id: String): QuestaoCompleta? =
         db.questaoDao().buscarCompleta(id)
+
+    /** Tags das questões dadas, por disciplina — Resumo (Tela 4), tags das erradas da sessão. */
+    suspend fun listarTagsDasQuestoes(questaoIds: List<String>): List<DisciplinaTagNome> =
+        if (questaoIds.isEmpty()) emptyList() else db.tagDao().listarPorQuestoes(questaoIds)
 }

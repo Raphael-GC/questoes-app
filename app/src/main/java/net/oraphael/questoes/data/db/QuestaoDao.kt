@@ -102,10 +102,31 @@ interface TagDao {
         """
     )
     suspend fun listarComContagemPorDisciplina(disciplinaId: String): List<TagContagem>
+
+    /**
+     * Tags das questões dadas, agrupáveis por disciplina — usado no Resumo (Tela 4) pra
+     * exibir as tags das questões erradas da sessão, sem repetição (Mapa de Navegação,
+     * §4: "o que substitui o antigo modo Erros").
+     */
+    @Query(
+        """
+        SELECT DISTINCT q.disciplinaId as disciplinaId, t.nome as nome FROM tag t
+        INNER JOIN questao_tag_cross_ref x ON x.tagId = t.id
+        INNER JOIN questao q ON q.id = x.questaoId
+        WHERE q.id IN (:questaoIds)
+        ORDER BY q.disciplinaId, t.nome
+        """
+    )
+    suspend fun listarPorQuestoes(questaoIds: List<String>): List<DisciplinaTagNome>
 }
 
 data class TagContagem(
     val id: Long,
     val nome: String,
     val total: Int,
+)
+
+data class DisciplinaTagNome(
+    val disciplinaId: String,
+    val nome: String,
 )
