@@ -2,8 +2,11 @@ package net.oraphael.questoes.ui.navigation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -62,7 +65,16 @@ fun QuestoesApp() {
 
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = Home) {
+    // safeDrawing = status bar + barra de navegação + display cutout (câmera/notch): sem
+    // esse padding aqui, o app fica atrás desses elementos (enableEdgeToEdge em
+    // MainActivity) e título/conteúdo do topo de cada tela ficam por baixo da câmera em
+    // aparelhos com furo central — Surface (MainActivity) continua pintando o fundo até a
+    // borda da tela, só o conteúdo é que recua.
+    NavHost(
+        navController = navController,
+        startDestination = Home,
+        modifier = Modifier.windowInsetsPadding(WindowInsets.safeDrawing),
+    ) {
         composable<Home> {
             HomeScreen(
                 repository = questaoRepository,
