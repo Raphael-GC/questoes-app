@@ -38,6 +38,16 @@ class QuestaoRepository(private val db: AppDatabase) {
             db.questaoDao().contarPorDisciplinaETags(disciplinaId, tagIds)
         }
 
+    /**
+     * Ids das tags que já existem no banco com esses nomes exatos — usado pelos
+     * Simulados (Tela 6) pra montar o [net.oraphael.questoes.domain.FiltroDisciplina]
+     * de um bloco a partir dos rótulos oficiais dos tópicos do edital, sem hardcodar
+     * ids (que só existem depois da importação). Nomes sem tag correspondente no banco
+     * são ignorados silenciosamente — o pool daquele bloco fica só com o que existe.
+     */
+    suspend fun buscarTagIdsPorNomes(nomes: List<String>): Set<Long> =
+        nomes.mapNotNull { db.tagDao().buscar(it) }.toSet()
+
     suspend fun buscarQuestaoCompleta(id: String): QuestaoCompleta? =
         db.questaoDao().buscarCompleta(id)
 

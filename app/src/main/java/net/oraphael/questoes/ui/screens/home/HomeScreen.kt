@@ -110,7 +110,7 @@ fun HomeScreen(
             )
             HomeCard(
                 titulo = "Simulados",
-                subtitulo = "PND Geografia 2026",
+                subtitulo = "PND Geografia 2026 · PS 02/2026",
                 corFundo = QuestoesTokens.cores.aguaSuave,
                 corBorda = MaterialTheme.colorScheme.secondary.copy(alpha = 0.45f),
                 corTitulo = MaterialTheme.colorScheme.secondary,

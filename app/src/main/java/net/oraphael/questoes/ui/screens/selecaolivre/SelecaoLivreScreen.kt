@@ -41,7 +41,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import net.oraphael.questoes.data.db.DisciplinaContagem
@@ -50,6 +49,7 @@ import net.oraphael.questoes.data.db.TagContagem
 import net.oraphael.questoes.data.repo.QuestaoRepository
 import net.oraphael.questoes.data.repo.SessaoRepository
 import net.oraphael.questoes.domain.FiltroDisciplina
+import net.oraphael.questoes.domain.FiltroSnapshot
 import net.oraphael.questoes.domain.MotorSessao
 import net.oraphael.questoes.domain.Ordem
 import net.oraphael.questoes.domain.PoolInsuficienteException
@@ -67,9 +67,6 @@ private val DISCIPLINAS_EM_ORDEM = listOf(
 
 /** Filtro já confirmado no pop-up pra uma disciplina — presença no mapa = disciplina marcada. */
 private data class FiltroConfirmado(val tagIds: Set<Long>, val quantidade: Int)
-
-@Serializable
-private data class FiltroSnapshot(val disciplinaId: String, val tagIds: List<Long>, val quantidade: Int)
 
 /**
  * Tela 2 (Mapa de Navegação, Fase 2) — marca 1+ disciplinas, cada uma com seu pop-up

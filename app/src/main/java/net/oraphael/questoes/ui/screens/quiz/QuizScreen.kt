@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -12,7 +13,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -33,6 +38,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
 import kotlinx.serialization.decodeFromString
@@ -43,6 +50,7 @@ import net.oraphael.questoes.data.db.SessaoEntity
 import net.oraphael.questoes.data.db.TentativaEntity
 import net.oraphael.questoes.data.repo.QuestaoRepository
 import net.oraphael.questoes.data.repo.SessaoRepository
+import net.oraphael.questoes.domain.FiltroSnapshot
 import net.oraphael.questoes.ui.theme.QuestoesRadii
 import net.oraphael.questoes.ui.theme.QuestoesTokens
 
@@ -73,10 +81,20 @@ fun QuizScreen(
 ) {
     var sessao by remember { mutableStateOf<SessaoEntity?>(null) }
     var idsQuestoes by remember { mutableStateOf<List<String>>(emptyList()) }
+    var blocoPorIndice by remember { mutableStateOf<List<String?>>(emptyList()) }
     LaunchedEffect(sessaoId) {
         val completa = sessaoRepository.buscarSessaoCompleta(sessaoId)
         sessao = completa?.sessao
         idsQuestoes = completa?.sessao?.let { Json.decodeFromString<List<String>>(it.questaoIdsJson) } ?: emptyList()
+        // Só o modo "simulado" roda em Ordem.SEQUENCIAL com filtros por bloco — daí dá
+        // pra reconstruir "qual bloco é a questão N" só andando pelas quantidades de
+        // cada FiltroSnapshot na ordem em que aparecem (ver comentário em FiltroSnapshot).
+        blocoPorIndice = if (completa?.sessao?.modo == "simulado") {
+            val filtros = completa.sessao.let { Json.decodeFromString<List<FiltroSnapshot>>(it.filtrosJson) }
+            filtros.flatMap { f -> List(f.quantidade) { f.blocoLabel } }
+        } else {
+            emptyList()
+        }
     }
 
     var indice by remember { mutableStateOf(0) }
@@ -134,11 +152,7 @@ fun QuizScreen(
 
         val imagensDesc = remember(questao) { Json.decodeFromString<List<String>>(questao.questao.imagensDescJson) }
         if (imagensDesc.isNotEmpty()) {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                imagensDesc.forEachIndexed { i, descricao ->
-                    ImagemQuestao(questaoId = questao.questao.id, indice = i + 1, descricao = descricao)
-                }
-            }
+            CarrosselImagensQuestao(questaoId = questao.questao.id, descricoes = imagensDesc)
         }
 
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -158,7 +172,7 @@ fun QuizScreen(
                                     sessaoId = sessaoId,
                                     questaoId = questao.questao.id,
                                     disciplinaId = questao.questao.disciplinaId,
-                                    blocoSimulado = null,
+                                    blocoSimulado = blocoPorIndice.getOrNull(indice),
                                     respostaSelecionada = alternativa.letra,
                                     acerto = alternativa.letra == questao.questao.respostaCorreta,
                                     tempoQuestaoMs = tempoQuestaoMs,
@@ -225,6 +239,58 @@ fun QuizScreen(
 private const val URL_BASE_IMAGENS = "https://raw.githubusercontent.com/Raphael-GC/questoes-banco/main/files/images/"
 
 /**
+ * Uma página por imagem, sempre — mesmo com 1 imagem só, pra não ter dois componentes
+ * diferentes conforme a quantidade. Com 2+ páginas mostra os pontos de posição abaixo.
+ * Toque numa imagem carregada abre [ImagemAmpliadaDialog]; se ainda não existir no
+ * repositório (banco de pendentes), a página cai pro fallback textual e não é clicável.
+ */
+@Composable
+private fun CarrosselImagensQuestao(questaoId: String, descricoes: List<String>) {
+    val pagerState = rememberPagerState(pageCount = { descricoes.size })
+    var indiceAmpliado by remember(questaoId) { mutableStateOf<Int?>(null) }
+
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        HorizontalPager(state = pagerState, modifier = Modifier.fillMaxWidth()) { pagina ->
+            ImagemQuestao(
+                questaoId = questaoId,
+                indice = pagina + 1,
+                descricao = descricoes[pagina],
+                onClickAmpliar = { indiceAmpliado = pagina },
+            )
+        }
+        if (descricoes.size > 1) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+            ) {
+                repeat(descricoes.size) { i ->
+                    val ativo = i == pagerState.currentPage
+                    Box(
+                        modifier = Modifier
+                            .padding(horizontal = 3.dp)
+                            .size(if (ativo) 8.dp else 6.dp)
+                            .clip(CircleShape)
+                            .background(
+                                if (ativo) MaterialTheme.colorScheme.primary
+                                else MaterialTheme.colorScheme.outlineVariant,
+                            ),
+                    )
+                }
+            }
+        }
+    }
+
+    val indice = indiceAmpliado
+    if (indice != null) {
+        ImagemAmpliadaDialog(
+            url = "$URL_BASE_IMAGENS$questaoId-${indice + 1}.png",
+            descricao = descricoes[indice],
+            onDismiss = { indiceAmpliado = null },
+        )
+    }
+}
+
+/**
  * Sem tamanho fixo: [AsyncImage] com só a largura restrita preenche a linha e cresce na
  * altura conforme a proporção real da imagem — qualquer dimensão de imagem cabe sem
  * distorcer. [defaultMinSize] só evita o card colapsar pra altura zero enquanto carrega.
@@ -232,7 +298,7 @@ private const val URL_BASE_IMAGENS = "https://raw.githubusercontent.com/Raphael-
  * o erro do Coil cai de volta pra descrição textual, igual ao que já existia antes.
  */
 @Composable
-private fun ImagemQuestao(questaoId: String, indice: Int, descricao: String) {
+private fun ImagemQuestao(questaoId: String, indice: Int, descricao: String, onClickAmpliar: () -> Unit) {
     var falhouCarregar by remember(questaoId, indice) { mutableStateOf(false) }
 
     if (falhouCarregar) {
@@ -256,8 +322,34 @@ private fun ImagemQuestao(questaoId: String, indice: Int, descricao: String) {
                 .fillMaxWidth()
                 .defaultMinSize(minHeight = 140.dp)
                 .clip(RoundedCornerShape(QuestoesRadii.controle))
-                .background(MaterialTheme.colorScheme.surfaceVariant),
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .clickable(onClick = onClickAmpliar),
         )
+    }
+}
+
+/**
+ * Tela cheia sem pinça-para-zoom (decisão explícita, mais simples de manter) — toque em
+ * qualquer ponto fecha. [DialogProperties.usePlatformDefaultWidth] = false pra ocupar a
+ * tela inteira em vez do tamanho padrão de diálogo do Material.
+ */
+@Composable
+private fun ImagemAmpliadaDialog(url: String, descricao: String, onDismiss: () -> Unit) {
+    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.Black)
+                .clickable(onClick = onDismiss),
+            contentAlignment = Alignment.Center,
+        ) {
+            AsyncImage(
+                model = url,
+                contentDescription = descricao,
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.fillMaxSize(),
+            )
+        }
     }
 }
 

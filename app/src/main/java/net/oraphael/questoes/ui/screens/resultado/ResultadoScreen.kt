@@ -87,6 +87,12 @@ fun ResultadoScreen(
     val total = tentativas.size
     val acertos = tentativas.count { it.acerto }
     val percentual = if (total > 0) (acertos * 100) / total else 0
+    // Acertos por bloco (só nos Simulados, Ordem.SEQUENCIAL — ver TentativaEntity.blocoSimulado
+    // e QuizScreen). Sem nota ponderada por peso ainda, decisão do usuário (17/09): só os
+    // acertos brutos de cada bloco.
+    val porBloco = remember(tentativas) {
+        tentativas.filter { it.blocoSimulado != null }.groupBy { it.blocoSimulado!! }
+    }
     val tagsPorDisciplina = remember(tagsErradas) {
         tagsErradas.groupBy { it.disciplinaId }.toList().sortedBy { (id, _) -> ROTULO_DISCIPLINA.keys.indexOf(id) }
     }
@@ -123,6 +129,31 @@ fun ResultadoScreen(
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+        }
+
+        if (porBloco.isNotEmpty()) {
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(
+                    text = "ACERTOS POR BLOCO",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                porBloco.forEach { (bloco, tentativasBloco) ->
+                    val acertosBloco = tentativasBloco.count { it.acerto }
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                    ) {
+                        Text(text = bloco, style = MaterialTheme.typography.bodyMedium)
+                        Text(
+                            text = "$acertosBloco / ${tentativasBloco.size}",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                }
+            }
         }
 
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
