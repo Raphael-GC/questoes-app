@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -28,6 +27,7 @@ import net.oraphael.questoes.ui.screens.home.HomeScreen
 import net.oraphael.questoes.ui.screens.quiz.QuizScreen
 import net.oraphael.questoes.ui.screens.resultado.ResultadoScreen
 import net.oraphael.questoes.ui.screens.selecaolivre.SelecaoLivreScreen
+import net.oraphael.questoes.ui.screens.selecaosimulado.SelecaoSimuladoScreen
 
 /**
  * Raiz da navegação do app (Navigation Compose clássico — androidx.navigation.compose).
@@ -127,11 +127,12 @@ fun QuestoesApp() {
             )
         }
         composable<SelecaoSimulado> {
-            TelaPlaceholder("Seleção de simulado") {
-                Button(onClick = { navController.navigate(Quiz(sessaoId = 0L)) }) {
-                    Text("Confirmar (placeholder)")
-                }
-            }
+            SelecaoSimuladoScreen(
+                repository = questaoRepository,
+                sessaoRepository = sessaoRepository,
+                motorSessao = motorSessao,
+                onSessaoIniciada = { sessaoId -> navController.navigate(Quiz(sessaoId = sessaoId)) },
+            )
         }
         composable<AtualizarBanco> {
             TelaPlaceholder("Atualizar banco") {}

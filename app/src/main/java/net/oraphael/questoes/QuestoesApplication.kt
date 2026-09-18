@@ -30,6 +30,8 @@ class QuestoesApplication : Application() {
                 importador.importarDeAssets("portugues.json", "portugues")
                 importador.importarDeAssets("educacao-especial.json", "educacao-especial")
                 importador.importarDeAssets("educacao-infantil.json", "educacao-infantil")
+                importador.importarDeAssets("pnd-geografia-2026-fgd.json", "pnd-fgd")
+                importador.importarDeAssets("pnd-geografia-2026-especifico.json", "pnd-geografia")
             }
         }
     }
