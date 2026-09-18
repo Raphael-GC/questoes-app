@@ -127,10 +127,17 @@ fun QuizScreen(
     val alternativas = remember(questao) { questao.alternativas.sortedBy { it.letra } }
     val respondida = respostaSelecionada != null
 
+    // O Column é o mesmo através de todas as questões (só o conteúdo dentro dele muda),
+    // então o ScrollState persiste entre elas por padrão — sem isto, avançar pra próxima
+    // questão manteria a rolagem onde a questão anterior parou (no meio/fim dela) em vez
+    // de abrir a nova questão do início.
+    val scrollState = rememberScrollState()
+    LaunchedEffect(indice) { scrollState.scrollTo(0) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .verticalScroll(rememberScrollState())
+            .verticalScroll(scrollState)
             .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
