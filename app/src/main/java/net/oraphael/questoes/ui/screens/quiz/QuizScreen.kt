@@ -241,9 +241,10 @@ fun QuizScreen(
  * README de `questoes-banco`: arquivos `<id-da-questao>-<n>.png` dentro de
  * `files/images/`, sem manifesto nenhum listando o que existe. Sempre numerado, mesmo
  * quando a questão só tem uma imagem (`-1.png`) — sem caso especial pra "a primeira".
- * Só entra na branch `main` daquele repositório.
+ * Repositório usa `master` como branch padrão (não `main`) — confira antes de mexer aqui,
+ * essa troca já causou 404 silencioso (fallback textual) em toda imagem por um tempo.
  */
-private const val URL_BASE_IMAGENS = "https://raw.githubusercontent.com/Raphael-GC/questoes-banco/main/files/images/"
+private const val URL_BASE_IMAGENS = "https://raw.githubusercontent.com/Raphael-GC/questoes-banco/master/files/images/"
 
 /**
  * Uma página por imagem, sempre — mesmo com 1 imagem só, pra não ter dois componentes
