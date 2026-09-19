@@ -6,7 +6,7 @@ O projeto nasceu de uma necessidade pessoal de estudo para concursos (PSS SEDUC-
 
 ## Status
 
-MVP funcional: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado) estão implementadas e testadas em emulador — ver [Roadmap](#roadmap) pro que ainda falta (atualização remota do banco, testes automatizados, imagens reais, fontes do Google Fonts).
+MVP funcional: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas. A mais nova, Atualizar banco, compila e foi revisada com cuidado mas ainda não foi confirmada rodando de verdade num aparelho/emulador — ver [Roadmap](#roadmap) pro que ainda falta (testes automatizados, imagens reais, fontes do Google Fonts).
 
 ## Funcionalidades
 
@@ -22,7 +22,7 @@ MVP funcional: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado
 - **Livre**: na Home, toque em "Livre", marque uma ou mais disciplinas (um pop-up pede as tags e a quantidade de questões de cada uma) e escolha a ordem antes de iniciar.
 - **Simulados**: toque em "Simulados" pra ver a lista das provas disponíveis. Cada card mostra a composição (quantos blocos, quantas questões e quantas estão disponíveis no banco) antes de você confirmar o início.
 - **Histórico**: toque em "Ver histórico" pra listar todas as sessões já feitas e reabrir o resumo de qualquer uma delas.
-- **Atualizar o banco de questões**: ainda não existe um mecanismo de sincronização remota (ver [Roadmap](#roadmap)) — por enquanto, uma versão mais nova do banco só chega instalando uma versão mais nova do app (ver [Instalação](#instalação)). A importação do banco pros dados locais do app acontece uma única vez, na primeira abertura após instalar/reinstalar.
+- **Atualizar o banco de questões**: toque em "Atualizar banco" na Home e depois em "Verificar atualizações" — o app consulta o manifesto público do [`questoes-banco`](https://github.com/Raphael-GC/questoes-banco) e, se houver uma versão mais nova, baixa e substitui o conteúdo local disciplina por disciplina (o histórico de sessões não é afetado). A importação inicial (na primeira abertura após instalar/reinstalar) continua vindo dos arquivos embutidos no APK, sem precisar de internet.
 
 ## Capturas de tela
 
@@ -82,7 +82,7 @@ net.oraphael.questoes
 
 **Imagens.** Questões que dependem de imagem não a incluem no `.json` — só uma lista de descrições textuais (`imagens_desc`, 0 ou mais por questão). A URL de cada imagem é montada em tempo de execução a partir do id da questão e do índice dela, e resolvida contra um repositório dedicado no GitHub ([`questoes-banco`](https://github.com/Raphael-GC/questoes-banco)), servido via `raw.githubusercontent.com` e carregado sob demanda — sem empacotar imagens dentro do `.apk`. Enquanto uma imagem específica ainda não existe naquele repositório, a tela cai de volta pra descrição textual.
 
-**Atualização remota do banco.** Ainda não implementada (ver [Roadmap](#roadmap)) — a mecânica exata (frequência, formato do pacote, adicionar vs. substituir vs. remover questão) é uma decisão de produto em aberto.
+**Atualização remota do banco.** A Tela 7 (Atualizar banco) consulta `manifest.json` do [`questoes-banco`](https://github.com/Raphael-GC/questoes-banco) (mesma fonte das imagens, servida via `raw.githubusercontent.com`) e compara o campo `versao` com a última versão aplicada localmente (guardada em `SharedPreferences`). Se houver uma mais nova, baixa o `.json` de cada disciplina e substitui o conteúdo local uma disciplina por vez, na mesma transação/estratégia de troca do importador do primeiro boot (`Importador.importarDeTexto`) — questões com o mesmo id são sobrescritas, o histórico de sessões (tabelas separadas) não é afetado. Quem mantém o banco precisa lembrar de sincronizar `app/src/main/assets/questoes/` pro `questoes-banco` e subir `manifest.json.versao` a cada mudança de conteúdo, senão o app não vê a atualização.
 
 ## Banco de questões
 
@@ -113,9 +113,9 @@ O código-fonte do banco de questões (os arquivos `.json`) vive em um repositó
 - [x] Direção visual e catálogo de componentes
 - [x] Arquitetura técnica definida e documentada
 - [x] Camada de dados: schema Room, importador de JSON, importação automática no primeiro boot
-- [x] Telas do MVP em Compose (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado)
+- [x] Telas do MVP em Compose (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado, Atualizar banco)
 - [x] Simulados: PND Geografia 2026 e os 3 cargos do PS 02/2026 de Catanduva
-- [ ] Atualização remota do banco de questões (tela "Atualizar banco" ainda é placeholder)
+- [x] Atualização remota do banco de questões (falta confirmar rodando num aparelho/emulador de verdade)
 - [ ] Pós-MVP: revisão por tag, gráfico de evolução, exportação/backup do histórico
 - [ ] Testes automatizados
 - [ ] Fontes reais do Google Fonts (hoje usa fontes do sistema como placeholder)
