@@ -6,6 +6,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import net.oraphael.questoes.data.db.AppDatabase
+import net.oraphael.questoes.data.importer.BancoVersao
 import net.oraphael.questoes.data.importer.Importador
 
 class QuestoesApplication : Application() {
@@ -30,6 +31,7 @@ class QuestoesApplication : Application() {
                 importador.importarDeAssets("portugues.json", "portugues")
                 importador.importarDeAssets("educacao-especial.json", "educacao-especial")
                 importador.importarDeAssets("educacao-infantil.json", "educacao-infantil")
+                BancoVersao.marcarVersaoAplicada(this@QuestoesApplication, BancoVersao.BUNDLADA)
             }
         }
     }

@@ -25,6 +25,15 @@ class Importador(private val db: AppDatabase, private val context: Context) {
     suspend fun importarDeAssets(arquivo: String, disciplinaId: String) {
         val texto = context.assets.open("questoes/$arquivo")
             .bufferedReader().use { it.readText() }
+        importarDeTexto(texto, disciplinaId)
+    }
+
+    /**
+     * Mesma troca atômica por disciplina do primeiro boot, mas a partir de um JSON já em
+     * memória — usado pela atualização remota (Tela 7), que baixa o texto do GitHub em vez
+     * de ler de assets.
+     */
+    suspend fun importarDeTexto(texto: String, disciplinaId: String) {
         val questoes = json.decodeFromString<List<QuestaoJson>>(texto)
 
         db.withTransaction {

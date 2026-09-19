@@ -51,7 +51,8 @@ private val ORDEM_DISCIPLINAS = listOf(
 
 /**
  * Tela 1 (Mapa de Navegação, Fase 2) — três portas de entrada (Livre / Simulados /
- * Histórico) mais o atalho por disciplina, que hoje leva pra Seleção · Livre "crua"
+ * Histórico), o atalho pra Tela 7 (Atualizar banco) e o atalho por disciplina, que hoje
+ * leva pra Seleção · Livre "crua"
  * (sem pré-marcar a disciplina nem abrir o pop-up de tags — isso é comportamento da
  * própria tela de Seleção, que ainda é placeholder, e fica pra etapa dela).
  *
@@ -67,6 +68,7 @@ fun HomeScreen(
     onSimuladosClick: () -> Unit,
     onHistoricoClick: () -> Unit,
     onDisciplinaClick: (String) -> Unit,
+    onAtualizarBancoClick: () -> Unit,
 ) {
     var disciplinas by remember { mutableStateOf<List<DisciplinaContagem>>(emptyList()) }
 
@@ -123,6 +125,14 @@ fun HomeScreen(
                 corBorda = MaterialTheme.colorScheme.outlineVariant,
                 corTitulo = MaterialTheme.colorScheme.onSurface,
                 onClick = onHistoricoClick,
+            )
+            HomeCard(
+                titulo = "Atualizar banco",
+                subtitulo = "verificar novas questões",
+                corFundo = Color.Transparent,
+                corBorda = MaterialTheme.colorScheme.outlineVariant,
+                corTitulo = MaterialTheme.colorScheme.onSurface,
+                onClick = onAtualizarBancoClick,
             )
         }
 

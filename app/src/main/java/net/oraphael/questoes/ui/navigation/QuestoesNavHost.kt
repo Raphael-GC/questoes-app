@@ -1,27 +1,23 @@
 package net.oraphael.questoes.ui.navigation
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import net.oraphael.questoes.QuestoesApplication
+import net.oraphael.questoes.data.importer.AtualizadorRemoto
+import net.oraphael.questoes.data.importer.Importador
 import net.oraphael.questoes.data.repo.QuestaoRepository
 import net.oraphael.questoes.data.repo.SessaoRepository
 import net.oraphael.questoes.domain.MotorSessao
+import net.oraphael.questoes.ui.screens.atualizarbanco.AtualizarBancoScreen
 import net.oraphael.questoes.ui.screens.historico.HistoricoScreen
 import net.oraphael.questoes.ui.screens.home.HomeScreen
 import net.oraphael.questoes.ui.screens.quiz.QuizScreen
@@ -42,10 +38,10 @@ import net.oraphael.questoes.ui.screens.selecaosimulado.SelecaoSimuladoScreen
  * Usa navegação type-safe (desde Navigation 2.8): cada rota é o próprio objeto/data
  * class de [Destino], marcado com `@Serializable` — sem strings de rota "na mão".
  *
- * Etapa 4 (Fase 5) começou a trocar os placeholders pelas telas de verdade, uma de cada
- * vez: Home ([HomeScreen]), Seleção · Livre ([SelecaoLivreScreen]), Quiz ([QuizScreen]),
- * Resultado ([ResultadoScreen]) e Histórico ([HistoricoScreen]) já são reais. As demais
- * rotas abaixo seguem placeholder até a etapa de cada uma.
+ * Todas as 7 telas do Mapa de Navegação já são reais: Home ([HomeScreen]), Seleção ·
+ * Livre ([SelecaoLivreScreen]), Quiz ([QuizScreen]), Resultado ([ResultadoScreen]),
+ * Histórico ([HistoricoScreen]), Seleção de simulado ([SelecaoSimuladoScreen]) e
+ * Atualizar banco ([AtualizarBancoScreen]).
  */
 @Composable
 fun QuestoesApp() {
@@ -62,6 +58,10 @@ fun QuestoesApp() {
         SessaoRepository(app.db)
     }
     val motorSessao = remember { MotorSessao(questaoRepository) }
+    val atualizadorRemoto = remember {
+        val app = context.applicationContext as QuestoesApplication
+        AtualizadorRemoto(Importador(app.db, app))
+    }
 
     val navController = rememberNavController()
 
@@ -82,6 +82,7 @@ fun QuestoesApp() {
                 onSimuladosClick = { navController.navigate(SelecaoSimulado) },
                 onHistoricoClick = { navController.navigate(Historico) },
                 onDisciplinaClick = { disciplinaId -> navController.navigate(SelecaoLivre(disciplinaInicial = disciplinaId)) },
+                onAtualizarBancoClick = { navController.navigate(AtualizarBanco) },
             )
         }
         composable<SelecaoLivre> { backStackEntry ->
@@ -137,21 +138,10 @@ fun QuestoesApp() {
             )
         }
         composable<AtualizarBanco> {
-            TelaPlaceholder("Atualizar banco") {}
+            AtualizarBancoScreen(
+                atualizador = atualizadorRemoto,
+                onVoltarHome = { navController.popBackStack() },
+            )
         }
-    }
-}
-
-@Composable
-private fun TelaPlaceholder(titulo: String, acoes: @Composable () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Text(titulo)
-        acoes()
     }
 }
