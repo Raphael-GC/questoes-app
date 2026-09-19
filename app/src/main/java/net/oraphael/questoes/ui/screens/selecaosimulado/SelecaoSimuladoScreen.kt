@@ -182,12 +182,13 @@ fun SelecaoSimuladoScreen(
     sessaoRepository: SessaoRepository,
     motorSessao: MotorSessao,
     onSessaoIniciada: (Long) -> Unit,
+    onVoltarHome: () -> Unit,
 ) {
     var selecionado by remember { mutableStateOf<DefinicaoSimulado?>(null) }
 
     val simulado = selecionado
     if (simulado == null) {
-        ListaSimuladosScreen(onSelecionar = { selecionado = it })
+        ListaSimuladosScreen(onSelecionar = { selecionado = it }, onVoltarHome = onVoltarHome)
     } else {
         DetalheSimuladoScreen(
             simulado = simulado,
@@ -201,7 +202,7 @@ fun SelecaoSimuladoScreen(
 }
 
 @Composable
-private fun ListaSimuladosScreen(onSelecionar: (DefinicaoSimulado) -> Unit) {
+private fun ListaSimuladosScreen(onSelecionar: (DefinicaoSimulado) -> Unit, onVoltarHome: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -219,6 +220,9 @@ private fun ListaSimuladosScreen(onSelecionar: (DefinicaoSimulado) -> Unit) {
             SIMULADOS.forEach { def ->
                 CardSimulado(def = def, onClick = { onSelecionar(def) })
             }
+        }
+        OutlinedButton(onClick = onVoltarHome, modifier = Modifier.fillMaxWidth()) {
+            Text("Voltar")
         }
     }
 }

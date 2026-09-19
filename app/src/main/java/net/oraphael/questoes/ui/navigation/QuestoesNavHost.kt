@@ -92,6 +92,7 @@ fun QuestoesApp() {
                 motorSessao = motorSessao,
                 disciplinaInicial = destino.disciplinaInicial,
                 onSessaoIniciada = { sessaoId -> navController.navigate(Quiz(sessaoId = sessaoId)) },
+                onVoltarHome = { navController.popBackStack() },
             )
         }
         composable<Quiz> { backStackEntry ->
@@ -132,6 +133,7 @@ fun QuestoesApp() {
                 sessaoRepository = sessaoRepository,
                 motorSessao = motorSessao,
                 onSessaoIniciada = { sessaoId -> navController.navigate(Quiz(sessaoId = sessaoId)) },
+                onVoltarHome = { navController.popBackStack() },
             )
         }
         composable<AtualizarBanco> {

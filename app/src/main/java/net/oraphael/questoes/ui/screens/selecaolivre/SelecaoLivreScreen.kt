@@ -84,6 +84,7 @@ fun SelecaoLivreScreen(
     motorSessao: MotorSessao,
     disciplinaInicial: String?,
     onSessaoIniciada: (Long) -> Unit,
+    onVoltarHome: () -> Unit,
 ) {
     var contagens by remember { mutableStateOf<List<DisciplinaContagem>>(emptyList()) }
     LaunchedEffect(Unit) { contagens = repository.listarDisciplinasComContagem() }
@@ -197,39 +198,44 @@ fun SelecaoLivreScreen(
             )
         }
 
-        Button(
-            onClick = {
-                erro = null
-                iniciando = true
-                scope.launch {
-                    val filtros = selecoes.map { (id, f) -> FiltroDisciplina(id, f.tagIds, f.quantidade) }
-                    try {
-                        val ids = motorSessao.resolverLivre(filtros, ordem)
-                        val sessao = SessaoEntity(
-                            modo = "livre",
-                            ordem = if (ordem == Ordem.ALEATORIO) "aleatorio" else "sequencial",
-                            cargoSimulado = null,
-                            dataHoraInicio = System.currentTimeMillis(),
-                            tempoTotalSessaoMs = null,
-                            filtrosJson = Json.encodeToString(
-                                filtros.map { FiltroSnapshot(it.disciplinaId, it.tagIds.toList(), it.quantidade) },
-                            ),
-                            questaoIdsJson = Json.encodeToString(ids),
-                        )
-                        val sessaoId = sessaoRepository.iniciarSessao(sessao)
-                        onSessaoIniciada(sessaoId)
-                    } catch (e: PoolInsuficienteException) {
-                        erro = "\"${e.disciplinaId}\" tem só ${e.disponivel} questões disponíveis " +
-                            "pras tags escolhidas (pedidas ${e.pedido}). Ajuste a quantidade ou marque mais tags."
-                    } finally {
-                        iniciando = false
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+            OutlinedButton(onClick = onVoltarHome, modifier = Modifier.weight(1f)) {
+                Text("Voltar")
+            }
+            Button(
+                onClick = {
+                    erro = null
+                    iniciando = true
+                    scope.launch {
+                        val filtros = selecoes.map { (id, f) -> FiltroDisciplina(id, f.tagIds, f.quantidade) }
+                        try {
+                            val ids = motorSessao.resolverLivre(filtros, ordem)
+                            val sessao = SessaoEntity(
+                                modo = "livre",
+                                ordem = if (ordem == Ordem.ALEATORIO) "aleatorio" else "sequencial",
+                                cargoSimulado = null,
+                                dataHoraInicio = System.currentTimeMillis(),
+                                tempoTotalSessaoMs = null,
+                                filtrosJson = Json.encodeToString(
+                                    filtros.map { FiltroSnapshot(it.disciplinaId, it.tagIds.toList(), it.quantidade) },
+                                ),
+                                questaoIdsJson = Json.encodeToString(ids),
+                            )
+                            val sessaoId = sessaoRepository.iniciarSessao(sessao)
+                            onSessaoIniciada(sessaoId)
+                        } catch (e: PoolInsuficienteException) {
+                            erro = "\"${e.disciplinaId}\" tem só ${e.disponivel} questões disponíveis " +
+                                "pras tags escolhidas (pedidas ${e.pedido}). Ajuste a quantidade ou marque mais tags."
+                        } finally {
+                            iniciando = false
+                        }
                     }
-                }
-            },
-            enabled = totalSessao > 0 && !iniciando,
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text(if (iniciando) "Sorteando questões..." else "Iniciar")
+                },
+                enabled = totalSessao > 0 && !iniciando,
+                modifier = Modifier.weight(1f),
+            ) {
+                Text(if (iniciando) "Sorteando..." else "Iniciar")
+            }
         }
     }
 
@@ -353,139 +359,154 @@ private fun TagsPopup(
     }
 
     ModalBottomSheet(onDismissRequest = onVoltar, sheetState = sheetState) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .verticalScroll(rememberScrollState())
-                .padding(horizontal = 20.dp)
-                .padding(bottom = 24.dp),
-            verticalArrangement = Arrangement.spacedBy(14.dp),
-        ) {
-            Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                Text(text = "Tags · $rotulo", style = MaterialTheme.typography.titleMedium)
-                if (selecaoAtual != null) {
-                    Text(
-                        text = "editando seleção — tags começam desmarcadas de novo",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                }
-            }
-
-            Text(
-                text = "Marque as tags que quer incluir nesta sessão de $rotulo",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(QuestoesRadii.controle))
-                    .background(QuestoesTokens.cores.marcoDouradoSuave)
-                    .padding(10.dp),
-                textAlign = TextAlign.Center,
-            )
-
-            OutlinedTextField(
-                value = busca,
-                onValueChange = { busca = it },
-                placeholder = { Text("Buscar tag...") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-
-            Text(
-                text = "TAGS DE ${rotulo.uppercase()} · POR FREQUÊNCIA",
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-
-            if (carregandoTags) {
-                CarregandoCheck(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 20.dp),
-                    legenda = "Carregando tags de $rotulo...",
-                )
-            }
+        Column(modifier = Modifier.fillMaxWidth()) {
+            // Coluna rolável (título até o seletor de quantidade) separada da área fixa
+            // dos botões — em disciplinas com muitas tags, a lista cresce e rola por
+            // dentro enquanto Voltar/Confirmar continuam visíveis, sem precisar rolar
+            // até o fim pra alcançá-los (issue #1).
             Column(
-                modifier = Modifier.fillMaxWidth(),
-                verticalArrangement = Arrangement.spacedBy(6.dp),
+                modifier = Modifier
+                    .weight(1f, fill = false)
+                    .verticalScroll(rememberScrollState())
+                    .padding(horizontal = 20.dp),
+                verticalArrangement = Arrangement.spacedBy(14.dp),
             ) {
-                tagsFiltradas.forEach { tag ->
-                    val marcada = tag.id in tagsMarcadas
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clip(RoundedCornerShape(QuestoesRadii.controle))
-                            .background(MaterialTheme.colorScheme.surface)
-                            .clickable {
-                                tagsMarcadas = if (marcada) tagsMarcadas - tag.id else tagsMarcadas + tag.id
-                            }
-                            .padding(horizontal = 10.dp, vertical = 8.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Checkbox(
-                            checked = marcada,
-                            onCheckedChange = {
-                                tagsMarcadas = if (marcada) tagsMarcadas - tag.id else tagsMarcadas + tag.id
-                            },
-                        )
+                Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+                    Text(text = "Tags · $rotulo", style = MaterialTheme.typography.titleMedium)
+                    if (selecaoAtual != null) {
                         Text(
-                            text = tag.nome,
-                            style = MaterialTheme.typography.bodyMedium,
-                            modifier = Modifier.weight(1f),
-                        )
-                        Text(
-                            text = "${tag.total}",
-                            style = MaterialTheme.typography.labelMedium,
+                            text = "editando seleção — tags começam desmarcadas de novo",
+                            style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
                     }
                 }
-            }
 
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(
-                    text = "QUANTIDADE" + if (pool > 0) " · máx. $pool" else "",
+                    text = "Marque as tags que quer incluir nesta sessão de $rotulo",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(QuestoesRadii.controle))
+                        .background(QuestoesTokens.cores.marcoDouradoSuave)
+                        .padding(10.dp),
+                    textAlign = TextAlign.Center,
+                )
+
+                OutlinedTextField(
+                    value = busca,
+                    onValueChange = { busca = it },
+                    placeholder = { Text("Buscar tag...") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+
+                Text(
+                    text = "TAGS DE ${rotulo.uppercase()} · POR FREQUÊNCIA",
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    PassoQuantidade(texto = "−", habilitado = pool > 0 && quantidade > 1) {
-                        quantidade = (quantidade - 1).coerceAtLeast(1)
-                    }
-                    Box(
+
+                if (carregandoTags) {
+                    CarregandoCheck(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(QuestoesRadii.controle))
-                            .background(MaterialTheme.colorScheme.surface)
-                            .padding(horizontal = 20.dp, vertical = 8.dp),
-                    ) {
-                        Text(text = if (pool > 0) "$quantidade" else "—", style = MaterialTheme.typography.titleMedium)
+                            .fillMaxWidth()
+                            .padding(vertical = 20.dp),
+                        legenda = "Carregando tags de $rotulo...",
+                    )
+                }
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    tagsFiltradas.forEach { tag ->
+                        val marcada = tag.id in tagsMarcadas
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(QuestoesRadii.controle))
+                                .background(MaterialTheme.colorScheme.surface)
+                                .clickable {
+                                    tagsMarcadas = if (marcada) tagsMarcadas - tag.id else tagsMarcadas + tag.id
+                                }
+                                .padding(horizontal = 10.dp, vertical = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Checkbox(
+                                checked = marcada,
+                                onCheckedChange = {
+                                    tagsMarcadas = if (marcada) tagsMarcadas - tag.id else tagsMarcadas + tag.id
+                                },
+                            )
+                            Text(
+                                text = tag.nome,
+                                style = MaterialTheme.typography.bodyMedium,
+                                modifier = Modifier.weight(1f),
+                            )
+                            Text(
+                                text = "${tag.total}",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
                     }
-                    PassoQuantidade(texto = "+", habilitado = pool > 0 && quantidade < pool) {
-                        quantidade = (quantidade + 1).coerceAtMost(pool)
+                }
+
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        text = "QUANTIDADE" + if (pool > 0) " · máx. $pool" else "",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        PassoQuantidade(texto = "−", habilitado = pool > 0 && quantidade > 1) {
+                            quantidade = (quantidade - 1).coerceAtLeast(1)
+                        }
+                        Box(
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(QuestoesRadii.controle))
+                                .background(MaterialTheme.colorScheme.surface)
+                                .padding(horizontal = 20.dp, vertical = 8.dp),
+                        ) {
+                            Text(text = if (pool > 0) "$quantidade" else "—", style = MaterialTheme.typography.titleMedium)
+                        }
+                        PassoQuantidade(texto = "+", habilitado = pool > 0 && quantidade < pool) {
+                            quantidade = (quantidade + 1).coerceAtMost(pool)
+                        }
                     }
                 }
             }
 
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
-                OutlinedButton(onClick = onVoltar, modifier = Modifier.weight(1f)) {
-                    Text("Voltar")
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp)
+                    .padding(top = 10.dp, bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+                    OutlinedButton(onClick = onVoltar, modifier = Modifier.weight(1f)) {
+                        Text("Voltar")
+                    }
+                    Button(
+                        onClick = { onConfirmar(tagsMarcadas, quantidade) },
+                        enabled = tagsMarcadas.isNotEmpty() && quantidade > 0,
+                        modifier = Modifier.weight(1f),
+                    ) {
+                        Text("Confirmar")
+                    }
                 }
-                Button(
-                    onClick = { onConfirmar(tagsMarcadas, quantidade) },
-                    enabled = tagsMarcadas.isNotEmpty() && quantidade > 0,
-                    modifier = Modifier.weight(1f),
-                ) {
-                    Text("Confirmar")
-                }
+                Text(
+                    text = "Confirmar libera só depois de marcar 1+ tag",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                )
             }
-            Text(
-                text = "Confirmar libera só depois de marcar 1+ tag",
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.fillMaxWidth(),
-                textAlign = TextAlign.Center,
-            )
         }
     }
 }
