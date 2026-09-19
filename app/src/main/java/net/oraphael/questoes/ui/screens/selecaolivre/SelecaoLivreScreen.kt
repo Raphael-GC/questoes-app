@@ -53,6 +53,7 @@ import net.oraphael.questoes.domain.FiltroSnapshot
 import net.oraphael.questoes.domain.MotorSessao
 import net.oraphael.questoes.domain.Ordem
 import net.oraphael.questoes.domain.PoolInsuficienteException
+import net.oraphael.questoes.ui.components.CarregandoCheck
 import net.oraphael.questoes.ui.theme.QuestoesRadii
 import net.oraphael.questoes.ui.theme.QuestoesTokens
 
@@ -323,7 +324,12 @@ private fun TagsPopup(
     onConfirmar: (Set<Long>, Int) -> Unit,
 ) {
     var tags by remember(disciplinaId) { mutableStateOf<List<TagContagem>>(emptyList()) }
-    LaunchedEffect(disciplinaId) { tags = repository.listarTagsComContagem(disciplinaId) }
+    var carregandoTags by remember(disciplinaId) { mutableStateOf(true) }
+    LaunchedEffect(disciplinaId) {
+        carregandoTags = true
+        tags = repository.listarTagsComContagem(disciplinaId)
+        carregandoTags = false
+    }
 
     var busca by remember(disciplinaId) { mutableStateOf("") }
     var tagsMarcadas by remember(disciplinaId) { mutableStateOf(setOf<Long>()) }
@@ -392,6 +398,14 @@ private fun TagsPopup(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
+            if (carregandoTags) {
+                CarregandoCheck(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 20.dp),
+                    legenda = "Carregando tags de $rotulo...",
+                )
+            }
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(6.dp),

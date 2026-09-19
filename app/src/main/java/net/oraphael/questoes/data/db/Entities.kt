@@ -5,7 +5,7 @@ import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "questao")
+@Entity(tableName = "questao", indices = [Index("disciplinaId")])
 data class QuestaoEntity(
     @PrimaryKey val id: String,
     val disciplinaId: String,
@@ -33,7 +33,14 @@ data class TagEntity(
     val nome: String,
 )
 
-@Entity(tableName = "questao_tag_cross_ref", primaryKeys = ["questaoId", "tagId"])
+@Entity(
+    tableName = "questao_tag_cross_ref",
+    primaryKeys = ["questaoId", "tagId"],
+    // A PK composta (questaoId, tagId) só serve de índice pra busca por questaoId — o
+    // pop-up de tags (Tela 2) e o cálculo de pool sempre filtram por tagId, que sem
+    // índice próprio força varredura completa da tabela a cada tag marcada/desmarcada.
+    indices = [Index("tagId")],
+)
 data class QuestaoTagCrossRef(
     val questaoId: String,
     val tagId: Long,
