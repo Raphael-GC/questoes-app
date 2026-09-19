@@ -6,7 +6,7 @@ O projeto nasceu de uma necessidade pessoal de estudo para concursos (PSS SEDUC-
 
 ## Status
 
-MVP funcional: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas. A mais nova, Atualizar banco, compila e foi revisada com cuidado mas ainda não foi confirmada rodando de verdade num aparelho/emulador — ver [Roadmap](#roadmap) pro que ainda falta (testes automatizados, imagens reais, fontes do Google Fonts).
+MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas e testadas em emulador, incluindo a atualização remota de ponta a ponta (verificação, download, aplicação e recuperação de erro de rede) — ver [Roadmap](#roadmap) pro que ainda falta (testes automatizados, imagens reais, fontes do Google Fonts).
 
 ## Funcionalidades
 
@@ -71,8 +71,9 @@ net.oraphael.questoes
 │   └── repo         → fachadas de leitura/escrita usadas pela UI (QuestaoRepository, SessaoRepository)
 ├── domain           → MotorSessao (sorteio de questões do modo Livre e dos Simulados)
 ├── ui
+│   ├── components     → composables reutilizados entre telas (ex.: CarregandoCheck)
 │   ├── navigation    → NavHost e rotas type-safe
-│   ├── screens        → uma pasta por tela (home, selecaolivre, quiz, resultado, historico, selecaosimulado)
+│   ├── screens        → uma pasta por tela (home, selecaolivre, quiz, resultado, historico, selecaosimulado, atualizarbanco)
 │   └── theme          → cores, tipografia e tema Compose ("Carta anotada")
 ├── MainActivity.kt
 └── QuestoesApplication.kt
@@ -115,7 +116,7 @@ O código-fonte do banco de questões (os arquivos `.json`) vive em um repositó
 - [x] Camada de dados: schema Room, importador de JSON, importação automática no primeiro boot
 - [x] Telas do MVP em Compose (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado, Atualizar banco)
 - [x] Simulados: PND Geografia 2026 e os 3 cargos do PS 02/2026 de Catanduva
-- [x] Atualização remota do banco de questões (falta confirmar rodando num aparelho/emulador de verdade)
+- [x] Atualização remota do banco de questões (verificação, download e aplicação confirmados em emulador, incluindo recuperação de erro de rede)
 - [ ] Pós-MVP: revisão por tag, gráfico de evolução, exportação/backup do histórico
 - [ ] Testes automatizados
 - [ ] Fontes reais do Google Fonts (hoje usa fontes do sistema como placeholder)
