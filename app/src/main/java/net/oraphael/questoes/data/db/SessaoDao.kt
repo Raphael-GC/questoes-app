@@ -45,7 +45,38 @@ interface SessaoDao {
         """
     )
     suspend fun listarResumo(): List<SessaoResumo>
+
+    /**
+     * Tags com 1+ erro em todo o histórico (todas as sessões, não só a última) —
+     * Revisão por tag (pós-MVP). Agrupado também por [TagErroResumo.disciplinaId] porque
+     * uma tag não é exclusiva de uma disciplina no schema (ex. "cartografia" pode
+     * aparecer tanto em geografia quanto em gerais); sem isso o filtro de revisão não
+     * saberia em qual disciplina buscar o pool. [TentativaEntity.disciplinaId] (gravado
+     * no momento da tentativa) resolve essa ambiguidade sem precisar voltar em `questao`.
+     */
+    @Query(
+        """
+        SELECT t.id as tagId, t.nome as nome, tv.disciplinaId as disciplinaId,
+               SUM(CASE WHEN tv.acerto = 0 THEN 1 ELSE 0 END) as erros,
+               COUNT(*) as total
+        FROM tentativa tv
+        INNER JOIN questao_tag_cross_ref x ON x.questaoId = tv.questaoId
+        INNER JOIN tag t ON t.id = x.tagId
+        GROUP BY t.id, tv.disciplinaId
+        HAVING erros > 0
+        ORDER BY erros DESC, total DESC
+        """
+    )
+    suspend fun listarTagsComErros(): List<TagErroResumo>
 }
+
+data class TagErroResumo(
+    val tagId: Long,
+    val nome: String,
+    val disciplinaId: String,
+    val erros: Int,
+    val total: Int,
+)
 
 data class SessaoCompleta(
     @Embedded val sessao: SessaoEntity,

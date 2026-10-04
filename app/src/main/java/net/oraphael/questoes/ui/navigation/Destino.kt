@@ -23,5 +23,6 @@ sealed interface Destino
 @Serializable data class Quiz(val sessaoId: Long) : Destino
 @Serializable data class Resultado(val sessaoId: Long) : Destino
 @Serializable data object Historico : Destino
+@Serializable data object Revisao : Destino
 @Serializable data object SelecaoSimulado : Destino
 @Serializable data object AtualizarBanco : Destino

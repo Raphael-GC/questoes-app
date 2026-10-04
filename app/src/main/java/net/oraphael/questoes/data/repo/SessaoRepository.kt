@@ -4,6 +4,7 @@ import net.oraphael.questoes.data.db.AppDatabase
 import net.oraphael.questoes.data.db.SessaoCompleta
 import net.oraphael.questoes.data.db.SessaoEntity
 import net.oraphael.questoes.data.db.SessaoResumo
+import net.oraphael.questoes.data.db.TagErroResumo
 import net.oraphael.questoes.data.db.TentativaEntity
 
 /** Grava e lê sessões/tentativas — usado tanto durante o quiz quanto na tela de Histórico. */
@@ -26,4 +27,8 @@ class SessaoRepository(private val db: AppDatabase) {
     /** Sessões concluídas com acertos/total já agregados — Histórico (Tela 5). */
     suspend fun listarResumoSessoes(): List<SessaoResumo> =
         db.sessaoDao().listarResumo()
+
+    /** Tags com erro no histórico inteiro, rankeadas — Revisão por tag (pós-MVP). */
+    suspend fun listarTagsComErros(): List<TagErroResumo> =
+        db.sessaoDao().listarTagsComErros()
 }

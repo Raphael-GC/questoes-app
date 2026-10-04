@@ -16,6 +16,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -54,6 +55,7 @@ import java.util.Locale
 fun HistoricoScreen(
     sessaoRepository: SessaoRepository,
     onAbrirSessao: (Long) -> Unit,
+    onRevisarPorTagClick: () -> Unit,
 ) {
     var sessoes by remember { mutableStateOf<List<SessaoResumo>>(emptyList()) }
     LaunchedEffect(Unit) { sessoes = sessaoRepository.listarResumoSessoes() }
@@ -77,6 +79,12 @@ fun HistoricoScreen(
         if (sessoes.size >= 2) {
             GraficoEvolucao(sessoes = sessoes)
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        }
+
+        if (sessoes.isNotEmpty()) {
+            OutlinedButton(onClick = onRevisarPorTagClick, modifier = Modifier.fillMaxWidth()) {
+                Text("Revisar por tag")
+            }
         }
 
         if (sessoes.isEmpty()) {

@@ -22,6 +22,7 @@ import net.oraphael.questoes.ui.screens.historico.HistoricoScreen
 import net.oraphael.questoes.ui.screens.home.HomeScreen
 import net.oraphael.questoes.ui.screens.quiz.QuizScreen
 import net.oraphael.questoes.ui.screens.resultado.ResultadoScreen
+import net.oraphael.questoes.ui.screens.revisao.RevisaoScreen
 import net.oraphael.questoes.ui.screens.selecaolivre.SelecaoLivreScreen
 import net.oraphael.questoes.ui.screens.selecaosimulado.SelecaoSimuladoScreen
 
@@ -126,6 +127,16 @@ fun QuestoesApp() {
             HistoricoScreen(
                 sessaoRepository = sessaoRepository,
                 onAbrirSessao = { sessaoId -> navController.navigate(Resultado(sessaoId = sessaoId)) },
+                onRevisarPorTagClick = { navController.navigate(Revisao) },
+            )
+        }
+        composable<Revisao> {
+            RevisaoScreen(
+                sessaoRepository = sessaoRepository,
+                repository = questaoRepository,
+                motorSessao = motorSessao,
+                onSessaoIniciada = { sessaoId -> navController.navigate(Quiz(sessaoId = sessaoId)) },
+                onVoltar = { navController.popBackStack() },
             )
         }
         composable<SelecaoSimulado> {
