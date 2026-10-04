@@ -6,7 +6,7 @@ O projeto nasceu de uma necessidade pessoal de estudo para concursos (PSS SEDUC-
 
 ## Status
 
-MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas e testadas em emulador, incluindo a atualização remota de ponta a ponta (verificação, download, aplicação e recuperação de erro de rede) — ver [Roadmap](#roadmap) pro que ainda falta (testes automatizados, imagens reais, fontes do Google Fonts).
+MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas e testadas em emulador, incluindo a atualização remota de ponta a ponta (verificação, download, aplicação e recuperação de erro de rede) — ver [Roadmap](#roadmap) pro que ainda falta (testes automatizados, imagens reais das questões).
 
 ## Funcionalidades
 
@@ -119,7 +119,7 @@ O código-fonte do banco de questões (os arquivos `.json`) vive em um repositó
 - [x] Atualização remota do banco de questões (verificação, download e aplicação confirmados em emulador, incluindo recuperação de erro de rede)
 - [ ] Pós-MVP: revisão por tag, gráfico de evolução, exportação/backup do histórico
 - [ ] Testes automatizados
-- [ ] Fontes reais do Google Fonts (hoje usa fontes do sistema como placeholder)
+- [x] Fontes reais do Google Fonts (Archivo, Karla, JetBrains Mono, Caveat)
 - [ ] Imagens reais das questões que dependem de imagem
 
 ## Licença

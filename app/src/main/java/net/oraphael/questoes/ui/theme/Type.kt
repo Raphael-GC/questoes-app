@@ -2,25 +2,33 @@ package net.oraphael.questoes.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import net.oraphael.questoes.R
 
 /**
  * As 4 famílias do sistema "Carta anotada" (Catálogo de Componentes, Fase 3): Archivo
  * (títulos/valores em destaque), Karla (corpo), JetBrains Mono (todo dado numérico/
- * rótulo curto) e Caveat (marginália, só em doses pequenas).
- *
- * FONTES PROVISÓRIAS (decisão de 12/09/2026): essas 4 famílias apontam pra fontes do
- * sistema, não as 4 do Google Fonts fechadas na Fase 3 — pra não depender de Google
- * Play Services nem de arquivo de fonte nenhum nesta etapa. Quando tiver os .ttf reais
- * (Archivo, Karla, JetBrains Mono, Caveat) em `res/font/`, troca só estas 4 linhas por
- * `FontFamily(Font(R.font.xxx, FontWeight.YYY), ...)` — o resto deste arquivo não muda.
+ * rótulo curto) e Caveat (marginália, só em doses pequenas). Arquivos .ttf (licença
+ * OFL, textos em docs/fonts/) em res/font/, só os pesos usados no Typography abaixo.
  */
-val QuestoesFontDisplay = FontFamily.SansSerif // provisório de Archivo
-val QuestoesFontBody = FontFamily.SansSerif // provisório de Karla
-val QuestoesFontMono = FontFamily.Monospace // provisório de JetBrains Mono
-val QuestoesFontHand = FontFamily.Cursive // provisório de Caveat
+val QuestoesFontDisplay = FontFamily(
+    Font(R.font.archivo_bold, FontWeight.Bold),
+    Font(R.font.archivo_extrabold, FontWeight.ExtraBold),
+)
+val QuestoesFontBody = FontFamily(
+    Font(R.font.karla_regular, FontWeight.Normal),
+    Font(R.font.karla_semibold, FontWeight.SemiBold),
+)
+val QuestoesFontMono = FontFamily(
+    Font(R.font.jetbrains_mono_regular, FontWeight.Normal),
+    Font(R.font.jetbrains_mono_medium, FontWeight.Medium),
+)
+val QuestoesFontHand = FontFamily(
+    Font(R.font.caveat_medium, FontWeight.Medium),
+)
 
 val Typography = Typography(
     displayLarge = TextStyle(
