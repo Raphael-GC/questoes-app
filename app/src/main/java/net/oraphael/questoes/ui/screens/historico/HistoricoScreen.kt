@@ -1,5 +1,6 @@
 package net.oraphael.questoes.ui.screens.historico
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -8,6 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -24,11 +26,17 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import net.oraphael.questoes.data.db.SessaoResumo
 import net.oraphael.questoes.data.repo.SessaoRepository
 import net.oraphael.questoes.ui.theme.QuestoesRadii
+import net.oraphael.questoes.ui.theme.QuestoesTokens
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -65,6 +73,11 @@ fun HistoricoScreen(
         )
 
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+
+        if (sessoes.size >= 2) {
+            GraficoEvolucao(sessoes = sessoes)
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        }
 
         if (sessoes.isEmpty()) {
             Text(
@@ -117,3 +130,78 @@ private fun SessaoRow(sessao: SessaoResumo, onClick: () -> Unit) {
 private val formatoData = SimpleDateFormat("dd/MM HH:mm", Locale.forLanguageTag("pt-BR"))
 
 private fun formatarData(ms: Long): String = formatoData.format(ms)
+
+/**
+ * Evolução do % de acertos ao longo das sessões concluídas, mais antiga à esquerda —
+ * Canvas próprio em vez de lib de gráfico (decisão do usuário, pós-MVP), pra não somar
+ * dependência de UI externa num projeto que só tem o Coil. Pede 2+ sessões porque uma
+ * linha com 1 ponto não mostra evolução nenhuma — o chamador garante isso.
+ */
+@Composable
+private fun GraficoEvolucao(sessoes: List<SessaoResumo>) {
+    val percentuais = remember(sessoes) {
+        sessoes.sortedBy { it.dataHoraInicio }.map { sessao ->
+            if (sessao.totalQuestoes > 0) (sessao.acertos * 100f) / sessao.totalQuestoes else 0f
+        }
+    }
+
+    val corLinha = MaterialTheme.colorScheme.primary
+    val corPreenchimento = QuestoesTokens.cores.marcoDouradoSuave
+    val corGrade = MaterialTheme.colorScheme.outlineVariant
+
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(
+            text = "EVOLUÇÃO · % DE ACERTOS POR SESSÃO",
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Canvas(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(120.dp)
+                .clip(RoundedCornerShape(QuestoesRadii.cartao))
+                .background(MaterialTheme.colorScheme.surface)
+                .padding(12.dp),
+        ) {
+            val alturaUtil = size.height
+            val larguraUtil = size.width
+            fun y(percentual: Float) = alturaUtil - (percentual / 100f) * alturaUtil
+
+            listOf(0f, 50f, 100f).forEach { marca ->
+                drawLine(
+                    color = corGrade,
+                    start = Offset(0f, y(marca)),
+                    end = Offset(larguraUtil, y(marca)),
+                    strokeWidth = 1.dp.toPx(),
+                )
+            }
+
+            val passo = if (percentuais.size > 1) larguraUtil / (percentuais.size - 1) else 0f
+            val pontos = percentuais.mapIndexed { i, p -> Offset(i * passo, y(p)) }
+
+            val caminho = Path().apply {
+                moveTo(pontos.first().x, pontos.first().y)
+                pontos.drop(1).forEach { lineTo(it.x, it.y) }
+            }
+            val area = Path().apply {
+                addPath(caminho)
+                lineTo(pontos.last().x, alturaUtil)
+                lineTo(pontos.first().x, alturaUtil)
+                close()
+            }
+            drawPath(area, color = corPreenchimento)
+            drawPath(
+                caminho,
+                color = corLinha,
+                style = Stroke(width = 2.5.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round),
+            )
+            pontos.forEach { ponto -> drawCircle(color = corLinha, radius = 3.dp.toPx(), center = ponto) }
+        }
+        Text(
+            text = "Última: ${percentuais.last().toInt()}% · Média: ${percentuais.average().toInt()}% · " +
+                "Melhor: ${percentuais.max().toInt()}%",
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
+}
