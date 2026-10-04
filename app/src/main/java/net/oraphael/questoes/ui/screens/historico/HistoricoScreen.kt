@@ -1,5 +1,7 @@
 package net.oraphael.questoes.ui.screens.historico
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -23,6 +25,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -32,9 +35,14 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import net.oraphael.questoes.data.db.SessaoResumo
+import net.oraphael.questoes.data.export.ExportadorHistorico
 import net.oraphael.questoes.data.repo.SessaoRepository
 import net.oraphael.questoes.ui.theme.QuestoesRadii
 import net.oraphael.questoes.ui.theme.QuestoesTokens
@@ -60,6 +68,29 @@ fun HistoricoScreen(
     var sessoes by remember { mutableStateOf<List<SessaoResumo>>(emptyList()) }
     LaunchedEffect(Unit) { sessoes = sessaoRepository.listarResumoSessoes() }
 
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var exportando by remember { mutableStateOf(false) }
+    var erroExportacao by remember { mutableStateOf<String?>(null) }
+    val exportLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
+        if (uri == null) return@rememberLauncherForActivityResult
+        exportando = true
+        erroExportacao = null
+        scope.launch {
+            try {
+                val completas = sessaoRepository.listarHistoricoCompleto()
+                val texto = ExportadorHistorico.gerarJson(completas)
+                withContext(Dispatchers.IO) {
+                    context.contentResolver.openOutputStream(uri)?.use { it.write(texto.toByteArray()) }
+                }
+            } catch (e: Exception) {
+                erroExportacao = "Não foi possível exportar o histórico."
+            } finally {
+                exportando = false
+            }
+        }
+    }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -84,6 +115,22 @@ fun HistoricoScreen(
         if (sessoes.isNotEmpty()) {
             OutlinedButton(onClick = onRevisarPorTagClick, modifier = Modifier.fillMaxWidth()) {
                 Text("Revisar por tag")
+            }
+            OutlinedButton(
+                onClick = { exportLauncher.launch("questoes_historico_backup.json") },
+                enabled = !exportando,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text(if (exportando) "Exportando..." else "Exportar histórico")
+            }
+            if (erroExportacao != null) {
+                Text(
+                    text = erroExportacao ?: "",
+                    color = MaterialTheme.colorScheme.error,
+                    style = MaterialTheme.typography.bodySmall,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                )
             }
         }
 

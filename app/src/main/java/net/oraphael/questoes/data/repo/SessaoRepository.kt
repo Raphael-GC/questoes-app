@@ -31,4 +31,8 @@ class SessaoRepository(private val db: AppDatabase) {
     /** Tags com erro no histórico inteiro, rankeadas — Revisão por tag (pós-MVP). */
     suspend fun listarTagsComErros(): List<TagErroResumo> =
         db.sessaoDao().listarTagsComErros()
+
+    /** Todas as sessões concluídas, com tentativas — exportação do histórico (pós-MVP). */
+    suspend fun listarHistoricoCompleto(): List<SessaoCompleta> =
+        db.sessaoDao().listarTodasCompletas()
 }
