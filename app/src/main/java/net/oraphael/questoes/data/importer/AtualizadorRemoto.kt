@@ -12,11 +12,14 @@ private const val BASE_URL = "https://raw.githubusercontent.com/Raphael-GC/quest
  * raw.githubusercontent.com — mesma fonte usada pras imagens, ver README daquele repo).
  * Repositório público, GET simples, sem autenticação.
  */
-class AtualizadorRemoto(private val importador: Importador) {
+class AtualizadorRemoto(
+    private val importador: Importador,
+    private val baseUrl: String = BASE_URL,
+) {
     private val json = Json { ignoreUnknownKeys = true }
 
     suspend fun buscarManifesto(): ManifestoJson = withContext(Dispatchers.IO) {
-        json.decodeFromString(baixarTexto(BASE_URL + "manifest.json"))
+        json.decodeFromString(baixarTexto(baseUrl + "manifest.json"))
     }
 
     /**
@@ -25,7 +28,7 @@ class AtualizadorRemoto(private val importador: Importador) {
      */
     suspend fun aplicar(manifesto: ManifestoJson) {
         manifesto.disciplinas.forEach { disciplina ->
-            val texto = withContext(Dispatchers.IO) { baixarTexto(BASE_URL + disciplina.arquivo) }
+            val texto = withContext(Dispatchers.IO) { baixarTexto(baseUrl + disciplina.arquivo) }
             importador.importarDeTexto(texto, disciplina.id)
         }
     }

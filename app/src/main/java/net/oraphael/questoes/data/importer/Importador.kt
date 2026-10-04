@@ -49,7 +49,7 @@ class Importador(private val db: AppDatabase, private val context: Context) {
         }
     }
 
-    private fun normalizarAlternativas(questaoId: String, alt: JsonElement): List<AlternativaEntity> =
+    internal fun normalizarAlternativas(questaoId: String, alt: JsonElement): List<AlternativaEntity> =
         when (alt) {
             is JsonObject -> alt.entries.map { (letra, v) ->
                 AlternativaEntity(questaoId, letra, v.jsonPrimitive.content)
@@ -66,7 +66,7 @@ class Importador(private val db: AppDatabase, private val context: Context) {
         }
 }
 
-private fun QuestaoJson.paraEntity(disciplinaId: String) = QuestaoEntity(
+internal fun QuestaoJson.paraEntity(disciplinaId: String) = QuestaoEntity(
     id = id,
     disciplinaId = disciplinaId,
     enunciado = enunciado,
