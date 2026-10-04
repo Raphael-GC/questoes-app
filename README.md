@@ -6,7 +6,7 @@ O projeto nasceu de uma necessidade pessoal de estudo para concursos (PSS SEDUC-
 
 ## Status
 
-MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas e testadas em emulador, incluindo a atualização remota de ponta a ponta (verificação, download, aplicação e recuperação de erro de rede) — ver [Roadmap](#roadmap) pro que ainda falta (imagens reais das questões, pós-MVP).
+MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado e Atualizar banco) estão implementadas e testadas em emulador, incluindo a atualização remota de ponta a ponta (verificação, download, aplicação e recuperação de erro de rede) — ver [Roadmap](#roadmap) pro que ainda falta (imagens reais das questões).
 
 ## Funcionalidades
 
@@ -117,7 +117,7 @@ O código-fonte do banco de questões (os arquivos `.json`) vive em um repositó
 - [x] Telas do MVP em Compose (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado, Atualizar banco)
 - [x] Simulados: PND Geografia 2026 e os 3 cargos do PS 02/2026 de Catanduva
 - [x] Atualização remota do banco de questões (verificação, download e aplicação confirmados em emulador, incluindo recuperação de erro de rede)
-- [ ] Pós-MVP: revisão por tag, gráfico de evolução, exportação/backup do histórico
+- [x] Pós-MVP: revisão por tag, gráfico de evolução e exportação do histórico (import/restore de um backup fica pra uma etapa futura)
 - [x] Testes automatizados (unit: MotorSessao, Importador; instrumentados: Importador/Room, QuestaoRepository, SessaoRepository, AtualizadorRemoto)
 - [x] Fontes reais do Google Fonts (Archivo, Karla, JetBrains Mono, Caveat)
 - [ ] Imagens reais das questões que dependem de imagem
