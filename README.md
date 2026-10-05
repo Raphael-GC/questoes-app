@@ -117,7 +117,7 @@ O código-fonte do banco de questões (os arquivos `.json`) vive em um repositó
 - [x] Telas do MVP em Compose (Home, Seleção · Livre, Quiz, Resultado, Histórico, Seleção de simulado, Atualizar banco)
 - [x] Simulados: PND Geografia 2026 e os 3 cargos do PS 02/2026 de Catanduva
 - [x] Atualização remota do banco de questões (verificação, download e aplicação confirmados em emulador, incluindo recuperação de erro de rede)
-- [x] Pós-MVP: revisão por tag, gráfico de evolução e exportação do histórico (import/restore de um backup fica pra uma etapa futura)
+- [x] Pós-MVP: revisão por tag e gráfico de evolução (exportação/backup do histórico descartada — instalar uma versão nova do app por cima da antiga já preserva o histórico local)
 - [x] Testes automatizados (unit: MotorSessao, Importador; instrumentados: Importador/Room, QuestaoRepository, SessaoRepository, AtualizadorRemoto)
 - [x] Fontes reais do Google Fonts (Archivo, Karla, JetBrains Mono, Caveat)
 - [ ] Imagens reais das questões que dependem de imagem

@@ -68,11 +68,6 @@ interface SessaoDao {
         """
     )
     suspend fun listarTagsComErros(): List<TagErroResumo>
-
-    /** Todas as sessões concluídas, com tentativas — exportação do histórico (pós-MVP). */
-    @Transaction
-    @Query("SELECT * FROM sessao WHERE tempoTotalSessaoMs IS NOT NULL ORDER BY dataHoraInicio DESC")
-    suspend fun listarTodasCompletas(): List<SessaoCompleta>
 }
 
 data class TagErroResumo(
