@@ -128,6 +128,7 @@ fun QuestoesApp() {
                 sessaoRepository = sessaoRepository,
                 onAbrirSessao = { sessaoId -> navController.navigate(Resultado(sessaoId = sessaoId)) },
                 onRevisarPorTagClick = { navController.navigate(Revisao) },
+                onVoltarHome = { navController.popBackStack() },
             )
         }
         composable<Revisao> {

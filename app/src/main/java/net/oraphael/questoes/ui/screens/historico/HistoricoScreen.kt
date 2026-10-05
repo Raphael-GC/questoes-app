@@ -56,6 +56,7 @@ fun HistoricoScreen(
     sessaoRepository: SessaoRepository,
     onAbrirSessao: (Long) -> Unit,
     onRevisarPorTagClick: () -> Unit,
+    onVoltarHome: () -> Unit,
 ) {
     var sessoes by remember { mutableStateOf<List<SessaoResumo>>(emptyList()) }
     LaunchedEffect(Unit) { sessoes = sessaoRepository.listarResumoSessoes() }
@@ -101,6 +102,10 @@ fun HistoricoScreen(
                     SessaoRow(sessao = sessao, onClick = { onAbrirSessao(sessao.id) })
                 }
             }
+        }
+
+        OutlinedButton(onClick = onVoltarHome, modifier = Modifier.fillMaxWidth()) {
+            Text("Voltar")
         }
     }
 }

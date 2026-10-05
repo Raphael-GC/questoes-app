@@ -402,11 +402,28 @@ private fun TagsPopup(
                     modifier = Modifier.fillMaxWidth(),
                 )
 
-                Text(
-                    text = "TAGS DE ${rotulo.uppercase()} · POR FREQUÊNCIA",
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        text = "TAGS DE ${rotulo.uppercase()} · POR FREQUÊNCIA",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    if (tags.isNotEmpty()) {
+                        val todasMarcadas = tagsMarcadas.size == tags.size
+                        Text(
+                            text = if (todasMarcadas) "Desmarcar todas" else "Selecionar todas",
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.clickable {
+                                tagsMarcadas = if (todasMarcadas) emptySet() else tags.map { it.id }.toSet()
+                            },
+                        )
+                    }
+                }
 
                 if (carregandoTags) {
                     CarregandoCheck(
