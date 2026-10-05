@@ -16,12 +16,14 @@ MVP completo: as sete telas do fluxo (Home, Seleção · Livre, Quiz, Resultado,
   - **Professor II · Geografia**, **Professor Berçarista** e **Professor I** — Processo Seletivo 02/2026 da Prefeitura de Catanduva/SP, 40 questões cada (10 Língua Portuguesa + 15 Conhecimentos Pedagógicos e Legislação + 15 Conhecimentos Específicos), 4 alternativas por questão, como no edital real.
 - **Correção com feedback**: explicação de cada questão logo após a resposta, com cronômetro por questão e por sessão.
 - **Histórico local**: todas as sessões (Livre e Simulado) ficam salvas no aparelho; reabrir uma sessão do Histórico mostra o mesmo Resumo de quando ela terminou, incluindo os acertos por bloco nos simulados.
+- **Gráfico de evolução**: no topo do Histórico (a partir de 2 sessões concluídas), um gráfico de % de acertos por sessão ao longo do tempo, com última/média/melhor marca.
+- **Revisão por tag**: rankeia as tags com mais erro em todo o histórico (não só a última sessão) e deixa iniciar uma sessão Livre já filtrada numa delas, direto do Histórico.
 
 ## Como usar o app
 
-- **Livre**: na Home, toque em "Livre", marque uma ou mais disciplinas (um pop-up pede as tags e a quantidade de questões de cada uma) e escolha a ordem antes de iniciar.
+- **Livre**: na Home, toque em "Livre", marque uma ou mais disciplinas (um pop-up pede as tags e a quantidade de questões de cada uma — "Selecionar todas" marca de uma vez todas as tags daquela disciplina) e escolha a ordem antes de iniciar.
 - **Simulados**: toque em "Simulados" pra ver a lista das provas disponíveis. Cada card mostra a composição (quantos blocos, quantas questões e quantas estão disponíveis no banco) antes de você confirmar o início.
-- **Histórico**: toque em "Ver histórico" pra listar todas as sessões já feitas e reabrir o resumo de qualquer uma delas.
+- **Histórico**: toque em "Ver histórico" pra listar todas as sessões já feitas e reabrir o resumo de qualquer uma delas; com 2+ sessões, um gráfico de evolução (% de acertos por sessão) aparece no topo. O botão "Revisar por tag" leva pra um ranking das tags com mais erro em todo o histórico — tocar numa delas já inicia uma sessão Livre filtrada nela.
 - **Atualizar o banco de questões**: toque em "Atualizar banco" na Home e depois em "Verificar atualizações" — o app consulta o manifesto público do [`questoes-banco`](https://github.com/Raphael-GC/questoes-banco) e, se houver uma versão mais nova, baixa e substitui o conteúdo local disciplina por disciplina (o histórico de sessões não é afetado). A importação inicial (na primeira abertura após instalar/reinstalar) continua vindo dos arquivos embutidos no APK, sem precisar de internet.
 
 ## Capturas de tela
@@ -73,7 +75,7 @@ net.oraphael.questoes
 ├── ui
 │   ├── components     → composables reutilizados entre telas (ex.: CarregandoCheck)
 │   ├── navigation    → NavHost e rotas type-safe
-│   ├── screens        → uma pasta por tela (home, selecaolivre, quiz, resultado, historico, selecaosimulado, atualizarbanco)
+│   ├── screens        → uma pasta por tela (home, selecaolivre, quiz, resultado, historico, revisao, selecaosimulado, atualizarbanco)
 │   └── theme          → cores, tipografia e tema Compose ("Carta anotada")
 ├── MainActivity.kt
 └── QuestoesApplication.kt
