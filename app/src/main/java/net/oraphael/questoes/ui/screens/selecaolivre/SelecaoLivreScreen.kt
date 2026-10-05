@@ -402,6 +402,33 @@ private fun TagsPopup(
                     modifier = Modifier.fillMaxWidth(),
                 )
 
+                // Acima da lista de tags, não embaixo (issue #2): em disciplinas com
+                // muitas tags a lista cresce bastante, e rolar até o fim só pra ajustar a
+                // quantidade a cada marca/desmarca de tag era ruim.
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        text = "QUANTIDADE" + if (pool > 0) " · máx. $pool" else "",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        PassoQuantidade(texto = "−", habilitado = pool > 0 && quantidade > 1) {
+                            quantidade = (quantidade - 1).coerceAtLeast(1)
+                        }
+                        Box(
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(QuestoesRadii.controle))
+                                .background(MaterialTheme.colorScheme.surface)
+                                .padding(horizontal = 20.dp, vertical = 8.dp),
+                        ) {
+                            Text(text = if (pool > 0) "$quantidade" else "—", style = MaterialTheme.typography.titleMedium)
+                        }
+                        PassoQuantidade(texto = "+", habilitado = pool > 0 && quantidade < pool) {
+                            quantidade = (quantidade + 1).coerceAtMost(pool)
+                        }
+                    }
+                }
+
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
@@ -466,30 +493,6 @@ private fun TagsPopup(
                                 style = MaterialTheme.typography.labelMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
-                        }
-                    }
-                }
-
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(
-                        text = "QUANTIDADE" + if (pool > 0) " · máx. $pool" else "",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        PassoQuantidade(texto = "−", habilitado = pool > 0 && quantidade > 1) {
-                            quantidade = (quantidade - 1).coerceAtLeast(1)
-                        }
-                        Box(
-                            modifier = Modifier
-                                .clip(RoundedCornerShape(QuestoesRadii.controle))
-                                .background(MaterialTheme.colorScheme.surface)
-                                .padding(horizontal = 20.dp, vertical = 8.dp),
-                        ) {
-                            Text(text = if (pool > 0) "$quantidade" else "—", style = MaterialTheme.typography.titleMedium)
-                        }
-                        PassoQuantidade(texto = "+", habilitado = pool > 0 && quantidade < pool) {
-                            quantidade = (quantidade + 1).coerceAtMost(pool)
                         }
                     }
                 }
